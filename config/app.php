@@ -184,7 +184,8 @@ return [
 
     'aliases' => Facade::defaultAliases()->merge([
         // 'Example' => App\Facades\Example::class,
-        'CommonHelper' => App\Helpers\CommonHelper::class
+        'CommonHelper'  => App\Helpers\CommonHelper::class,
+        'PMailer'       => App\Helpers\PMailer::class,
     ])->toArray(),
 
 ];
