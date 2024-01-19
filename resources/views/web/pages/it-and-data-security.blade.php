@@ -3,7 +3,7 @@
 @section('content')
 
 
-<section class="section section-30 section-xxl-40 section-xxl-66 section-xxl-bottom-90 novi-background bg-gray-dark page-title-wrap" style="background-image: url({{ url('themes/web/images/bg-coming-soon.jpg') }});">
+<section class="section section-30 section-xxl-40 section-xxl-66 section-xxl-bottom-90 novi-background bg-gray-dark page-title-wrap" style="background-image: url({{ url('themes/web/images/bg-image-8.jpg') }});">
     <div class="container">
         <div class="page-title">
             <h2>{{ $_title }}</h2>
@@ -61,6 +61,7 @@
                                 <li>Our "Data Breach Policy" ensures zero data breach, prohibiting disclosure to third parties without client consent.</li>
                                 <li>The "Data Retention and Destruction Policy" mandates the destruction of all data, electronic or in printouts, once the work is completed.</li>
                             </ol>
+                            <br>
                         </div>
                         <div class="h-1px bg-medium-gray margin-25px-bottom w-100"></div>
                     </div>
@@ -69,8 +70,7 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-12 col-lg-2 col-md-12" style="visibility: visible; animation-name: fadeIn;"></div>
-            <div class="col-12 col-lg-8 col-md-12" style="visibility: visible; animation-name: fadeIn;">
+            <div class="col-12 col-lg-12 col-md-12" style="visibility: visible; animation-name: fadeIn;">
                 <div class="feature-box text-start box-shadow-large box-shadow-double-large-hover bg-white padding-4-rem-all lg-padding-3-rem-all md-padding-4-half-rem-all">
                     <div class="feature-box-content">
                         <h6 class="alt-font font-weight-600 d-block text-extra-dark-gray">IT Security Protocols</h6>

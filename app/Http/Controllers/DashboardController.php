@@ -10,4 +10,6 @@ class DashboardController extends Controller
 		$data['_title'] = 'Dashboard';
 		return view('admin.user.dashboard',$data);	
 	}
+
+	
 }

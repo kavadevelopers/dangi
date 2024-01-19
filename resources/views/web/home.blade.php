@@ -31,18 +31,46 @@
         <div class="row justify-content-md-center">
             <div class="col-lg-10 col-xl-12">
                 <div class="row row-40 align-items-md-end">
-                    @foreach (App\Models\HeadersModel::get() as $item)
-                        <div class="col-md-6 col-xl-3">
-                            <div class="pricing-table">
-                                <div class="pricing-table-body">
-                                    <h5 class="pricing-table-header">{{ $item->title }}</h5>
-                                    <div class="divider-circle"></div>
-                                    <p>{{ $item->description }}</p>
-                                </div>
-                                <div class="pricing-table-footer"><a class="btn btn-round-bottom btn-default btn-block" href="{{ url($item->slug) }}">Readmore</a></div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="pricing-table">
+                            <div class="pricing-table-body">
+                                <h5 class="pricing-table-header">GLOBAL</h5>
+                                <div class="divider-circle"></div>
+                                <p>Transparent Offshoring: Tailored Talent, Clear Costs</p>
                             </div>
+                            <div class="pricing-table-footer"><a class="btn btn-round-bottom btn-default btn-block" href="{{ url('global/how-we-operate') }}">Readmore</a></div>
                         </div>
-                    @endforeach
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="pricing-table">
+                            <div class="pricing-table-body">
+                                <h5 class="pricing-table-header">CONSULTANCY</h5>
+                                <div class="divider-circle"></div>
+                                <p>Get started with a business structure that fits your needs.</p>
+                            </div>
+                            <div class="pricing-table-footer"><a class="btn btn-round-bottom btn-default btn-block" href="{{ url('consultancy/business-setup') }}">Readmore</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="pricing-table">
+                            <div class="pricing-table-body">
+                                <h5 class="pricing-table-header">PLACEMENT</h5>
+                                <div class="divider-circle"></div>
+                                <p>Your Gateway to Quality Talent and Strategic Placements!</p>
+                            </div>
+                            <div class="pricing-table-footer"><a class="btn btn-round-bottom btn-default btn-block" href="{{ url('placement') }}">Readmore</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div class="pricing-table">
+                            <div class="pricing-table-body">
+                                <h5 class="pricing-table-header">TRAINING</h5>
+                                <div class="divider-circle"></div>
+                                <p>Your Gateway to Quality Talent and Strategic Placements!</p>
+                            </div>
+                            <div class="pricing-table-footer"><a class="btn btn-round-bottom btn-default btn-block" href="{{ url('training') }}">Readmore</a></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -37,12 +37,12 @@
                             <span class="pcoded-mtext">Dashboard</span>
                         </a>
                     </li>
-                    <li class="{{ CommonHelper::menu(2,['pages'])[2] }}">
+                    {{-- <li class="{{ CommonHelper::menu(2,['pages'])[2] }}">
                         <a href="{{ CommonHelper::admin('pages') }}">
                             <span class="pcoded-micon"><i class="fa fa-file"></i></span>
                             <span class="pcoded-mtext">Pages</span>
                         </a>
-                    </li>
+                    </li> --}}
                     <li class="{{ CommonHelper::menu(2,['blogs'])[2] }}">
                         <a href="{{ CommonHelper::admin('blogs') }}">
                             <span class="pcoded-micon"><i class="fa fa-list"></i></span>
@@ -62,15 +62,21 @@
                                         <span class="pcoded-mtext">Home Sliders</span>
                                     </a>
                                 </li>
-                                <li class="{{ CommonHelper::menu(3,['menus'],'cms')[1] }}">
+                                {{-- <li class="{{ CommonHelper::menu(3,['menus'],'cms')[1] }}">
                                     <a href="{{ CommonHelper::admin('cms/menus') }}">
                                         <span class="pcoded-micon"><i class="fa fa-list"></i></span>
                                         <span class="pcoded-mtext">Menus</span>
                                     </a>
-                                </li>
+                                </li> --}}
                             </ul>
                         </li>
                     </ul>
+                    <li class="{{ CommonHelper::menu(2,['enquiries'])[2] }}">
+                        <a href="{{ CommonHelper::admin('enquiries') }}">
+                            <span class="pcoded-micon"><i class="fa fa-cog fa-spin"></i></span>
+                            <span class="pcoded-mtext">Enquiries</span>
+                        </a>
+                    </li>
                     <li class="{{ CommonHelper::menu(2,['settings'])[2] }}">
                         <a href="{{ CommonHelper::admin('settings') }}">
                             <span class="pcoded-micon"><i class="fa fa-cog fa-spin"></i></span>

@@ -3,7 +3,7 @@
 @section('content')
 
 
-<section class="section section-30 section-xxl-40 section-xxl-66 section-xxl-bottom-90 novi-background bg-gray-dark page-title-wrap" style="background-image: url({{ url('themes/web/images/bg-image-9.jpg') }});">
+<section class="section section-30 section-xxl-40 section-xxl-66 section-xxl-bottom-90 novi-background bg-gray-dark page-title-wrap" style="background-image: url({{ url('themes/web/images/bg-image-1.jpg') }});">
     <div class="container">
         <div class="page-title">
             <h2>{{ $_title }}</h2>

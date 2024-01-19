@@ -14,7 +14,10 @@
 <section class="section section-66 section-md-90 section-xl-bottom-120 novi-background">
     <div class="container">
         <div class="row row-40 justify-content-lg-between">
-            <div class="col-md-12 col-xl-12 text-secondary">
+            <div class="col-md-4 col-xl-4 text-secondary">
+                <img src="{{ url('themes/images/about.jpg') }}" />
+            </div>
+            <div class="col-md-8 col-xl-8 text-secondary">
                 <div class="inset-md-right-15 inset-xl-right-0">
                     <p>Welcome to Dangi Global, your premier destination for comprehensive and innovative offshoring solutions. As a global leader, we specialize in providing offshoring services tailored to meet the unique needs of accounting firms located outside India. Our cutting-edge approach revolves around two distinctive models designed to maximize your efficiency and minimize costs.</p>
                     <p>In the first model, we offer flexibility through a per-hour rate structure, allowing you to appoint and place candidates based on your specific requirements. Our dedicated team ensures seamless integration with your operations, providing skilled professionals to support your business processes.</p>

@@ -1,5 +1,15 @@
 <style>
-    .row > [class*='col-'] {
+    .table-cus th{
+        color:#00030a;
+        font-weight: 800;
+    }
+    .table-cus td{
+        color:#00030a;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    .row-item > [class*='col-'] {
         display: flex;
     }
     .ol-number{

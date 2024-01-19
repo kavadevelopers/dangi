@@ -112,20 +112,37 @@
                                                     <li class="rd-dropdown-item">
                                                         <a class="rd-dropdown-link" href="{{ url('global/it-and-data-security') }}">IT & Data Security</a>
                                                     </li>
+                                                    <li class="rd-dropdown-item">
+                                                        <a class="rd-dropdown-link" href="{{ url('global/offshoring') }}">Offshoring</a>
+                                                    </li>
+                                                    <li class="rd-dropdown-item">
+                                                        <a class="rd-dropdown-link" href="{{ url('global/services') }}">Our Valuable Services</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="rd-nav-item">
+                                                <a class="rd-nav-link" href="#">Consultancy</a>
+                                                <ul class="rd-menu rd-navbar-dropdown">
+                                                    <li class="rd-dropdown-item">
+                                                        <a class="rd-dropdown-link" href="{{ url('consultancy/business-setup') }}">Business Set Up</a>
+                                                    </li>
+                                                    <li class="rd-dropdown-item">
+                                                        <a class="rd-dropdown-link" href="{{ url('consultancy/tax-compliances') }}">Tax & Compliances</a>
+                                                    </li>
+                                                    <li class="rd-dropdown-item">
+                                                        <a class="rd-dropdown-link" href="{{ url('consultancy/finance-subsidy') }}">Finance & Subsidy</a>
+                                                    </li>
+                                                    <li class="rd-dropdown-item">
+                                                        <a class="rd-dropdown-link" href="{{ url('consultancy/virtual-accountant-cfo') }}">Virtual Accountant & CFO</a>
+                                                    </li>
+                                                    <li class="rd-dropdown-item">
+                                                        <a class="rd-dropdown-link" href="{{ url('consultancy/other-services') }}">Other Services</a>
+                                                    </li>
                                                 </ul>
                                             </li>   
-                                            @foreach (App\Models\HeadersModel::get() as $item)
-                                                <li class="rd-nav-item">
-                                                    <a class="rd-nav-link" href="{{ url($item->slug) }}">{{ $item->title }}</a>
-                                                    <ul class="rd-menu rd-navbar-dropdown">
-                                                        @foreach (App\Models\PagesModel::select('title','slug')->wherein('id',explode(',',$item->page_ids))->where('is_deleted','0')->get() as $page)
-                                                            <li class="rd-dropdown-item">
-                                                                <a class="rd-dropdown-link" href="{{ url($item->slug.'/'.$page->slug) }}">{{ $page->title }}</a>
-                                                            </li>
-                                                        @endforeach
-                                                    </ul>
-                                                </li>    
-                                            @endforeach
+                                            
+                                            <li class="rd-nav-item"><a class="rd-nav-link" href="{{ url('placement') }}">Placement</a></li>
+                                            <li class="rd-nav-item"><a class="rd-nav-link" href="{{ url('training') }}">Training</a></li>
                                             <li class="rd-nav-item"><a class="rd-nav-link" href="{{ url('blog') }}">Blog</a></li>
                                         </ul>
                                     </div>

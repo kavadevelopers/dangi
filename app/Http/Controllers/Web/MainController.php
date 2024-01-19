@@ -104,4 +104,47 @@ class MainController extends Controller
         $data['_title'] = 'IT & Data Security';
 		return view('web.pages.it-and-data-security',$data);
     }
+
+    public function offShoring(){
+        $data['_title'] = 'Offshoring';
+		return view('web.pages.offshoring',$data);
+    }
+
+    public function globalServices(){
+        $data['_title'] = 'Our Valuable Services';
+		return view('web.pages.global-services',$data);
+    }
+
+    
+
+    public function placement(){
+        $data['_title'] = 'Placement';
+		return view('web.pages.placement',$data);
+    }
+
+    public function training(){
+        $data['_title'] = 'Training';
+		return view('web.pages.training',$data);
+    }
+
+    public function conBusinessSetup(){
+        $data['_title'] = 'Business Setup';
+		return view('web.pages.con-business-setup',$data);
+    }
+    public function conTaxCompliances(){
+        $data['_title'] = 'Tax & Compliances';
+		return view('web.pages.con-tax-compliances',$data);
+    }
+    public function conFinanceSub(){
+        $data['_title'] = 'Finance & Subsidy';
+		return view('web.pages.con-finance-subsidy',$data);
+    }
+    public function conVirAcCFO(){
+        $data['_title'] = 'Virtual Accountant & cfo';
+		return view('web.pages.virtual-accountant-cfo',$data);
+    }
+    public function conOtherServices(){
+        $data['_title'] = 'Other Services';
+		return view('web.pages.con-other-service',$data);
+    }
 }
