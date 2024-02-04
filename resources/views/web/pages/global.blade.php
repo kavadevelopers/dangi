@@ -9,8 +9,8 @@
                 <div class="container">
                     <div class="row justify-content-md-center">
                         <div class="col-md-11 col-lg-10 col-xl-9">
-                            <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="0s">Yout Team. Your Way.</h2>
-                            <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="100">Unlocking offshore talent in Accounting, Taxation, and Finance. Dangi connects global businesses with expert professionals for seamless financial operations.</p>
+                            <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="0s">Your Team. Your Way.</h2>
+                            <p class="text-bigger slider-text text-center" data-caption-animate="fadeInUp" data-caption-delay="100">Unlocking offshore talent in Accounting, Taxation, and Finance. Dangi connects global businesses with expert professionals for seamless financial operations.</p>
                         </div>
                     </div>
                 </div>
@@ -22,7 +22,7 @@
                     <div class="row justify-content-md-center">
                         <div class="col-md-11 col-lg-10 col-xl-9">
                             <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="0s">Facilitate Seamless Access To Offshore Talent</h2>
-                            <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="100">Enabling businesses worldwide to thrive by leveraging our expertise.</p>
+                            <p class="text-bigger slider-text text-center" data-caption-animate="fadeInUp" data-caption-delay="100">Enabling businesses worldwide to thrive by leveraging our expertise.</p>
                         </div>
                     </div>
                 </div>
