@@ -1,4 +1,114 @@
 <style>
+    .custom-home-services .icon-box:before, .custom-home-services .icon-box:after{
+        display: none;
+    }
+    .custom-home-services .icon-box {
+        padding: 0;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        cursor: default;
+    }
+    .custom-home-services .icon-box .icon-box-divider {
+        position: relative;
+        max-width: 100%;
+        margin: 15px auto;
+        transition: .33s all ease;
+        background-color: transparent;
+    }
+    .custom-home-services .icon-box .icon-box-divider::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0);
+        display: inline-block;
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: #ffcb19;
+        animation: .3s animated-state-prev both;
+    }
+    @media (min-width: 768px){
+        .custom-home-services .icon-box {
+            max-width: 308px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+
+
+    .custom-home-icons .row-40 > *{
+        margin-bottom: 0;
+    }
+    .custom-home-icons{
+        margin-top: 0;
+    }
+    .custom-home-icons .icon-box{
+        max-width: 100% !important;
+    }
+    .custom-home-icons .icon-box {
+        padding: 67px 110px 61px;
+    }
+    .custom-home-icons .icon-box .box-top, .icon-box .box-body {
+        position: relative;
+        will-change: transform;
+        transition: .33s all ease;
+        -webkit-filter: blur(0);
+    }
+    .custom-home-icons .icon-box .box-top {
+        top: 0;
+    }
+    .custom-home-icons .icon-box .box-icon {
+        min-height: 46px;
+        display: -webkit-inline-box;
+        display: -webkit-inline-flex;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .custom-home-icons .box-icon .fa {
+        width: 45px;
+        height: 45px;
+        font-size: 45px;
+        line-height: 45px;
+        color: #ffcb19;
+    }
+    .custom-home-icons .height-fill {
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+    }
+    .custom-home-icons .icon-box{
+        margin: 0;
+    }
+
+
+
     .timeline-new .timeline {
         position: relative;
         padding-left: 4rem;
@@ -317,7 +427,7 @@
         color:#ffcb19 !important;
     }
     .table-cus tbody tr th:first-child {
-        color: #d88419 !important;
+        color: #ffcb19 !important;
         background: #fbf9f7!important;
         font-weight: 600;
     }

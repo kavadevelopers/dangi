@@ -101,16 +101,16 @@
                 <table class="table table-bordered table-cus">
                     <thead>
                         <tr>
-                            <th class="color-main">BENEFITS</th>
-                            <th class="color-main">TRADITIONAL OFFSHORING</th>
-                            <th class="color-main">TRANSPARENT OFFSHORING</th>
+                            <th class="color-main">Benefits</th>
+                            <th class="color-main">Traditional Offshoring</th>
+                            <th class="color-main">Transparent Offshoring</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <th><span class="fa fa-arrow-circle-right"></span> Pricing Model</th>
-                            <td>FIXED PRICING ON PER HOUR BASIS</td>
-                            <td>CANDIDATE’S ACTUAL SALARY PLUS OUR SERVICE FEES </td>
+                            <td>Fixed pricing on per hour basis</td>
+                            <td>Candidate’s Actual Salary Plus our service fees </td>
                         </tr>
                         <tr>
                             <th><span class="fa fa-arrow-circle-right"></span> Cost Saving</th>
@@ -361,87 +361,7 @@
 
 
 
-<section class="bg-light-gray wow animate__fadeIn it-data-section" style="visibility: visible; animation-name: fadeIn;">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-12 col-md-12 md-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                <div class="feature-box text-start box-shadow-large box-shadow-double-large-hover bg-white padding-4-rem-all lg-padding-3-rem-all md-padding-4-half-rem-all">
-                    <div class="feature-box-content readmore-container-ph-sec height-100px">
-                        <h6 class="alt-font font-weight-600 d-block text-extra-dark-gray">Physical Security Measures</h6>
-                        <div>
-                            <ol class="ol-number">
-                                <li>Our premises are under 100% surveillance with closed-circuit cameras.</li>
-                                <li>Controlled entry into production areas is managed through an access control system.</li>
-                                <li>Server room access is restricted to authorized IT personnel.</li>
-                                <li>Workstations are devoid of CD R/W drives, and USB ports are disabled as part of our "No External Device" rule.</li>
-                                <li>Document storage areas are safeguarded for complete protection.</li>
-                                <li>Mobile phones are not allowed within the work zone, maintaining a mobile-free environment.</li>
-                            </ol>
-                        </div>
-                        <div class="h-1px bg-medium-gray margin-25px-bottom w-100"></div>
-                        
-                    </div>
-                    <div>
-                        <a href="#" class="readmore" data-class="readmore-container-ph-sec">Read more</a>
-                    </div>
-                    <div class="feature-box-overlay bg-white"></div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-lg-12 col-md-12 md-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                <div class="feature-box text-start box-shadow-large box-shadow-double-large-hover bg-white padding-4-rem-all lg-padding-3-rem-all md-padding-4-half-rem-all">
-                    <div class="feature-box-content readmore-container-conf-meas height-100px">
-                        <h6 class="alt-font font-weight-600 d-block text-extra-dark-gray">Confidentiality Measures</h6>
-                        <div>
-                            <ol class="ol-number">                               
-                                <li>Employees adhere to stringent non-disclosure and non-compete agreements as part of our privacy policy.</li>
-                                <li>A detailed "Data Protection Policy" aligns with GDPR principles, treating all client data as confidential.</li>
-                                <li>Our "Data Breach Policy" ensures zero data breach, prohibiting disclosure to third parties without client consent.</li>
-                                <li>The "Data Retention and Destruction Policy" mandates the destruction of all data, electronic or in printouts, once the work is completed.</li>
-                            </ol>
-                            <br>
-                        </div>
-                        <div class="h-1px bg-medium-gray margin-25px-bottom w-100"></div>
-                    </div>
-                    <div>
-                        <a href="#" class="readmore" data-class="readmore-container-conf-meas">Read more</a>
-                    </div>
-                    <div class="feature-box-overlay bg-white"></div>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-12 col-md-12" style="visibility: visible; animation-name: fadeIn;">
-                <div class="feature-box text-start box-shadow-large box-shadow-double-large-hover bg-white padding-4-rem-all lg-padding-3-rem-all md-padding-4-half-rem-all">
-                    <div class="feature-box-content readmore-container-it-sec height-100px">
-                        <h6 class="alt-font font-weight-600 d-block text-extra-dark-gray">IT Security Protocols</h6>
-                        <div>
-                            <ol class="ol-number">
-                                <li>Workstations are equipped with up-to-date anti-virus software, conducting daily updates and scheduled scans.</li>
-                                <li>Anti-malware software performs quick scans twice a day on all computers.</li>
-                                <li>Default Windows firewall software secures access to the company's network.</li>
-                                <li>Password protection is mandatory, with regular password changes every 30 days.</li>
-                                <li>Access to client information is highly restricted, with authorized users having selective access.</li>
-                                <li>Account management policies include deactivation after the end of an affiliation, with regular reviews of access requirements.</li>
-                                <li>Session controls on workstations automatically lock the workstation after 5 minutes of inactivity, requiring re-authentication to unlock.</li>
-                                <li>Multiple backup operations are scheduled, including Previous Version, Differential, and Full Backups to prevent data loss.</li>
-                                <li>Restrictions on personal email account access and controlled internet site usage.</li>
-                                <li>We embrace a paperless environment for eco-friendliness and enhanced data security.</li>
-                                <li>IP authentication restricts outsider access to confidential information within the office.</li>
-                            </ol>
-                        </div>
-                        <div class="h-1px bg-medium-gray margin-25px-bottom w-100"></div>
-                    </div>
-                    <div>
-                        <a href="#" class="readmore" data-class="readmore-container-it-sec">Read more</a>
-                    </div>
-                    <div class="feature-box-overlay bg-white"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 
 <section class="section section-66 section-md-90 section-xl-bottom-120 novi-background" id="sub-hire-offshore-talant">
     <div class="container">
@@ -738,6 +658,88 @@
                 <!-- end background_image -->
             </div>
             <!-- end col_image  -->
+        </div>
+    </div>
+</section>
+
+<section class="bg-light-gray wow animate__fadeIn it-data-section" style="visibility: visible; animation-name: fadeIn;">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-12 col-md-12 md-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                <div class="feature-box text-start box-shadow-large box-shadow-double-large-hover bg-white padding-4-rem-all lg-padding-3-rem-all md-padding-4-half-rem-all">
+                    <div class="feature-box-content readmore-container-ph-sec height-100px">
+                        <h6 class="alt-font font-weight-600 d-block text-extra-dark-gray">Physical Security Measures</h6>
+                        <div>
+                            <ol class="ol-number">
+                                <li>Our premises are under 100% surveillance with closed-circuit cameras.</li>
+                                <li>Controlled entry into production areas is managed through an access control system.</li>
+                                <li>Server room access is restricted to authorized IT personnel.</li>
+                                <li>Workstations are devoid of CD R/W drives, and USB ports are disabled as part of our "No External Device" rule.</li>
+                                <li>Document storage areas are safeguarded for complete protection.</li>
+                                <li>Mobile phones are not allowed within the work zone, maintaining a mobile-free environment.</li>
+                            </ol>
+                        </div>
+                        <div class="h-1px bg-medium-gray margin-25px-bottom w-100"></div>
+                        
+                    </div>
+                    <div>
+                        <a href="#" class="readmore" data-class="readmore-container-ph-sec">Read more</a>
+                    </div>
+                    <div class="feature-box-overlay bg-white"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-12 col-md-12 md-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn" style="visibility: visible; animation-name: fadeIn;">
+                <div class="feature-box text-start box-shadow-large box-shadow-double-large-hover bg-white padding-4-rem-all lg-padding-3-rem-all md-padding-4-half-rem-all">
+                    <div class="feature-box-content readmore-container-conf-meas height-100px">
+                        <h6 class="alt-font font-weight-600 d-block text-extra-dark-gray">Confidentiality Measures</h6>
+                        <div>
+                            <ol class="ol-number">                               
+                                <li>Employees adhere to stringent non-disclosure and non-compete agreements as part of our privacy policy.</li>
+                                <li>A detailed "Data Protection Policy" aligns with GDPR principles, treating all client data as confidential.</li>
+                                <li>Our "Data Breach Policy" ensures zero data breach, prohibiting disclosure to third parties without client consent.</li>
+                                <li>The "Data Retention and Destruction Policy" mandates the destruction of all data, electronic or in printouts, once the work is completed.</li>
+                            </ol>
+                            <br>
+                        </div>
+                        <div class="h-1px bg-medium-gray margin-25px-bottom w-100"></div>
+                    </div>
+                    <div>
+                        <a href="#" class="readmore" data-class="readmore-container-conf-meas">Read more</a>
+                    </div>
+                    <div class="feature-box-overlay bg-white"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-12 col-md-12" style="visibility: visible; animation-name: fadeIn;">
+                <div class="feature-box text-start box-shadow-large box-shadow-double-large-hover bg-white padding-4-rem-all lg-padding-3-rem-all md-padding-4-half-rem-all">
+                    <div class="feature-box-content readmore-container-it-sec height-100px">
+                        <h6 class="alt-font font-weight-600 d-block text-extra-dark-gray">IT Security Protocols</h6>
+                        <div>
+                            <ol class="ol-number">
+                                <li>Workstations are equipped with up-to-date anti-virus software, conducting daily updates and scheduled scans.</li>
+                                <li>Anti-malware software performs quick scans twice a day on all computers.</li>
+                                <li>Default Windows firewall software secures access to the company's network.</li>
+                                <li>Password protection is mandatory, with regular password changes every 30 days.</li>
+                                <li>Access to client information is highly restricted, with authorized users having selective access.</li>
+                                <li>Account management policies include deactivation after the end of an affiliation, with regular reviews of access requirements.</li>
+                                <li>Session controls on workstations automatically lock the workstation after 5 minutes of inactivity, requiring re-authentication to unlock.</li>
+                                <li>Multiple backup operations are scheduled, including Previous Version, Differential, and Full Backups to prevent data loss.</li>
+                                <li>Restrictions on personal email account access and controlled internet site usage.</li>
+                                <li>We embrace a paperless environment for eco-friendliness and enhanced data security.</li>
+                                <li>IP authentication restricts outsider access to confidential information within the office.</li>
+                            </ol>
+                        </div>
+                        <div class="h-1px bg-medium-gray margin-25px-bottom w-100"></div>
+                    </div>
+                    <div>
+                        <a href="#" class="readmore" data-class="readmore-container-it-sec">Read more</a>
+                    </div>
+                    <div class="feature-box-overlay bg-white"></div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
