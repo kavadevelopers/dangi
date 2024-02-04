@@ -192,7 +192,7 @@
 
 <section class="section-50 section-md-90 section-md-bottom-100 custom-home-blogs">
     <div class="container text-center">
-        <h3>Latest News</h3>
+        <h3>Blogs</h3>
         <div class="row row-40 row-offset-6 justify-content-sm-center">
             @foreach ($list as $item)
                 <div class="col-sm-8 col-md-5 col-xl-3 wow fadeInUp" data-wow-delay="0s">

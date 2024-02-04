@@ -144,7 +144,7 @@
                                             
                                             <li class="rd-nav-item"><a class="rd-nav-link" href="{{ url('placement') }}">Placement</a></li>
                                             <li class="rd-nav-item"><a class="rd-nav-link" href="{{ url('training') }}">Training</a></li>
-                                            <li class="rd-nav-item"><a class="rd-nav-link" href="{{ url('blog') }}">Blog</a></li>
+                                            <li class="rd-nav-item"><a class="rd-nav-link" href="{{ url('blog') }}">Blogs</a></li>
                                         </ul>
                                     </div>
                                 </div>
