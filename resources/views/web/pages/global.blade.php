@@ -390,7 +390,7 @@
             
             <div class="col-md-12 col-xl-12 text-secondary">
                 <div class="inset-md-right-15 inset-xl-right-0">
-                    <h4 class="text-center">Build Your Offshore Team</h4>
+                    <h3 class="text-center">Build Your Offshore Team</h3>
                     
                 </div>
             </div>
@@ -404,7 +404,7 @@
             
             <div class="col-md-12 col-xl-12 text-secondary">
                 <div class="inset-md-right-15 inset-xl-right-0">
-                    <h4 class="text-center">How We Operate</h4>
+                    <h3 class="text-center">How We Operate</h3>
                 </div>
             </div>
 
