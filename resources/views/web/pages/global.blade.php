@@ -130,7 +130,7 @@
                                         <td>500£</td>
                                     </tr>
                                     <tr>
-                                        <td>total</td>
+                                        <td>Total</td>
                                         <td>1500£</td>
                                     </tr>
                                     <tr>
