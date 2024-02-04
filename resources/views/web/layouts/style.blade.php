@@ -557,10 +557,12 @@
         color: #ffcb19 !important;
         background: #fbf9f7!important;
         font-weight: 600;
+        font-size: 18px;
     }
     .table-cus th{
         color:#00030a;
         font-weight: 800;
+        font-size: 18px;
     }
     .table-cus td{
         color:#00030a;
