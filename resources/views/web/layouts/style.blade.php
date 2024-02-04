@@ -1,6 +1,6 @@
 <style>
-    .sub-how-we-operate p{
-        font-size: 16px;
+    #sub-how-we-operate p{
+        font-size: 16px !important;
     }
     p{
         text-align: justify !important;
