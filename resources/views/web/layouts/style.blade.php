@@ -1,4 +1,62 @@
 <style>
+    .custom-home-blogs .post-boxed {
+        text-align: left;
+    }
+    .custom-home-blogs .post-boxed-img-wrap a {
+        display: block;
+    }
+    .custom-home-blogs .post-boxed img {
+        width: 100%;
+    }
+    .custom-home-blogs .post-boxed-title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .custom-home-blogs .post-boxed-title a:hover {
+        color: #ffcb19;
+    }
+    .custom-home-blogs .post-boxed .list-inline {
+        margin-top: 15px;
+        font-size: 11px;
+        color: #aaaaaa;
+    }
+    .custom-home-blogs .list-inline > li {
+        display: inline-block;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .custom-home-blogs .list-inline-dashed li:after {
+        content: '|';
+        position: relative;
+        right: -12.5px;
+        color: #e5e7e9;
+    }
+    .custom-home-blogs .list-inline-dashed li {
+        padding-left: 15px;
+        padding-right: 10px;
+    }
+    .custom-home-blogs .post-boxed-title a {
+        display: inline;
+        color: #25313d;
+    }
+    .custom-home-blogs .post-boxed-caption {
+        padding: 20px 20px 28px;
+        border-left: 1px solid #e5e7e9;
+        border-right: 1px solid #e5e7e9;
+        border-bottom: 1px solid #e5e7e9;
+    }
+    @media (min-width: 1200px){
+        .custom-home-blogs .d-xl-inline-block {
+            display: inline-block !important;
+        }
+    }
+
+
+
+    .custom-home-counter h5{
+        color: #ffcb19 !important;
+    }
+
     .custom-home-services .icon-box:before, .custom-home-services .icon-box:after{
         display: none;
     }
@@ -40,6 +98,52 @@
             max-width: 308px;
             margin-left: auto;
             margin-right: auto;
+        }
+    }
+    .custom-home-services .icon-box .box-icon {
+        min-height: 46px;
+        display: -webkit-inline-box;
+        display: -webkit-inline-flex;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .custom-home-services .box-icon span {
+        width: 45px;
+        height: 45px;
+        font-size: 45px;
+        line-height: 45px;
+        color: #ffcb19;
+    }
+    .custom-home-services .icon-box.hover .icon-box-divider::after, .custom-home-services .icon-box:hover .icon-box-divider::after {
+        animation: .3s animated-state-next both;
+    }
+    @keyframes animated-state-next {
+        0% {
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+        }
+
+        5% {
+            height: 2px;
+        }
+
+        100% {
+            width: 160px;
+            height: 2px;
+            border-radius: 0;
         }
     }
 

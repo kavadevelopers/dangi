@@ -10,31 +10,23 @@
     </div>
 </section>
 
-<section class="section section-50 section-md-75 section-xl-100">
-    <div class="container">
-        <div class="row row-30 justify-content-md-center justify-content-lg-start">
+<section class="section-50 section-md-90 section-md-bottom-100 custom-home-blogs">
+    <div class="container text-center">
+        <h3>Latest News</h3>
+        <div class="row row-40 row-offset-6 justify-content-sm-center">
             @foreach ($list as $item)
-                <div class="col-md-9 col-lg-6 height-fill">
-                    <article class="post-block">
-                        <div class="post-image"><img src="{{ CommonHelper::getBlogBanner($item->banner) }}" alt="" width="570" height="253"/>
-                        </div>
-                        <div class="post-body">
-                            <h4 class="post-header"><a href="{{ url('blog/'.$item->slug) }}">{{ CommonHelper::read_more_hide($item->title,45) }}</a></h4>
-                            <ul class="post-meta">
-                                <li class="object-inline"><span class="text-style-2">by</span><span>{{ CommonHelper::read_more_hide($item->posted_by,15) }}</span></li>
-                                <li class="object-inline"><span class="novi-icon icon icon-xxs icon-white material-icons-query_builder"></span>
-                                    <time datetime="2022-01-01">{{ CommonHelper::dateFormat($item->created_at,'d M Y') }}</time>
-                                </li>
-                                <li class="object-inline">
-                                    <span class="novi-icon icon icon-xxs icon-white material-icons-loyalty"></span>
-                                    <ul class="list-tags-inline">
-                                        <li>{{ CommonHelper::read_more_hide($item->category,15) }}</li>
-                                    </ul>
-                                </li>
+                <div class="col-sm-8 col-md-5 col-xl-3 wow fadeInUp" data-wow-delay="0s">
+                    <div class="post-boxed d-xl-inline-block">
+                        <div class="post-boxed-img-wrap"><a href="{{ url('blog/'.$item->slug) }}"><img src="{{ CommonHelper::getBlogBanner($item->banner) }}" alt="" width="268" height="179"/></a></div>
+                        <div class="post-boxed-caption">
+                            <div class="post-boxed-title fw-bold"><a href="{{ url('blog/'.$item->slug) }}">{{ CommonHelper::read_more_hide($item->title,45) }}</a></div>
+                            <ul class="list-inline list-inline-dashed text-uppercase font-accent">
+                                <li>{{ CommonHelper::dateFormat($item->created_at,'d M Y') }}</li>
+                                <li><span>by <a class="link-primary" href="{{ url('blog/'.$item->slug) }}">{{ CommonHelper::read_more_hide($item->posted_by,15) }}</a></span></li>
                             </ul>
                         </div>
-                    </article>
-                </div>    
+                    </div>
+                </div>
             @endforeach
         </div>
     </div>

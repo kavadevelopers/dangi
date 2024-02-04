@@ -25,7 +25,7 @@
     </div>
 </section>
 
-<section class="container custom-home-icons">
+<section class="container custom-home-icons" style="margin-top: 50px; margin-bottom: 100px;">
     <div class="row g-0 justify-content-sm-center justify-content-md-start row-40 row-sm-0">
         <div class="col-sm-10 col-md-6 height-fill">
             <article class="icon-box icon-box-top-line icon-box-hover">
@@ -112,7 +112,7 @@
             <div class="col-sm-6 col-lg-3 wow fadeInUpSmall" data-wow-delay="0.1s">
                 <article class="icon-box">
                     <div class="box-top">
-                        <div class="box-icon"><span class="icon icon-san-juan icon-lg fl-puppets-chart6"></span></div>
+                        <div class="box-icon"><span class="material-icons-perm_device_information"></span></div>
                         <div class="box-header">
                             <h5><a href="#">Integrity</a></h5>
                         </div>
@@ -126,7 +126,7 @@
             <div class="col-sm-6 col-lg-3 wow fadeInUpSmall" data-wow-delay="0.2s">
                 <article class="icon-box">
                     <div class="box-top">
-                        <div class="box-icon"><span class="icon icon-san-juan icon-lg fl-puppets-bank17"></span></div>
+                        <div class="box-icon"><span class="material-icons-movie_creation"></span></div>
                         <div class="box-header">
                             <h5><a href="#">Innovation</a></h5>
                         </div>
@@ -140,7 +140,7 @@
             <div class="col-sm-6 col-lg-3 wow fadeInUpSmall" data-wow-delay="0.3s">
                 <article class="icon-box">
                     <div class="box-top">
-                        <div class="box-icon"><span class="icon icon-san-juan icon-lg fl-puppets-savings3"></span></div>
+                        <div class="box-icon"><span class="material-icons-people"></span></div>
                         <div class="box-header">
                             <h5><a href="#">Collaboration</a></h5>
                         </div>
@@ -154,5 +154,61 @@
         </div>
     </div>
 </section>
+<section class="section section-60 section-md-100 novi-background bg-black custom-home-counter">
+    <div class="container text-center">
+        <h3>Our company in numbers</h3>
+        <div class="row row-40">
+            <div class="col-sm-6 col-md-3">
+                <div class="box-counter">
+                    <span class="novi-icon icon icon-md icon-primary material-icons-mood"></span>
+                    <div class="text-large counter">2100</div>
+                    <h5 class="box-header">Trusted Clients</h5>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="box-counter">
+                    <span class="novi-icon icon icon-md icon-primary material-icons-content_copy"></span>
+                    <div class="text-large counter counter">110</div>
+                    <h5 class="box-header">Types of Sevices</h5>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="box-counter">
+                    <span class="novi-icon icon icon-md icon-primary material-icons-access_time"></span>
+                    <div class="text-large counter">15</div>
+                    <h5 class="box-header">Years of Experience</h5>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="box-counter">
+                    <span class="novi-icon icon icon-md icon-primary material-icons-code"></span>
+                    <div class="text-large counter counter">4</div>
+                    <h5 class="box-header">Business Verticles</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<section class="section-50 section-md-90 section-md-bottom-100 custom-home-blogs">
+    <div class="container text-center">
+        <h3>Latest News</h3>
+        <div class="row row-40 row-offset-6 justify-content-sm-center">
+            @foreach ($list as $item)
+                <div class="col-sm-8 col-md-5 col-xl-3 wow fadeInUp" data-wow-delay="0s">
+                    <div class="post-boxed d-xl-inline-block">
+                        <div class="post-boxed-img-wrap"><a href="{{ url('blog/'.$item->slug) }}"><img src="{{ CommonHelper::getBlogBanner($item->banner) }}" alt="" width="268" height="179"/></a></div>
+                        <div class="post-boxed-caption">
+                            <div class="post-boxed-title fw-bold"><a href="{{ url('blog/'.$item->slug) }}">{{ CommonHelper::read_more_hide($item->title,45) }}</a></div>
+                            <ul class="list-inline list-inline-dashed text-uppercase font-accent">
+                                <li>{{ CommonHelper::dateFormat($item->created_at,'d M Y') }}</li>
+                                <li><span>by <a class="link-primary" href="{{ url('blog/'.$item->slug) }}">{{ CommonHelper::read_more_hide($item->posted_by,15) }}</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+        </div>
+    </div>
+</section>
 @stop

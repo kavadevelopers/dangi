@@ -128,6 +128,9 @@ Route::get('site-optimize', function () {
 Route::get('site-optimize-clear', function () {
     Artisan::call("optimize:clear");
 });
+Route::get('storage-generate', function () {
+    Artisan::call("storage:link");
+});
 
 Route::get('db-migration', function () {
     Artisan::call("migrate");

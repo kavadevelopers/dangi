@@ -74,7 +74,7 @@ class MainController extends Controller
 
     public function home(){
         $data['_title'] = 'Home';
-        $data['banners'] = HomeSliderModel::orderby('sort','asc')->get();
+        $data['list']   = BlogModel::where('is_deleted','0')->limit(4)->orderby('id','desc')->get();
 		return view('web.home',$data);
     }
 
