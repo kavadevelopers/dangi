@@ -32,7 +32,7 @@
                 <div class="box-top">
                     <div class="box-icon"><span class="fa fa-globe"></span></div>
                     <div class="box-header">
-                        <h4><a href="{{ url('global') }}">Dangi Global</a></h4>
+                        <h3><a href="{{ url('global') }}">Dangi Global</a></h3>
                         <h6>Connecting Talent Worldwide</h6>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                 <div class="box-top">
                     <div class="box-icon"><span class="fa fa-briefcase"></span></div>
                     <div class="box-header">
-                        <h4><a href="{{ url('consultancy/business-setup') }}">Dangi Consultancy</a></h4>
+                        <h3><a href="{{ url('consultancy/business-setup') }}">Dangi Consultancy</a></h3>
                         <h6>Guiding Businesses to Success</h6>
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                 <div class="box-top">
                     <div class="box-icon"><span class="fa fa-book"></span></div>
                     <div class="box-header">
-                        <h4><a href="{{ url('training') }}">Dangi Training</a></h4>
+                        <h3><a href="{{ url('training') }}">Dangi Training</a></h3>
                         <h6>Shaping Future Accountants</h6>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                 <div class="box-top">
                     <div class="box-icon"><span class="fa fa-users"></span></div>
                     <div class="box-header">
-                        <h4><a href="{{ url('placement') }}">Dangi Placement</a></h4>
+                        <h3><a href="{{ url('placement') }}">Dangi Placement</a></h3>
                         <h6>Connecting Talent with Opportunities</h6>
                     </div>
                 </div>
