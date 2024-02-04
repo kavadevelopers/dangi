@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="swiper-container swiper-slider swiper-variant-1 bg-black" data-loop="false" data-autoplay="4000" data-simulate-touch="true">
+<section class="swiper-container swiper-slider swiper-variant-1 bg-black" data-loop="false" data-autoplay="10000" data-simulate-touch="true">
     <div class="swiper-wrapper text-center">
         <div class="swiper-slide" data-slide-bg="{{ url('themes/images/global-slide1.jpg') }}">
             <div class="swiper-slide-caption">

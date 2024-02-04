@@ -184,13 +184,6 @@
                         </div>
                         <div class="col-md-5 col-xl-4 text-lg-center">
                             <ul class="list-inline list-inline-xs">
-                                {{-- <li><a class="novi-icon icon icon-sm-custom link-tundora fa-facebook" href="#"></a></li>
-                                <li><a class="novi-icon icon icon-sm-custom link-tundora fa-twitter" href="#"></a></li>
-                                <li><a class="novi-icon icon icon-sm-custom link-tundora fa-google-plus" href="#"></a></li>
-                                <li><a class="novi-icon icon icon-sm-custom link-tundora fa-linkedin" href="#"></a></li>
-                                <li><a class="novi-icon icon icon-sm-custom link-tundora fa-skype" href="#"></a></li>
-                                <li><a class="novi-icon icon icon-sm-custom link-tundora fa-vine" href="#"></a></li>
-                                <li><a class="novi-icon icon icon-sm-custom link-tundora fa-youtube" href="#"></a></li> --}}
                                 @if (CommonHelper::getsetting('social_media_fb') != "")
                                     <li><a class="novi-icon icon icon-sm-custom link-tundora fa fa-facebook" href="{{ CommonHelper::getsetting('social_media_fb') }}" target="_blank"></a></li>
                                 @endif
