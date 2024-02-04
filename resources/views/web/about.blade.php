@@ -240,7 +240,7 @@
                 <div class="angle default" style="right: -106.061px;"></div>
                 <div class="inner default">
                     <div class="inner">
-                        <h2 class="wow animate__animated animate__fadeIn" data-wow-duration="0.5s" data-wow-delay="0.2s">Dangi is not just a company</h2>
+                        <h2 class="wow animate__animated animate__fadeIn" data-wow-duration="0.5s" data-wow-delay="0.2s">Dangi is not just a Company</h2>
                         <div class="body_wrap wow animate__animated animate__fadeIn" data-wow-duration="0.5s" data-wow-delay="0.2s">
                             {{-- <p><strong>People.</strong></p> --}}
                             <p class="font-16px">Dangi is not just a company; it's a commitment to excellence, a journey of growth, and a vision for a future where financial success knows no bounds. Our mission is to be the driving force behind global financial excellence, and our core values guide us in every step of this journey. As we continue to evolve and expand, our dedication to excellence, integrity, innovation, and collaboration remains unwavering. Join us on this journey towards financial excellence – where expertise meets opportunity, and success becomes a shared reality.</p>
