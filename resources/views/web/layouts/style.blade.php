@@ -1,4 +1,7 @@
 <style>
+    .sub-how-we-operate p{
+        font-size: 16px;
+    }
     p{
         text-align: justify !important;
     }

@@ -404,7 +404,7 @@
             
             <div class="col-md-12 col-xl-12 text-secondary">
                 <div class="inset-md-right-15 inset-xl-right-0">
-                    <h4 class="text-center">How we operate</h4>
+                    <h4 class="text-center">How We Operate</h4>
                 </div>
             </div>
 
