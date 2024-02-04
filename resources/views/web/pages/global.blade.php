@@ -507,10 +507,10 @@
                 <div class="angle default" style="right: -168.551px;"></div>
                 <div class="inner default">
                     <div class="inner">
-                        <h2 class="wow animate__animated animate__fadeIn" data-wow-duration="0.5s" data-wow-delay="0.2s">IT & DATA SECURITY</h2>
+                        <h2 class="wow animate__animated animate__fadeIn" data-wow-duration="0.5s" data-wow-delay="0.2s">It & Data Security</h2>
                         <div class="body_wrap wow animate__animated animate__fadeIn" data-wow-duration="0.5s" data-wow-delay="0.2s">
                             
-                            <p>When engaging in services such as accounting, bookkeeping, payroll, or taxation, businesses often share sensitive data with their service providers. At Dangi Global, we prioritize the meticulous handling of such data, ensuring absolute security and confidentiality</p>
+                            <p style="font-size: 16px;">When engaging in services such as accounting, bookkeeping, payroll, or taxation, businesses often share sensitive data with their service providers. At Dangi Global, we prioritize the meticulous handling of such data, ensuring absolute security and confidentiality</p>
                         </div>
                     </div>
                     <!-- end inner -->
