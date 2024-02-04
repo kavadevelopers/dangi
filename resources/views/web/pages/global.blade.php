@@ -507,7 +507,7 @@
                 <div class="angle default" style="right: -168.551px;"></div>
                 <div class="inner default">
                     <div class="inner">
-                        <h2 class="wow animate__animated animate__fadeIn" data-wow-duration="0.5s" data-wow-delay="0.2s">It & Data Security</h2>
+                        <h2 class="wow animate__animated animate__fadeIn" data-wow-duration="0.5s" data-wow-delay="0.2s">IT & Data Security</h2>
                         <div class="body_wrap wow animate__animated animate__fadeIn" data-wow-duration="0.5s" data-wow-delay="0.2s">
                             
                             <p style="font-size: 16px;">When engaging in services such as accounting, bookkeeping, payroll, or taxation, businesses often share sensitive data with their service providers. At Dangi Global, we prioritize the meticulous handling of such data, ensuring absolute security and confidentiality</p>
@@ -539,11 +539,6 @@
                 <div class="inner default">
                     <div class="inner">
                         <h2 class="wow animate__animated animate__fadeIn" data-wow-duration="0.5s" data-wow-delay="0.2s">Peace of mind through world-class safeguards.</h2>
-                        <div class="body_wrap wow animate__animated animate__fadeIn" data-wow-duration="0.5s" data-wow-delay="0.2s">
-                            <p><img decoding="async" class="alignnone wp-image-36197 size-full entered lazyloaded" src="https://emapta.com/wp-content/uploads/2023/09/IT-icons-with-ISO-2023.png" alt="svg  E" width="85%" height="auto" data-lazy-src="https://emapta.com/wp-content/uploads/2023/09/IT-icons-with-ISO-2023.png" data-ll-status="loaded">
-                            <noscript><img decoding="async" class="alignnone wp-image-36197 size-full" src="https://emapta.com/wp-content/uploads/2023/09/IT-icons-with-ISO-2023.png" alt="" width="85%" height="auto" /></noscript>
-                            </p>
-                        </div>
                         <!-- end body_wrap -->
                         <div class="standard_ticks" columns="2">
                             <div class="feature wow animate__animated animate__fadeIn" style="">
