@@ -9,7 +9,7 @@
                 <div class="container">
                     <div class="row justify-content-md-center">
                         <div class="col-md-11 col-lg-10 col-xl-9">
-                            <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="0s">YOUR TEAM. YOUR WAY.</h2>
+                            <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="0s">Yout Team. Your Way.</h2>
                             <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="100">Unlocking offshore talent in Accounting, Taxation, and Finance. Dangi connects global businesses with expert professionals for seamless financial operations.</p>
                         </div>
                     </div>
@@ -21,7 +21,7 @@
                 <div class="container">
                     <div class="row justify-content-md-center">
                         <div class="col-md-11 col-lg-10 col-xl-9">
-                            <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="0s">Facilitate seamless access to offshore talent</h2>
+                            <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="0s">Facilitate Seamless Access To Offshore Talent</h2>
                             <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="100">Enabling businesses worldwide to thrive by leveraging our expertise.</p>
                         </div>
                     </div>
@@ -49,10 +49,10 @@
                             <a class="nav-link active" aria-current="page" href="#sub-offshoring"><i class="bi bi-house-fill me-2"></i>Offshoring</a>
                         </li>
                         <li class="nav-item rounded">
-                            <a class="nav-link" href="#sub-hire-offshore-talant"><i class="bi bi-people-fill me-2"></i>Hire offshore talant</a>
+                            <a class="nav-link" href="#sub-hire-offshore-talant"><i class="bi bi-people-fill me-2"></i>Hire Offshore Talent</a>
                         </li>
                         <li class="nav-item rounded">
-                            <a class="nav-link" href="#sub-how-we-operate"><i class="bi bi-telephone-fill me-2"></i>How we operate</a>
+                            <a class="nav-link" href="#sub-how-we-operate"><i class="bi bi-telephone-fill me-2"></i>How We Operate</a>
                         </li>
                         <li class="nav-item rounded">
                             <a class="nav-link" href="#sub-it-data-security"><i class="bi bi-telephone-fill me-2"></i>It & Data Security</a>

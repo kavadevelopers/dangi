@@ -524,14 +524,14 @@
     }
     .child-nav .nav-link{
         color:#00030a;
-        font-size: 14px;
+        font-size: 16px;
         margin: 0 10px;
         padding-top: 10px !important;
     }
     .child-nav .nav-link.active{
         color:#ffcb19;
         font-weight: 700;
-        font-size: 14px;
+        font-size: 16px;
         border-bottom: 3px solid #ffcb19;   
     }
     .child-nav .navbar-nav{
