@@ -49,7 +49,7 @@
                             <span class="pcoded-mtext">Blogs</span>
                         </a>
                     </li>
-                    <ul class="pcoded-item pcoded-left-item">
+                    {{-- <ul class="pcoded-item pcoded-left-item">
                         <li class="pcoded-hasmenu {{ CommonHelper::menu(2,['cms'])[2] }}">
                             <a href="javascript:void(0)">
                                 <span class="pcoded-micon"><i class="fa fa-book"></i></span>
@@ -70,7 +70,7 @@
                                 </li> --}}
                             </ul>
                         </li>
-                    </ul>
+                    </ul> --}}
                     <li class="{{ CommonHelper::menu(2,['enquiries'])[2] }}">
                         <a href="{{ CommonHelper::admin('enquiries') }}">
                             <span class="pcoded-micon"><i class="fa fa-cog fa-spin"></i></span>

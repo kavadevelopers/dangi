@@ -1,4 +1,24 @@
 <style>
+    .angled_section_wrapper.purple {
+        background-color: #fdf2fd;
+    }
+    .angled_section_wrapper.purple .col_content .angle {
+        background-color: #fdf2fd !important;
+    }
+
+
+    .about-mission-child-item p{
+        margin-top: 0;
+    }
+    .about-mission-child-item {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .custom-about-top .inner p{
+        font-size: 16px;
+    }
+
+
     .custom-home-blogs .post-boxed {
         text-align: left;
     }
