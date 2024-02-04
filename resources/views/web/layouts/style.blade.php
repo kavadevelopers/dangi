@@ -1,4 +1,7 @@
 <style>
+    .font-16px{
+        font-size: 16px !important;
+    }
     #sub-how-we-operate p{
         font-size: 16px !important;
     }

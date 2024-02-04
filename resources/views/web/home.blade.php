@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 <div class="box-body">
-                    <p class="text-black">Unlocking offshore talent in Accounting, Taxation, and Finance. Dangi connects global businesses with expert professionals for seamless financial operations.</p>
+                    <p class="text-black font-16px">Unlocking offshore talent in Accounting, Taxation, and Finance. Dangi connects global businesses with expert professionals for seamless financial operations.</p>
                 </div>
                 <a class="btn btn-icon-only btn-icon-single btn-icon-default" href="{{ url('global') }}"><span class="icon icon-sm material-icons-arrow_forward"></span></a>
             </article>
@@ -52,7 +52,7 @@
                     </div>
                 </div>
                 <div class="box-body">
-                    <p class="text-black">Empowering Indian clients with business setup, GST registrations, tax filing, and comprehensive consultancy services in Accounting and Finance.</p>
+                    <p class="text-black font-16px">Empowering Indian clients with business setup, GST registrations, tax filing, and comprehensive consultancy services in Accounting and Finance.</p>
                 </div>
                 <a class="btn btn-icon-only btn-icon-single btn-icon-default" href="{{ url('consultancy/business-setup') }}"><span class="icon icon-sm material-icons-arrow_forward"></span></a>
             </article>
@@ -67,7 +67,7 @@
                     </div>
                 </div>
                 <div class="box-body">
-                    <p class="text-black">Shape your accounting career with Dangi's specialized training programs. Learn accounting and bookkeeping skills, preparing candidates for success in the dynamic world of finance.</p>
+                    <p class="text-black font-16px">Shape your accounting career with Dangi's specialized training programs. Learn accounting and bookkeeping skills, preparing candidates for success in the dynamic world of finance.</p>
                 </div>
                 <a class="btn btn-icon-only btn-icon-single btn-icon-default" href="{{ url('training') }}"><span class="icon icon-sm material-icons-arrow_forward"></span></a>
             </article>
@@ -82,7 +82,7 @@
                     </div>
                 </div>
                 <div class="box-body">
-                    <p class="text-black">Dangi specializes in placing top-notch accountants. We filter and facilitate candidates, ensuring they find the right position while providing companies with skilled professionals.</p>
+                    <p class="text-black font-16px">Dangi specializes in placing top-notch accountants. We filter and facilitate candidates, ensuring they find the right position while providing companies with skilled professionals.</p>
                 </div>
                 <a class="btn btn-icon-only btn-icon-single btn-icon-default" href="{{ url('placement') }}"><span class="icon icon-sm material-icons-arrow_forward"></span></a>
             </article>
