@@ -113,12 +113,12 @@
                     <div class="box-top">
                         <div class="box-icon"><span class="fa fa-trophy"></span></div>
                         <div class="box-header">
-                            <h5><a href="#">Excellence</a></h5>
+                            <h4><a href="#">Excellence</a></h4>
                         </div>
                     </div>
                     <div class="icon-box-divider"></div>
                     <div class="box-body">
-                        <p>We are committed to delivering services of the highest quality, exceeding expectations and setting new standards in the industry.</p>
+                        <p class="text-center font-16px">We are committed to delivering services of the highest quality, exceeding expectations and setting new standards in the industry.</p>
                     </div>
                 </article>
             </div>
@@ -127,12 +127,12 @@
                     <div class="box-top">
                         <div class="box-icon"><span class="material-icons-perm_device_information"></span></div>
                         <div class="box-header">
-                            <h5><a href="#">Integrity</a></h5>
+                            <h4><a href="#">Integrity</a></h4>
                         </div>
                     </div>
                     <div class="icon-box-divider"></div>
                     <div class="box-body">
-                        <p>We operate with transparency, honesty, and ethical practices, building trust with our clients, partners, and employees.</p>
+                        <p class="text-center font-16px">We operate with transparency, honesty, and ethical practices, building trust with our clients, partners, and employees.</p>
                     </div>
                 </article>
             </div>
@@ -141,12 +141,12 @@
                     <div class="box-top">
                         <div class="box-icon"><span class="material-icons-movie_creation"></span></div>
                         <div class="box-header">
-                            <h5><a href="#">Innovation</a></h5>
+                            <h4><a href="#">Innovation</a></h4>
                         </div>
                     </div>
                     <div class="icon-box-divider"></div>
                     <div class="box-body">
-                        <p>Embracing change and fostering a culture of continuous improvement, we strive to bring innovative solutions to the financial landscape.</p>
+                        <p class="text-center font-16px">Embracing change and fostering a culture of continuous improvement, we strive to bring innovative solutions to the financial landscape.</p>
                     </div>
                 </article>
             </div>
@@ -155,12 +155,12 @@
                     <div class="box-top">
                         <div class="box-icon"><span class="material-icons-people"></span></div>
                         <div class="box-header">
-                            <h5><a href="#">Collaboration</a></h5>
+                            <h4><a href="#">Collaboration</a></h4>
                         </div>
                     </div>
                     <div class="icon-box-divider"></div>
                     <div class="box-body">
-                        <p>We believe in the power of collaboration – internally and externally. By working together, we amplify our impact and achieve shared success.</p>
+                        <p class="text-center font-16px">We believe in the power of collaboration – internally and externally. By working together, we amplify our impact and achieve shared success.</p>
                     </div>
                 </article>
             </div>
@@ -175,8 +175,8 @@
             
             <div class="col-md-12 col-xl-12 text-secondary">
                 <div class="inset-md-right-15 inset-xl-right-0">
-                    <h4 class="text-center">Our Journey</h4>
-                    <p class="text-center">Founded on the principles of expertise and commitment, Dangi embarked on a journey to redefine the dynamics of the financial sector. From our humble beginnings, we have evolved into a multifaceted organization with a global reach. Our journey is marked by a relentless pursuit of excellence and an unwavering dedication to the success of our clients and partners.</p>
+                    <h3 class="text-center">Our Journey</h3>
+                    <p class="text-center font-16px">Founded on the principles of expertise and commitment, Dangi embarked on a journey to redefine the dynamics of the financial sector. From our humble beginnings, we have evolved into a multifaceted organization with a global reach. Our journey is marked by a relentless pursuit of excellence and an unwavering dedication to the success of our clients and partners.</p>
                 </div>
             </div>
 
@@ -189,7 +189,7 @@
                         <div class="timeline-body">
                             <h4 class="timeline-title">Global Vertical - Connecting Talent Worldwide</h4>
                             <div>
-                                <p>In our Global Vertical, we serve as a bridge between businesses seeking offshore talent and skilled professionals looking for global opportunities. Our vision is to create a network that transcends geographical boundaries, where the best minds in accounting, taxation, and finance converge to drive global success.</p>
+                                <p class="font-16px">In our Global Vertical, we serve as a bridge between businesses seeking offshore talent and skilled professionals looking for global opportunities. Our vision is to create a network that transcends geographical boundaries, where the best minds in accounting, taxation, and finance converge to drive global success.</p>
                             </div>
                         </div>
                     </div>
@@ -200,7 +200,7 @@
                         <div class="timeline-body">
                             <h4 class="timeline-title">Consultancy Vertical - Guiding Businesses to Success</h4>
                             <div>
-                                <p>In the Consultancy Vertical, we take pride in being the strategic partner for Indian businesses. From assisting in business setup to navigating the intricacies of GST registrations and tax filings, we provide end-to-end consultancy services. Our mission is to simplify complex financial processes, enabling businesses to focus on their core competencies.</p>
+                                <p class="font-16px">In the Consultancy Vertical, we take pride in being the strategic partner for Indian businesses. From assisting in business setup to navigating the intricacies of GST registrations and tax filings, we provide end-to-end consultancy services. Our mission is to simplify complex financial processes, enabling businesses to focus on their core competencies.</p>
                             </div>
                         </div>
                     </div>
@@ -211,7 +211,7 @@
                         <div class="timeline-body">
                             <h4 class="timeline-title">Training Vertical - Shaping Future Accountants</h4>
                             <div>
-                                <p>The Training Vertical at Dangi is dedicated to shaping the future of the accounting profession. Our comprehensive training programs are designed to equip individuals with the skills and knowledge needed to excel in the dynamic and competitive field of accounting. We believe in nurturing talent and empowering aspiring accountants to reach new heights in their careers.</p>
+                                <p class="font-16px">The Training Vertical at Dangi is dedicated to shaping the future of the accounting profession. Our comprehensive training programs are designed to equip individuals with the skills and knowledge needed to excel in the dynamic and competitive field of accounting. We believe in nurturing talent and empowering aspiring accountants to reach new heights in their careers.</p>
                             </div>
                         </div>
                     </div>
@@ -222,7 +222,7 @@
                         <div class="timeline-body">
                             <h4 class="timeline-title">Placement Vertical - Connecting Talent with Opportunities</h4>
                             <div>
-                                <p>In the Placement Vertical, we play a crucial role as the matchmaker between businesses in need of skilled accountants and professionals seeking the right career placement. Our meticulous filtering process ensures that businesses find the perfect fit, and candidates discover opportunities aligned with their skills and aspirations.</p>
+                                <p class="font-16px">In the Placement Vertical, we play a crucial role as the matchmaker between businesses in need of skilled accountants and professionals seeking the right career placement. Our meticulous filtering process ensures that businesses find the perfect fit, and candidates discover opportunities aligned with their skills and aspirations.</p>
                             </div>
                         </div>
                     </div>
@@ -243,7 +243,7 @@
                         <h2 class="wow animate__animated animate__fadeIn" data-wow-duration="0.5s" data-wow-delay="0.2s">Dangi is not just a company</h2>
                         <div class="body_wrap wow animate__animated animate__fadeIn" data-wow-duration="0.5s" data-wow-delay="0.2s">
                             {{-- <p><strong>People.</strong></p> --}}
-                            <p>Dangi is not just a company; it's a commitment to excellence, a journey of growth, and a vision for a future where financial success knows no bounds. Our mission is to be the driving force behind global financial excellence, and our core values guide us in every step of this journey. As we continue to evolve and expand, our dedication to excellence, integrity, innovation, and collaboration remains unwavering. Join us on this journey towards financial excellence – where expertise meets opportunity, and success becomes a shared reality.</p>
+                            <p class="font-16px">Dangi is not just a company; it's a commitment to excellence, a journey of growth, and a vision for a future where financial success knows no bounds. Our mission is to be the driving force behind global financial excellence, and our core values guide us in every step of this journey. As we continue to evolve and expand, our dedication to excellence, integrity, innovation, and collaboration remains unwavering. Join us on this journey towards financial excellence – where expertise meets opportunity, and success becomes a shared reality.</p>
                         </div>
                         <!-- end body_wrap -->
                     </div>
