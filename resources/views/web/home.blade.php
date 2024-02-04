@@ -100,12 +100,12 @@
                     <div class="box-top">
                         <div class="box-icon"><span class="fa fa-trophy"></span></div>
                         <div class="box-header">
-                            <h5><a href="#">Excellence</a></h5>
+                            <h4><a href="#">Excellence</a></h4>
                         </div>
                     </div>
                     <div class="icon-box-divider"></div>
                     <div class="box-body">
-                        <p>We are committed to delivering services of the highest quality, exceeding expectations and setting new standards in the industry.</p>
+                        <p class="text-center font-16px">We are committed to delivering services of the highest quality, exceeding expectations and setting new standards in the industry.</p>
                     </div>
                 </article>
             </div>
@@ -114,12 +114,12 @@
                     <div class="box-top">
                         <div class="box-icon"><span class="material-icons-perm_device_information"></span></div>
                         <div class="box-header">
-                            <h5><a href="#">Integrity</a></h5>
+                            <h4><a href="#">Integrity</a></h4>
                         </div>
                     </div>
                     <div class="icon-box-divider"></div>
                     <div class="box-body">
-                        <p>We operate with transparency, honesty, and ethical practices, building trust with our clients, partners, and employees.</p>
+                        <p class="text-center font-16px">We operate with transparency, honesty, and ethical practices, building trust with our clients, partners, and employees.</p>
                     </div>
                 </article>
             </div>
@@ -128,12 +128,12 @@
                     <div class="box-top">
                         <div class="box-icon"><span class="material-icons-movie_creation"></span></div>
                         <div class="box-header">
-                            <h5><a href="#">Innovation</a></h5>
+                            <h4><a href="#">Innovation</a></h4>
                         </div>
                     </div>
                     <div class="icon-box-divider"></div>
                     <div class="box-body">
-                        <p>Embracing change and fostering a culture of continuous improvement, we strive to bring innovative solutions to the financial landscape.</p>
+                        <p class="text-center font-16px">Embracing change and fostering a culture of continuous improvement, we strive to bring innovative solutions to the financial landscape.</p>
                     </div>
                 </article>
             </div>
@@ -142,12 +142,12 @@
                     <div class="box-top">
                         <div class="box-icon"><span class="material-icons-people"></span></div>
                         <div class="box-header">
-                            <h5><a href="#">Collaboration</a></h5>
+                            <h4><a href="#">Collaboration</a></h4>
                         </div>
                     </div>
                     <div class="icon-box-divider"></div>
                     <div class="box-body">
-                        <p>We believe in the power of collaboration – internally and externally. By working together, we amplify our impact and achieve shared success.</p>
+                        <p class="text-center font-16px">We believe in the power of collaboration – internally and externally. By working together, we amplify our impact and achieve shared success.</p>
                     </div>
                 </article>
             </div>
