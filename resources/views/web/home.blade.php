@@ -156,7 +156,7 @@
 </section>
 <section class="section section-60 section-md-100 novi-background bg-black custom-home-counter">
     <div class="container text-center">
-        <h3>Our company in numbers</h3>
+        <h3>Our Company in Numbers</h3>
         <div class="row row-40">
             <div class="col-sm-6 col-md-3">
                 <div class="box-counter">
@@ -169,7 +169,7 @@
                 <div class="box-counter">
                     <span class="novi-icon icon icon-md icon-primary material-icons-content_copy"></span>
                     <div class="text-large counter counter">110</div>
-                    <h5 class="box-header">Types of Sevices</h5>
+                    <h5 class="box-header">Types of Services</h5>
                 </div>
             </div>
             <div class="col-sm-6 col-md-3">
@@ -183,7 +183,7 @@
                 <div class="box-counter">
                     <span class="novi-icon icon icon-md icon-primary material-icons-code"></span>
                     <div class="text-large counter counter">4</div>
-                    <h5 class="box-header">Business Verticles</h5>
+                    <h5 class="box-header">Business Verticals</h5>
                 </div>
             </div>
         </div>
