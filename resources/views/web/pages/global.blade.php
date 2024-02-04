@@ -116,7 +116,7 @@
                             <th><span class="fa fa-arrow-circle-right"></span> Cost Saving</th>
                             <td>
                                 <p>Candidate Post : Sr. Bookkeeper</p>
-                                <p>12.5 Pound per Hour </p>
+                                <p>12.5£ Per Hour </p>
                             </td>
                             <td>
                                 <p>Candidate Post : Sr. Bookkeeper</p>
@@ -157,11 +157,11 @@
                         </tr>
                         <tr>
                             <th><span class="fa fa-arrow-circle-right"></span> Infrastructure Facility</th>
-                            <td colspan="2" align="center">Remain Same</td>
+                            <td colspan="2" align="center" style="text-align: center;">Remain Same</td>
                         </tr>
                         <tr>
                             <th><span class="fa fa-arrow-circle-right"></span> Operating Method</th>
-                            <td colspan="2" align="center">Remain Same</td>
+                            <td colspan="2" align="center" style="text-align: center;">Remain Same</td>
                         </tr>
                     </tbody>
                 </table>
