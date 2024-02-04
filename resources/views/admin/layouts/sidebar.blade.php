@@ -67,7 +67,7 @@
                                         <span class="pcoded-micon"><i class="fa fa-list"></i></span>
                                         <span class="pcoded-mtext">Menus</span>
                                     </a>
-                                </li> --}}
+                                </li>
                             </ul>
                         </li>
                     </ul> --}}
