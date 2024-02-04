@@ -10,7 +10,7 @@
                     <div class="row justify-content-md-center">
                         <div class="col-md-11 col-lg-10 col-xl-9">
                             <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="0s">Welcome to Dangi</h2>
-                            <h4 data-caption-animate="fadeInUp" data-caption-delay="0s">Gateway to Excellence in Accounting and Finance</h4>
+                            <h3 data-caption-animate="fadeInUp" data-caption-delay="0s">Gateway to Excellence in Accounting and Finance</h3>
                             <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="100">Feel the power of global expertise, consultancy finesse, training excellence, and placement perfection – all under one roof. Join Dangi for a journey that transforms careers and elevates businesses in the field of Accounting and Finance.</p>
                         </div>
                     </div>
