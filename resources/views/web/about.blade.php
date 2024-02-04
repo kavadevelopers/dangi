@@ -55,16 +55,6 @@
 <section class="section section-60 section-md-90 bg-image bg-image-1 novi-background" style="background-image: url(images/about-1.jpg);">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 col-lg-12 col-xl-12">
-                <div class="inset-md-left-50">
-                    <h3>Why Choose Us</h3>
-                </div>
-            </div>
-            <div class="col-md-12 col-lg-12 col-xl-12">
-                <br><br>
-            </div>
-        </div>
-        <div class="row">
             <div class="col-md-12">
                 <div class="inset-md-left-30 inset-md-right-30">
                     <ul class="list-xl">
@@ -73,8 +63,8 @@
                                 <div class="unit unit-spacing-md">
                                     <div class="unit-left"><span class="novi-icon icon icon-primary icon-md fa-leanpub"></span></div>
                                     <div class="unit-body">
-                                        <h4><a href="#">Our Vision</a></h4>
-                                        <p>At Dangi, we envision a world where financial excellence propels businesses to unprecedented heights. Our vision is to be the premier catalyst in shaping global financial landscapes, fostering growth through expertise, innovation, and unwavering commitment. We aspire to create a lasting impact by empowering individuals, businesses, and communities with the knowledge and services needed for financial success on a global scale.</p>
+                                        <h3><a href="#">Our Vision</a></h3>
+                                        <p class="font-16px">At Dangi, we envision a world where financial excellence propels businesses to unprecedented heights. Our vision is to be the premier catalyst in shaping global financial landscapes, fostering growth through expertise, innovation, and unwavering commitment. We aspire to create a lasting impact by empowering individuals, businesses, and communities with the knowledge and services needed for financial success on a global scale.</p>
                                     </div>
                                 </div>
                             </article>
@@ -84,23 +74,23 @@
                                 <div class="unit unit-spacing-md">
                                     <div class="unit-left"><span class="novi-icon icon icon-primary icon-md fa fa-gg-circle"></span></div>
                                     <div class="unit-body">
-                                        <h4><a href="#">Our Mission</a></h4>
+                                        <h3><a href="#">Our Mission</a></h3>
                                         <p>Dangi's mission is to redefine the standards of excellence in the fields of accounting, taxation, and finance. We are dedicated to providing exceptional services across our four key verticals – Global, Consultancy, Training, and Placement. Our mission is to:</p>
                                         <div class="about-mission-child-item">
-                                            <h6>Dangi Global</h6>
-                                            <p>Facilitate seamless access to offshore talent, enabling businesses worldwide to thrive by leveraging our expertise in accounting, taxation, and finance.</p>
+                                            <h5>Dangi Global</h5>
+                                            <p class="font-16px">Facilitate seamless access to offshore talent, enabling businesses worldwide to thrive by leveraging our expertise in accounting, taxation, and finance.</p>
                                         </div>
                                         <div class="about-mission-child-item">
-                                            <h6>Dangi Consultancy</h6>
-                                            <p>Empower Indian businesses with comprehensive consultancy services, simplifying complex financial processes and paving the way for sustainable growth.</p>
+                                            <h5>Dangi Consultancy</h5>
+                                            <p class="font-16px">Empower Indian businesses with comprehensive consultancy services, simplifying complex financial processes and paving the way for sustainable growth.</p>
                                         </div>
                                         <div class="about-mission-child-item">
-                                            <h6>Dangi Training</h6>
-                                            <p>Shape the future of the accounting profession by offering cutting-edge training programs. Our mission is to equip aspiring accountants with the skills and knowledge essential for success in the dynamic financial landscape.</p>
+                                            <h5>Dangi Training</h5>
+                                            <p class="font-16px">Shape the future of the accounting profession by offering cutting-edge training programs. Our mission is to equip aspiring accountants with the skills and knowledge essential for success in the dynamic financial landscape.</p>
                                         </div>
                                         <div class="about-mission-child-item">
-                                            <h6>Dangi Placement</h6>
-                                            <p>Bridge the gap between businesses seeking top-notch accountants and talented professionals aiming for the perfect career placement. Our mission is to be the trusted matchmaker in the world of finance.</p>
+                                            <h5>Dangi Placement</h5>
+                                            <p class="font-16px">Bridge the gap between businesses seeking top-notch accountants and talented professionals aiming for the perfect career placement. Our mission is to be the trusted matchmaker in the world of finance.</p>
                                         </div>
                                     </div>
                                 </div>
