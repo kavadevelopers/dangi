@@ -572,7 +572,7 @@
         text-align: left;
         vertical-align: text-top;
         border-color: #f0e4d4 !important;
-        line-height: 1;
+        line-height: 1.2;
     }
     /* p{
         font-size: 1.7rem;

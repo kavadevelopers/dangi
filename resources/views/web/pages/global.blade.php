@@ -93,7 +93,7 @@
         <div class="row">
             <div class="col-md-12 col-lg-12 col-xl-12">
                 <div class="inset-md-left-50">
-                    <h4 class="text-center">Comparison</h4>
+                    <h3 class="text-center">Comparison</h3>
                     <br>
                 </div>
             </div>
