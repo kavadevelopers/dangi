@@ -120,7 +120,28 @@
                             </td>
                             <td>
                                 <p>Candidate Post : Sr. Bookkeeper</p>
-                                <p>Actual Salary (4 Weeks)  1000 Pound<br>PLUS : Service Fees          500 Pound<br>Total                                    1500 Pound<br>No. of Hours (4 Weeks)    160 Hours<br>Per Hour Rate                    9.37 Pound</p>
+                                <table>
+                                    <tr>
+                                        <td>Actual Salary (4 Weeks)</td>
+                                        <td>1000£</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Plus : Service Fees</td>
+                                        <td>500£</td>
+                                    </tr>
+                                    <tr>
+                                        <td>total</td>
+                                        <td>1500£</td>
+                                    </tr>
+                                    <tr>
+                                        <td>No. of Hours (4 Weeks)</td>
+                                        <td>160 Hours</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Per Hour Rate</td>
+                                        <td>9.37£</td>
+                                    </tr>
+                                </table>
                                 <p>Cost Saving At least Minimum 25%</p>
                             </td>
                         </tr>
