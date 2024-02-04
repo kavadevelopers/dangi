@@ -14,6 +14,8 @@ class EnquiryModel extends Model
     protected $fillable = [
         'name',
         'email',
-        'message'
+        'message',
+        'phone',
+        'company',
     ];
 }

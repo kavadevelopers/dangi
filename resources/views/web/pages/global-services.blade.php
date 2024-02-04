@@ -45,7 +45,7 @@
                                 <li>CFO Advisor</li>
                                 <li>Financial Analyst</li>
                             </ol>
-                            </br></br></br>
+                            </br></br></br></br></br></br>
                         </div>
                         <div class="h-1px bg-medium-gray margin-25px-bottom w-100"></div>
                     </div>
@@ -66,7 +66,7 @@
                                 <li>Tax Manager</li>
                                 <li>Sr. Tax Accountant</li>
                             </ol>
-                        </br></br></br></br>
+                        </br></br></br></br></br>
                         </div>
                         <div class="h-1px bg-medium-gray margin-25px-bottom w-100"></div>
                     </div>
@@ -85,7 +85,7 @@
                                 <li>Audit Manager</li>
                                 <li>Audit Senior</li>
                             </ol>
-                        </br></br></br></br>
+                        </br></br></br></br></br></br></br>
                         </div>
                         <div class="h-1px bg-medium-gray margin-25px-bottom w-100"></div>
                     </div>

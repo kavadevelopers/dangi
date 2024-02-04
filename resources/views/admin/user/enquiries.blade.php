@@ -26,6 +26,8 @@
                                 <tr>
                                     <th>Name</th>
                                     <th>Email</th>
+                                    <th>Phone</th>
+                                    <th>Company</th>
                                     <th>Message</th>
                                     <th class="text-center">Created At</th>
                                 </tr>
@@ -38,6 +40,12 @@
                                         </td>
                                         <td>
                                             {{ $value->email }}
+                                        </td>
+                                        <td>
+                                            {{ $value->phone }}
+                                        </td>
+                                        <td>
+                                            {{ $value->company }}
                                         </td>
                                         <td>
                                             {!! nl2br($value->message) !!}

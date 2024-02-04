@@ -27,6 +27,8 @@ class MainController extends Controller
     //     }
     // }
 
+    
+
     public function page($menu,$slug){
         $header = HeadersModel::where('slug',$menu)->first();
         if($header){
@@ -81,19 +83,27 @@ class MainController extends Controller
         EnquiryModel::create([
             'name'  => $rec->name,
             'email'  => $rec->email,
+            'phone'  => $rec->phone,
+            'company'  => $rec->company,
             'message'  => $rec->message
         ]);
 
         $data['name'] = $rec->name;
         $data['email'] = $rec->email;
         $data['message'] = $rec->message;
+        $data['phone'] = $rec->phone;
+        $data['company'] = $rec->company;
         $body = view('emails.inquiry',$data)->render();
-        PMailer::send(CommonHelper::getsetting('mail_notification_email'),'Inquiry - '.$rec->subject,$body);
+        PMailer::send(CommonHelper::getsetting('mail_notification_email'),'Inquiry - '.$rec->name,$body);
 
         Session::flash('success', 'Enquiry Sent');
-	    return Redirect('contact-us');
+	    return Redirect()->back();
     }
 
+    public function global(){
+        $data['_title'] = 'Global';
+		return view('web.pages.global',$data);
+    }
 
     public function howWeOperate(){
         $data['_title'] = 'How we operate';

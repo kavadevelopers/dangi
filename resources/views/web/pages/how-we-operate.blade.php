@@ -51,6 +51,25 @@
                         </li>
                         <li>
                             <div class="content">
+                                <h3>Discover Your Perfect Match</h3>
+                                <div>
+                                    <p><b>Step 1:</b> We'll find the best profiles tailored to your needs. Review them, shortlist candidates, and schedule interviews at your convenience.</p>
+                                    <p><b>Step 2:</b> If we don't have an immediate match, we go the extra mile to find candidates specifically for you.</p>
+                                    <div>
+                                        <p><b>Step 3:</b> Two scenarios for matchmaking: </p>
+                                        <div style="margin-left: 20px;">
+                                            <p><b>a. </b> Candidates in our database</p>
+                                            <p><b>b. </b> Proactive market search if needed</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="time">
+                                <h4>02</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="content">
                                 <h3>Conduct Interviews & Assess Candidates</h3>
                                 <div>
                                     <p>Interview the candidates, provide feedback, and even conduct multiple interviews. Our pre-vetted candidates ensure a high chance of finding the right fit.</p>

@@ -76,6 +76,12 @@
                         </div>
                         <div class="col-md-3">
                             <div class="form-group">
+                                <label>Address 2<span class="-req">*</span></label>
+                                <textarea name="web_address2" type="text" class="form-control" value="" placeholder="Address" required>{{ CommonHelper::getsetting('web_address2') }}</textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
                                 <label>Google map iframe url <span class="-req">*</span></label>
                                 <input name="contact_map_url" type="text" class="form-control" value="{{ CommonHelper::getsetting('contact_map_url') }}" placeholder="Google map iframe url" required>
                             </div>

@@ -28,6 +28,7 @@
                                     <h5>Contact Information</h5>
                                     <address class="contact-info">
                                         <p class="text-uppercase">{!! nl2br(CommonHelper::getsetting('web_address')) !!}</p>
+                                        <p class="text-uppercase">{!! nl2br(CommonHelper::getsetting('web_address2')) !!}</p>
                                         <br>
                                         <dl class="list-terms-inline">
                                             <dt>Mobile 1</dt>
@@ -82,10 +83,22 @@
                                 <input type="email" name="email" class="form-control" placeholder="Enter Email" required/>
                             </div>
                         </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Phone no.</label>
+                                <input type="text" name="phone" class="form-control" placeholder="Enter Phone no."/>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Company</label>
+                                <input type="text" name="company" class="form-control" placeholder="Enter Company"/>
+                            </div>
+                        </div>
                         <div class="col-sm-12">
                             <div class="form-group">
-                                <label>Message <span class="-req">*</span></label>
-                                <textarea name="message" class="form-control" placeholder="Enter Message" rows="5" required></textarea>
+                                <label>Message</label>
+                                <textarea name="message" class="form-control" placeholder="Enter Message" rows="5"></textarea>
                             </div>
                         </div>
                     </div>

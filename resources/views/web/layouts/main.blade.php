@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="{{ url('themes/web/css/fonts.css') }}">
         <link rel="stylesheet" href="{{ url('themes/web/css/style.css') }}">
         @include('web.layouts.style')
+        <script src="{{ url('themes/web/js/core.min.js') }}"></script>
     </head>
     <body>
         <div class="preloader">
@@ -104,19 +105,19 @@
                                             <li class="rd-nav-item"><a class="rd-nav-link" href="{{ url('home') }}">Home</a></li>
                                             <li class="rd-nav-item"><a class="rd-nav-link" href="{{ url('about-us') }}">About</a></li>
                                             <li class="rd-nav-item">
-                                                <a class="rd-nav-link" href="#">Global</a>
+                                                <a class="rd-nav-link" href="{{ url('global') }}">Global</a>
                                                 <ul class="rd-menu rd-navbar-dropdown">
                                                     <li class="rd-dropdown-item">
-                                                        <a class="rd-dropdown-link" href="{{ url('global/how-we-operate') }}">How we operate</a>
+                                                        <a class="rd-dropdown-link" href="{{ url('global#sub-offshoring') }}">Offshoring</a>
                                                     </li>
                                                     <li class="rd-dropdown-item">
-                                                        <a class="rd-dropdown-link" href="{{ url('global/it-and-data-security') }}">IT & Data Security</a>
+                                                        <a class="rd-dropdown-link" href="{{ url('global#sub-hire-offshore-talant') }}">Hire offshore talant</a>
                                                     </li>
                                                     <li class="rd-dropdown-item">
-                                                        <a class="rd-dropdown-link" href="{{ url('global/offshoring') }}">Offshoring</a>
+                                                        <a class="rd-dropdown-link" href="{{ url('global#sub-how-we-operate') }}">How we operate</a>
                                                     </li>
                                                     <li class="rd-dropdown-item">
-                                                        <a class="rd-dropdown-link" href="{{ url('global/services') }}">Our Valuable Services</a>
+                                                        <a class="rd-dropdown-link" href="{{ url('global#sub-it-data-security') }}">IT & Data Security</a>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -220,7 +221,7 @@
             </footer>
         </div>
         <div class="snackbars" id="form-output-global"></div>
-        <script src="{{ url('themes/web/js/core.min.js') }}"></script>
+        
         <script src="{{ url('themes/web/js/script.js') }}"></script>
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         @include('web.layouts.script')

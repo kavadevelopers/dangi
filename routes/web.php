@@ -102,6 +102,7 @@ Route::group(['middleware' => ['isMaintenance']],function(){
     Route::post('contact-us', [MainController::class,'contactSave']);
 
     //Route::get('{menu}', [MainController::class,'menu']);
+    Route::get('global', [MainController::class,'global']);
     Route::get('global/how-we-operate', [MainController::class,'howWeOperate']);
     Route::get('global/it-and-data-security', [MainController::class,'itDataSecurity']);
     Route::get('global/offshoring', [MainController::class,'offShoring']);

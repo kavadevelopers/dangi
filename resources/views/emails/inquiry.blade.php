@@ -11,6 +11,8 @@
     <ul>
         <li><strong>Name : </strong>{{ $name }}</li>
         <li><strong>Email : </strong>{{ $email }}</li>
+        <li><strong>Phone : </strong>{{ $phone }}</li>
+        <li><strong>Company : </strong>{{ $company }}</li>
         <li><strong>Message : </strong>{{ $message }}</li>
     </ul>
 </body>

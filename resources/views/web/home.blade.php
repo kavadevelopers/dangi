@@ -36,7 +36,7 @@
                             <div class="pricing-table-body">
                                 <h5 class="pricing-table-header">GLOBAL</h5>
                                 <div class="divider-circle"></div>
-                                <p>Transparent Offshoring: Tailored Talent, Clear Costs</p>
+                                <p>Transparent Offshoring: Tailored Talent, Clear Costs<br><br></p>
                             </div>
                             <div class="pricing-table-footer"><a class="btn btn-round-bottom btn-default btn-block" href="{{ url('global/how-we-operate') }}">Readmore</a></div>
                         </div>
