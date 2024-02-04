@@ -569,7 +569,7 @@
         font-weight: 400;
     }
     .table-cus th,.table-cus td{
-        size: 14px;
+        size: 16px;
         padding: 8px 15px;
         text-align: left;
         vertical-align: text-top;
