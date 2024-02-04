@@ -656,7 +656,7 @@
                             <header id="international-compliance-policies">Data Privacy Commitment</header>
                         </h2>
                         <div class="body_wrap wow animate__animated animate__fadeIn" data-wow-duration="0.5s" data-wow-delay="0.2s">
-                            <p>We hold the privacy and protection of our clients' data in the highest regard. To uphold this commitment, we adhere to the standards set by the General Data Protection Regulation (GDPR) and proudly carry the certification of being a GDPR compliant company. Our stringent policies for data security and confidentiality align with ISO 27001-2013 standards, showcasing our dedication to maintaining the highest Quality Measures for Information Security.</p>
+                            <p  style="font-size: 16px;">We hold the privacy and protection of our clients' data in the highest regard. To uphold this commitment, we adhere to the standards set by the General Data Protection Regulation (GDPR) and proudly carry the certification of being a GDPR compliant company. Our stringent policies for data security and confidentiality align with ISO 27001-2013 standards, showcasing our dedication to maintaining the highest Quality Measures for Information Security.</p>
                         </div>
                         <!-- end footer_message -->
                     </div>
@@ -684,7 +684,7 @@
             <div class="col-12 col-lg-12 col-md-12 md-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn" style="visibility: visible; animation-name: fadeIn;">
                 <div class="feature-box text-start box-shadow-large box-shadow-double-large-hover bg-white padding-4-rem-all lg-padding-3-rem-all md-padding-4-half-rem-all">
                     <div class="feature-box-content readmore-container-ph-sec height-100px">
-                        <h6 class="alt-font font-weight-600 d-block text-extra-dark-gray">Physical Security Measures</h6>
+                        <h3 class="alt-font font-weight-600 d-block text-extra-dark-gray">Physical Security Measures</h3>
                         <div>
                             <ol class="ol-number">
                                 <li>Our premises are under 100% surveillance with closed-circuit cameras.</li>
@@ -709,7 +709,7 @@
             <div class="col-12 col-lg-12 col-md-12 md-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn" style="visibility: visible; animation-name: fadeIn;">
                 <div class="feature-box text-start box-shadow-large box-shadow-double-large-hover bg-white padding-4-rem-all lg-padding-3-rem-all md-padding-4-half-rem-all">
                     <div class="feature-box-content readmore-container-conf-meas height-100px">
-                        <h6 class="alt-font font-weight-600 d-block text-extra-dark-gray">Confidentiality Measures</h6>
+                        <h3 class="alt-font font-weight-600 d-block text-extra-dark-gray">Confidentiality Measures</h3>
                         <div>
                             <ol class="ol-number">                               
                                 <li>Employees adhere to stringent non-disclosure and non-compete agreements as part of our privacy policy.</li>
@@ -732,7 +732,7 @@
             <div class="col-12 col-lg-12 col-md-12" style="visibility: visible; animation-name: fadeIn;">
                 <div class="feature-box text-start box-shadow-large box-shadow-double-large-hover bg-white padding-4-rem-all lg-padding-3-rem-all md-padding-4-half-rem-all">
                     <div class="feature-box-content readmore-container-it-sec height-100px">
-                        <h6 class="alt-font font-weight-600 d-block text-extra-dark-gray">IT Security Protocols</h6>
+                        <h3 class="alt-font font-weight-600 d-block text-extra-dark-gray">IT Security Protocols</h3>
                         <div>
                             <ol class="ol-number">
                                 <li>Workstations are equipped with up-to-date anti-virus software, conducting daily updates and scheduled scans.</li>

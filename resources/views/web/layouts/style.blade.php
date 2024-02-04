@@ -346,7 +346,7 @@
 
 
     .height-100px{
-        height: 100px;
+        height: 150px;
         overflow: hidden;
     }
     .height-auto{
@@ -592,6 +592,7 @@
         list-style: numbers;
     }
     .ol-number li{
+        font-size: 16px;
         display: list-item;
     }
     .it-data-section {
