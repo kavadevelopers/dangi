@@ -71,7 +71,7 @@
             <div class="col-md-6 col-xl-6 text-secondary">
                 <div class="inset-md-right-15 inset-xl-right-0">
                     <br>
-                    <h4>Traditional Offshoring</h4>
+                    <h3>Traditional Offshoring</h3>
                     <h5 class="text-secondary"><i>Unlock Global Talent, Optimize Costs</i></h5>
                     <p>In our traditional offshoring model, we offer a dynamic solution where your accounting firm gains access to skilled professionals in India. We operate on a fixed per-hour billing system, ensuring flexibility and efficiency in your workflow. Our team, handpicked to match your specific requirements, seamlessly integrates with your processes, allowing you to focus on core business functions while we handle the rest. Experience the benefits of a global workforce without the complexities.</p>
                 </div>
@@ -79,7 +79,7 @@
             <div class="col-md-6 col-xl-6 text-secondary">
                 <div class="inset-md-right-15 inset-xl-right-0">
                     <br>
-                    <h4>Transparent Offshoring</h4>
+                    <h3>Transparent Offshoring</h3>
                     <h5 class="text-secondary"><i>Empowering Partnerships, Unveiling Costs</i></h5>
                     <p>Welcome to a new era of offshoring with our Transparent Offshoring model. We believe in complete openness, ensuring you have a clear understanding of every aspect of your extended team. In this model, we not only place candidates according to your needs but also reveal their salaries to you. We transparently charge for candidate placement, infrastructure, employee responsibilities, and benefits. Whether you prefer a per-hour or weekly billing, our pricing model is straightforward, combining the employee's salary with our fees.</p>
                 </div>

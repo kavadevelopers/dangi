@@ -1,4 +1,8 @@
 <style>
+    p{
+        text-align: justify !important;
+        font-size: 15px !important;
+    }
     .angled_section_wrapper.purple {
         background-color: #fdf2fd;
     }
