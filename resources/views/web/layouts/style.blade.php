@@ -13,6 +13,9 @@
     .bg-blue{
         background-color: #F0FBFF;
     }
+    .left-right p{
+        font-size: 16px !important;
+    }
     .left-right .inner {
         display: table;
         width: 100%;
