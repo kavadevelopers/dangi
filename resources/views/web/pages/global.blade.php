@@ -4,7 +4,7 @@
 
 <section class="swiper-container swiper-slider swiper-variant-1 bg-black" data-loop="false" data-autoplay="10000" data-simulate-touch="true">
     <div class="swiper-wrapper text-center">
-        <div class="swiper-slide" data-slide-bg="{{ url('themes/images/global-slide1.jpg') }}">
+        <div class="swiper-slide" data-slide-bg="{{ url('themes/images/global-slide3.jpg') }}">
             <div class="swiper-slide-caption">
                 <div class="container">
                     <div class="row justify-content-md-center">
@@ -16,7 +16,7 @@
                 </div>
             </div>
         </div>
-        <div class="swiper-slide" data-slide-bg="{{ url('themes/images/global-slide2.jpg') }}">
+        <div class="swiper-slide" data-slide-bg="{{ url('themes/images/global-slide4.jpg') }}">
             <div class="swiper-slide-caption">
                 <div class="container">
                     <div class="row justify-content-md-center">
@@ -41,7 +41,7 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav gap-2">
@@ -170,7 +170,100 @@
     </div>
 </section>
 
-<section class="bg-light-gray wow animate__fadeIn bg-l_blue" style="visibility: visible; animation-name: fadeIn;">
+<section class="container-fluid bg-purple left-right">
+    <div class="row">
+        <div class="col-md-6 col-no-padding">
+            <img class="img-full" src="{{ url('themes/images/gr-your-team.png') }}" />
+        </div>
+        <div class="col-md-6">
+            <div class="inner default">
+                <div class="inner">
+                    <h2>Your team. Your way. Always.</h2>
+                    <div>
+                        <p>Create a global team that matches your company brand, culture, time zone, and operational requirements. We start with your staffing pain points and finish with a tailor-made proposal.</p>
+                    </div>
+                    <!-- end body_wrap -->
+                    <div class="standard_ticks" columns="2">
+                        <div class="feature">
+                            <div class="tick">
+                                <svg class="purple" data-name="emaptatick" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+                                    <rect id="Area" width="35" height="35" style="fill:none"></rect>
+                                    <path id="Border" d="M11.41,20.68,30.63,1.61l1.86,1.84L11.43,24.36l-.09-.09L1.51,14.52l1.86-1.84Z" transform="translate(0.5 4.52)" style="stroke-width:2px"></path>
+                                </svg>
+                            </div>
+                            <!-- end tick -->
+                            <div class="the_label">
+                                <span>Workspaces customized to your brand and culture</span>
+                            </div>
+                            <!-- end label -->
+                        </div>
+                        <!-- end tick -->
+                        <div class="feature" style="">
+                            <div class="tick">
+                                <svg class="purple" data-name="emaptatick" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+                                    <rect id="Area" width="35" height="35" style="fill:none"></rect>
+                                    <path id="Border" d="M11.41,20.68,30.63,1.61l1.86,1.84L11.43,24.36l-.09-.09L1.51,14.52l1.86-1.84Z" transform="translate(0.5 4.52)" style="stroke-width:2px"></path>
+                                </svg>
+                            </div>
+                            <!-- end tick -->
+                            <div class="the_label">
+                                <span>Access to offices and private meeting rooms​</span>
+                            </div>
+                            <!-- end label -->
+                        </div>
+                        <!-- end tick -->
+                        <div class="feature" style="">
+                            <div class="tick">
+                                <svg class="purple" data-name="emaptatick" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+                                    <rect id="Area" width="35" height="35" style="fill:none"></rect>
+                                    <path id="Border" d="M11.41,20.68,30.63,1.61l1.86,1.84L11.43,24.36l-.09-.09L1.51,14.52l1.86-1.84Z" transform="translate(0.5 4.52)" style="stroke-width:2px"></path>
+                                </svg>
+                            </div>
+                            <!-- end tick -->
+                            <div class="the_label">
+                                <span>Flexible business terms</span>
+                            </div>
+                            <!-- end label -->
+                        </div>
+                        <!-- end tick -->
+                        <div class="feature" style="">
+                            <div class="tick">
+                                <svg class="purple" data-name="emaptatick" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+                                    <rect id="Area" width="35" height="35" style="fill:none"></rect>
+                                    <path id="Border" d="M11.41,20.68,30.63,1.61l1.86,1.84L11.43,24.36l-.09-.09L1.51,14.52l1.86-1.84Z" transform="translate(0.5 4.52)" style="stroke-width:2px"></path>
+                                </svg>
+                            </div>
+                            <!-- end tick -->
+                            <div class="the_label">
+                                <span>Fine-tuned data security, network, hardware, and software setup​</span>
+                            </div>
+                            <!-- end label -->
+                        </div>
+                        <!-- end tick -->
+                        <div class="feature" style="">
+                            <div class="tick">
+                                <svg class="purple" data-name="emaptatick" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+                                    <rect id="Area" width="35" height="35" style="fill:none"></rect>
+                                    <path id="Border" d="M11.41,20.68,30.63,1.61l1.86,1.84L11.43,24.36l-.09-.09L1.51,14.52l1.86-1.84Z" transform="translate(0.5 4.52)" style="stroke-width:2px"></path>
+                                </svg>
+                            </div>
+                            <!-- end tick -->
+                            <div class="the_label">
+                                <span>Policies and procedures aligned with your local operations ​​</span>
+                            </div>
+                            <!-- end label -->
+                        </div>
+                        <!-- end tick -->
+                    </div>
+                    <!-- end ticks_wrap -->
+                </div>
+                <!-- end inner -->
+            </div>
+        </div>
+    </div>
+</section>
+
+{{-- <section class="bg-light-gray wow animate__fadeIn bg-l_blue" style="visibility: visible; animation-name: fadeIn;">
     <div id="" class="angled_section_wrapper row default purple ">
         <div class="container large">
             <div class="col_content col-md-6 col-md-offset-1 col-md-push-5 right purple angle_match" style="height: 752.5px;">
@@ -272,9 +365,102 @@
             <!-- end col_image  -->
         </div>
     </div>
+</section> --}}
+
+<section class="container-fluid bg-yellow left-right">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="inner default">
+                <div class="inner">
+                    <h2>What we quote is what you pay for.</h2>
+                    <div>
+                        <p>Save up to 70% on company hires. Know exactly where your payment is going with flexible, transparent pricing..</p>
+                    </div>
+                    <!-- end body_wrap -->
+                    <div class="standard_ticks" columns="2">
+                        <div class="feature">
+                            <div class="tick">
+                                <svg class="purple" data-name="emaptatick" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+                                    <rect id="Area" width="35" height="35" style="fill:none"></rect>
+                                    <path id="Border" d="M11.41,20.68,30.63,1.61l1.86,1.84L11.43,24.36l-.09-.09L1.51,14.52l1.86-1.84Z" transform="translate(0.5 4.52)" style="stroke-width:2px"></path>
+                                </svg>
+                            </div>
+                            <!-- end tick -->
+                            <div class="the_label">
+                                <span>Pay nothing until you’ve selected your staff</span>
+                            </div>
+                            <!-- end label -->
+                        </div>
+                        <!-- end tick -->
+                        <div class="feature" style="">
+                            <div class="tick">
+                                <svg class="purple" data-name="emaptatick" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+                                    <rect id="Area" width="35" height="35" style="fill:none"></rect>
+                                    <path id="Border" d="M11.41,20.68,30.63,1.61l1.86,1.84L11.43,24.36l-.09-.09L1.51,14.52l1.86-1.84Z" transform="translate(0.5 4.52)" style="stroke-width:2px"></path>
+                                </svg>
+                            </div>
+                            <!-- end tick -->
+                            <div class="the_label">
+                                <span>Ease in or out with no lock-in periods</span>
+                            </div>
+                            <!-- end label -->
+                        </div>
+                        <!-- end tick -->
+                        <div class="feature" style="">
+                            <div class="tick">
+                                <svg class="purple" data-name="emaptatick" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+                                    <rect id="Area" width="35" height="35" style="fill:none"></rect>
+                                    <path id="Border" d="M11.41,20.68,30.63,1.61l1.86,1.84L11.43,24.36l-.09-.09L1.51,14.52l1.86-1.84Z" transform="translate(0.5 4.52)" style="stroke-width:2px"></path>
+                                </svg>
+                            </div>
+                            <!-- end tick -->
+                            <div class="the_label">
+                                <span>Pay a fixed monthly service fee per role</span>
+                            </div>
+                            <!-- end label -->
+                        </div>
+                        <!-- end tick -->
+                        <div class="feature" style="">
+                            <div class="tick">
+                                <svg class="purple" data-name="emaptatick" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+                                    <rect id="Area" width="35" height="35" style="fill:none"></rect>
+                                    <path id="Border" d="M11.41,20.68,30.63,1.61l1.86,1.84L11.43,24.36l-.09-.09L1.51,14.52l1.86-1.84Z" transform="translate(0.5 4.52)" style="stroke-width:2px"></path>
+                                </svg>
+                            </div>
+                            <!-- end tick -->
+                            <div class="the_label">
+                                <span>Pay staff salary costs with no markups</span>
+                            </div>
+                            <!-- end label -->
+                        </div>
+                        <!-- end tick -->
+                        <div class="feature" style="">
+                            <div class="tick">
+                                <svg class="purple" data-name="emaptatick" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+                                    <rect id="Area" width="35" height="35" style="fill:none"></rect>
+                                    <path id="Border" d="M11.41,20.68,30.63,1.61l1.86,1.84L11.43,24.36l-.09-.09L1.51,14.52l1.86-1.84Z" transform="translate(0.5 4.52)" style="stroke-width:2px"></path>
+                                </svg>
+                            </div>
+                            <!-- end tick -->
+                            <div class="the_label">
+                                <span>Require your approval before any salary or job offer changes</span>
+                            </div>
+                            <!-- end label -->
+                        </div>
+                        <!-- end tick -->
+                    </div>
+                    <!-- end ticks_wrap -->
+                </div>
+                <!-- end inner -->
+            </div>
+        </div>
+        <div class="col-md-6 col-no-padding">
+            <img class="img-full" src="{{ url('themes/images/gr-your-team.png') }}" />
+        </div>
+    </div>
 </section>
 
-<section class="section bg-yellow">
+{{-- <section class="section bg-yellow">
     <div id="" class="angled_section_wrapper row default blue ">
         <div class="container large">
             <div class="col_content col-md-5 left blue angle_match" style="height: 955.9px;">
@@ -378,10 +564,7 @@
             <!-- end col_image  -->
         </div>
     </div>
-</section>
-
-
-
+</section> --}}
 
 
 <section class="section section-66 section-md-90 section-xl-bottom-120 novi-background" id="sub-hire-offshore-talant">
@@ -500,7 +683,7 @@
     </div>
 </section>  
 
-<section class="section bg-yellow" id="sub-it-data-security">
+{{-- <section class="section bg-yellow">
     <div id="" class="angled_section_wrapper row default blue ">
         <div class="container large">
             <div class="col_content col-md-5 left blue angle_match" style="height: 955.9px;">
@@ -529,9 +712,131 @@
             <!-- end col_image  -->
         </div>
     </div>
+</section> --}}
+
+<section class="container-fluid bg-blue left-right" id="sub-it-data-security">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="inner default">
+                <div class="inner">
+                    <h2>IT & Data Security</h2>
+                    <div>
+                        <p>When engaging in services such as accounting, bookkeeping, payroll, or taxation, businesses often share sensitive data with their service providers. At Dangi Global, we prioritize the meticulous handling of such data, ensuring absolute security and confidentiality</p>
+                    </div>
+                </div>
+                <!-- end inner -->
+            </div>
+        </div>
+        <div class="col-md-6 col-no-padding">
+            <img class="img-full" src="{{ url('themes/images/gr-it-data-sec.png') }}" />
+        </div>
+    </div>
 </section>
 
-<section class="bg-light-gray wow animate__fadeIn bg-l_blue" style="visibility: visible; animation-name: fadeIn;">
+<section class="container-fluid bg-purple left-right">
+    <div class="row">
+        <div class="col-md-6 col-no-padding">
+            <img class="img-full" src="{{ url('themes/images/gr-ppeace-of-mind.png') }}" />
+        </div>
+        <div class="col-md-6">
+            <div class="inner default">
+                <div class="inner">
+                    <h2>Peace of mind through world-class safeguards.</h2>
+                    <!-- end body_wrap -->
+                    <div class="standard_ticks" columns="2">
+                        <div class="feature">
+                            <div class="tick">
+                                <svg class="purple" data-name="emaptatick" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+                                    <rect id="Area" width="35" height="35" style="fill:none"></rect>
+                                    <path id="Border" d="M11.41,20.68,30.63,1.61l1.86,1.84L11.43,24.36l-.09-.09L1.51,14.52l1.86-1.84Z" transform="translate(0.5 4.52)" style="stroke-width:2px"></path>
+                                </svg>
+                            </div>
+                            <!-- end tick -->
+                            <div class="the_label">
+                                <span>Align network policy configurations to your local operations</span>
+                            </div>
+                            <!-- end label -->
+                        </div>
+                        <!-- end tick -->
+                        <div class="feature" style="">
+                            <div class="tick">
+                                <svg class="purple" data-name="emaptatick" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+                                    <rect id="Area" width="35" height="35" style="fill:none"></rect>
+                                    <path id="Border" d="M11.41,20.68,30.63,1.61l1.86,1.84L11.43,24.36l-.09-.09L1.51,14.52l1.86-1.84Z" transform="translate(0.5 4.52)" style="stroke-width:2px"></path>
+                                </svg>
+                            </div>
+                            <!-- end tick -->
+                            <div class="the_label">
+                                <span>Give your team access to controlled and monitored environments</span>
+                            </div>
+                            <!-- end label -->
+                        </div>
+                        <!-- end tick -->
+                        <div class="feature" style="">
+                            <div class="tick">
+                                <svg class="purple" data-name="emaptatick" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+                                    <rect id="Area" width="35" height="35" style="fill:none"></rect>
+                                    <path id="Border" d="M11.41,20.68,30.63,1.61l1.86,1.84L11.43,24.36l-.09-.09L1.51,14.52l1.86-1.84Z" transform="translate(0.5 4.52)" style="stroke-width:2px"></path>
+                                </svg>
+                            </div>
+                            <!-- end tick -->
+                            <div class="the_label">
+                                <span>Protect your office and devices with logical and physical security protocols</span>
+                            </div>
+                            <!-- end label -->
+                        </div>
+                        <!-- end tick -->
+                        <div class="feature" style="">
+                            <div class="tick">
+                                <svg class="purple" data-name="emaptatick" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+                                    <rect id="Area" width="35" height="35" style="fill:none"></rect>
+                                    <path id="Border" d="M11.41,20.68,30.63,1.61l1.86,1.84L11.43,24.36l-.09-.09L1.51,14.52l1.86-1.84Z" transform="translate(0.5 4.52)" style="stroke-width:2px"></path>
+                                </svg>
+                            </div>
+                            <!-- end tick -->
+                            <div class="the_label">
+                                <span>Prevent threats with routine Vulnerability Management System scans</span>
+                            </div>
+                            <!-- end label -->
+                        </div>
+                        <!-- end tick -->
+                        <div class="feature" style="">
+                            <div class="tick">
+                                <svg class="purple" data-name="emaptatick" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+                                    <rect id="Area" width="35" height="35" style="fill:none"></rect>
+                                    <path id="Border" d="M11.41,20.68,30.63,1.61l1.86,1.84L11.43,24.36l-.09-.09L1.51,14.52l1.86-1.84Z" transform="translate(0.5 4.52)" style="stroke-width:2px"></path>
+                                </svg>
+                            </div>
+                            <!-- end tick -->
+                            <div class="the_label">
+                                <span>Work peacefully with periodic IT security assessments and protocol enforcement​​</span>
+                            </div>
+                            <!-- end label -->
+                        </div>
+                        <div class="feature" style="">
+                            <div class="tick">
+                                <svg class="purple" data-name="emaptatick" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+                                    <rect id="Area" width="35" height="35" style="fill:none"></rect>
+                                    <path id="Border" d="M11.41,20.68,30.63,1.61l1.86,1.84L11.43,24.36l-.09-.09L1.51,14.52l1.86-1.84Z" transform="translate(0.5 4.52)" style="stroke-width:2px"></path>
+                                </svg>
+                            </div>
+                            <!-- end tick -->
+                            <div class="the_label">
+                                <span>Stay Compliant with ISO, GDPR and Obtain supervision from an on-site IT Manager</span>
+                            </div>
+                            <!-- end label -->
+                        </div>
+                        <!-- end tick -->
+                    </div>
+                    <!-- end ticks_wrap -->
+                </div>
+                <!-- end inner -->
+            </div>
+        </div>
+    </div>
+</section>
+
+{{-- <section class="bg-light-gray wow animate__fadeIn bg-l_blue" style="visibility: visible; animation-name: fadeIn;">
     <div id="" class="angled_section_wrapper row default yellow ">
         <div class="container large">
             <div class="col_content col-md-6 col-md-offset-1 col-md-push-5 right yellow angle_match" style="height: 1026.9px;">
@@ -643,9 +948,28 @@
             <!-- end col_image  -->
         </div>
     </div>
+</section> --}}
+
+<section class="container-fluid bg-l_blue left-right">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="inner default">
+                <div class="inner">
+                    <h2>Data Privacy Commitment</h2>
+                    <div>
+                        <p>We hold the privacy and protection of our clients' data in the highest regard. To uphold this commitment, we adhere to the standards set by the General Data Protection Regulation (GDPR) and proudly carry the certification of being a GDPR compliant company. Our stringent policies for data security and confidentiality align with ISO 27001-2013 standards, showcasing our dedication to maintaining the highest Quality Measures for Information Security.</p>
+                    </div>
+                </div>
+                <!-- end inner -->
+            </div>
+        </div>
+        <div class="col-md-6 col-no-padding">
+            <img class="img-full" src="{{ url('themes/images/gr-data-privacy.png') }}" />
+        </div>
+    </div>
 </section>
 
-<section class="bg-light-gray wow animate__fadeIn bg-l_blue" style="visibility: visible; animation-name: fadeIn;">
+{{-- <section class="bg-light-gray wow animate__fadeIn bg-l_blue" style="visibility: visible; animation-name: fadeIn;">
     <div id="" class="angled_section_wrapper row default green ">
         <div class="container large">
             <div class="col_content col-md-5 left green angle_match" style="height: 792.412px;">
@@ -676,7 +1000,7 @@
             <!-- end col_image  -->
         </div>
     </div>
-</section>
+</section> --}}
 
 <section class="bg-light-gray wow animate__fadeIn it-data-section" style="visibility: visible; animation-name: fadeIn;">
     <div class="container">
@@ -872,6 +1196,20 @@
 
 <script>
     $(function(){
+        $(document).on("scroll", onScroll);
+        stickyOffset = $('.child-nav').offset().top;
+
+        $(window).scroll(function(){
+            sticky = $('.child-nav');
+            scroll = $(window).scrollTop();
+
+            if (scroll >= stickyOffset) {
+                sticky.addClass('fixed');
+            }else {
+                sticky.removeClass('fixed');
+            }
+        });
+
         $('.readmore').click(function(e){
             e.preventDefault();
             $('.'+$(this).data('class')).toggleClass('height-auto');
@@ -881,6 +1219,21 @@
                 $(this).html('Read more');
             }
         });
+
+        function onScroll(event){
+            var scrollPos = $(document).scrollTop();
+            $('.child-nav ul li a').each(function () {
+                var currLink = $(this);
+                var refElement = $(currLink.attr("href"));
+                if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+                    $('.child-nav ul li a').removeClass("active");
+                    currLink.addClass("active");
+                }
+                else{
+                    currLink.removeClass("active");
+                }
+            });
+        }
     })
 </script>
 @stop

@@ -1,4 +1,38 @@
 <style>
+    .col-no-padding{
+        padding: 0;
+    }
+    .img-full{
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .bg-purple {
+        background-color: #fdf2fd;
+    }
+    .bg-blue{
+        background-color: #F0FBFF;
+    }
+    .left-right .inner {
+        display: table;
+        width: 100%;
+        max-width: 600px;
+        height: 100%;
+        position: relative;
+        z-index: 2;
+        margin: 0 auto;
+    }
+    .left-right .inner > .inner {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .left-right h2 {
+        font-size: 35px;
+        color: #00030a;
+    }
+    .left-right .standard_ticks {
+        padding-top: 20px;
+    }
     .font-16px{
         font-size: 16px !important;
     }
@@ -523,6 +557,8 @@
         background-color: #F0FBFF !important;
     }
 
+    
+
     .child-nav.fixed{
         position: fixed;
         top: 79.812px;
@@ -530,6 +566,16 @@
         display: table;
         z-index: 9;
         background: #ffcb19;
+    }
+    @media screen and (max-width: 992px) {
+        .child-nav.fixed{
+            position: fixed;
+            top: 55.812px;
+            width: 100%;
+            display: table;
+            z-index: 9;
+            background: #ffcb19;
+        }    
     }
     .child-nav .nav-link{
         color:#00030a;
@@ -542,6 +588,10 @@
         font-weight: 700;
         font-size: 16px;
         border-bottom: 3px solid #ffcb19;   
+    }
+    .child-nav.fixed .nav-link.active{
+        color:#00030a;
+        border-bottom: 3px solid #00030a;   
     }
     .child-nav .navbar-nav{
         margin: 0 auto;
