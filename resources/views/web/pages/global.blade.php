@@ -172,10 +172,10 @@
 
 <section class="container-fluid bg-purple left-right">
     <div class="row">
-        <div class="col-md-6 col-no-padding">
+        <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6 col-no-padding">
             <img class="img-full" src="{{ url('themes/images/gr-your-team.png') }}" />
         </div>
-        <div class="col-md-6">
+        <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6">
             <div class="inner default">
                 <div class="inner">
                     <h2>Your team. Your way. Always.</h2>
@@ -369,7 +369,7 @@
 
 <section class="container-fluid bg-yellow left-right">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6">
             <div class="inner default">
                 <div class="inner">
                     <h2>What we quote is what you pay for.</h2>
@@ -454,8 +454,8 @@
                 <!-- end inner -->
             </div>
         </div>
-        <div class="col-md-6 col-no-padding">
-            <img class="img-full" src="{{ url('themes/images/gr-your-team.png') }}" />
+        <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6 col-no-padding">
+            <img class="img-full" src="{{ url('themes/images/global-quote.png') }}" />
         </div>
     </div>
 </section>
@@ -574,8 +574,22 @@
             <div class="col-md-12 col-xl-12 text-secondary">
                 <div class="inset-md-right-15 inset-xl-right-0">
                     <h3 class="text-center">Build Your Offshore Team</h3>
-                    
                 </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-xs-6">
+                <img src="{{ url('themes/images/g-team1.png') }}" style="width: 100%;" />
+            </div>
+            <div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-xs-6">
+                <img src="{{ url('themes/images/g-team2.png') }}" style="width: 100%;" />
+            </div>
+            <div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-xs-6">
+                <img src="{{ url('themes/images/g-team3.png') }}" style="width: 100%;" />
+            </div>
+            <div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-xs-6">
+                <img src="{{ url('themes/images/g-team4.png') }}" style="width: 100%;" />
             </div>
         </div>
     </div>
@@ -716,7 +730,10 @@
 
 <section class="container-fluid bg-blue left-right" id="sub-it-data-security">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6 col-no-padding">
+            <img class="img-full" src="{{ url('themes/images/gr-it-data-sec.png') }}" />
+        </div>
+        <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6">
             <div class="inner default">
                 <div class="inner">
                     <h2>IT & Data Security</h2>
@@ -727,18 +744,13 @@
                 <!-- end inner -->
             </div>
         </div>
-        <div class="col-md-6 col-no-padding">
-            <img class="img-full" src="{{ url('themes/images/gr-it-data-sec.png') }}" />
-        </div>
+        
     </div>
 </section>
 
 <section class="container-fluid bg-purple left-right">
     <div class="row">
-        <div class="col-md-6 col-no-padding">
-            <img class="img-full" src="{{ url('themes/images/gr-ppeace-of-mind.png') }}" />
-        </div>
-        <div class="col-md-6">
+        <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6">
             <div class="inner default">
                 <div class="inner">
                     <h2>Peace of mind through world-class safeguards.</h2>
@@ -832,6 +844,9 @@
                 </div>
                 <!-- end inner -->
             </div>
+        </div>
+        <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6 col-no-padding">
+            <img class="img-full" src="{{ url('themes/images/gr-ppeace-of-mind.png') }}" />
         </div>
     </div>
 </section>
@@ -952,7 +967,7 @@
 
 <section class="container-fluid bg-l_blue left-right">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6">
             <div class="inner default">
                 <div class="inner">
                     <h2>Data Privacy Commitment</h2>
@@ -963,7 +978,7 @@
                 <!-- end inner -->
             </div>
         </div>
-        <div class="col-md-6 col-no-padding">
+        <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6 col-no-padding">
             <img class="img-full" src="{{ url('themes/images/gr-data-privacy.png') }}" />
         </div>
     </div>
