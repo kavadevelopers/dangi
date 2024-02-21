@@ -16,7 +16,7 @@
                 </div>
             </div>
         </div>
-        <div class="swiper-slide" data-slide-bg="{{ url('themes/images/global-slide4.jpg') }}">
+        <div class="swiper-slide" data-slide-bg="{{ url('themes/images/global-slide1.jpg') }}">
             <div class="swiper-slide-caption">
                 <div class="container">
                     <div class="row justify-content-md-center">
@@ -97,7 +97,7 @@
                     <br>
                 </div>
             </div>
-            <div class="col-md-12 col-xl-12">
+            <div class="col-md-12 col-xl-12 table-comparision">
                 <table class="table table-bordered table-cus">
                     <thead>
                         <tr>

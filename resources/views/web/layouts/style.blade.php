@@ -1,4 +1,13 @@
 <style>
+    @media (max-width: 768px){
+        .table-comparision{
+            overflow: scroll;
+        }
+        .table-comparision table{
+            width: 700px;
+        }
+    }
+
     .col-no-padding{
         padding: 0;
     }

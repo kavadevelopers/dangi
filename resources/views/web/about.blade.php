@@ -2,57 +2,28 @@
 
 @section('content')
 
-
-<section class="section bg-yellow custom-about-top">
-    <div id="" class="angled_section_wrapper row default blue ">
-        <div class="container large">
-            <div class="col_content col-md-5 left blue angle_match" style="height: 955.9px;">
-                <div class="angle default" style="right: -168.551px;"></div>
-                <div class="inner default">
-                    <div class="inner">
-                        <h2 class="wow animate__animated animate__fadeIn" data-wow-duration="0.5s" data-wow-delay="0.2s">A Little Bit<br>About Us</h2>
-                        <div class="body_wrap wow animate__animated animate__fadeIn" data-wow-duration="0.5s" data-wow-delay="0.2s">
-                            <p>Dangi is more than a company; it's a commitment to excellence in the financial domain. Established with a passion for fostering financial success, Dangi has emerged as a leading player in the realms of accounting, taxation, and finance. With a focus on four core verticals, we bring a holistic approach to addressing the diverse needs of our clients and partners.</p>
-                        </div>
+<section class="container-fluid bg-yellow left-right" id="sub-it-data-security">
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6 col-no-padding">
+            <img class="img-full" src="{{ url('themes/images/about-bottom.png') }}" />
+        </div>
+        <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6">
+            <div class="inner default">
+                <div class="inner">
+                    <h2>A Little Bit About Us</h2>
+                    <div>
+                        <p>Dangi is more than a company; it's a commitment to excellence in the financial domain. Established with a passion for fostering financial success, Dangi has emerged as a leading player in the realms of accounting, taxation, and finance. With a focus on four core verticals, we bring a holistic approach to addressing the diverse needs of our clients and partners.</p>
                     </div>
-                    <!-- end inner -->
                 </div>
                 <!-- end inner -->
             </div>
-            <!-- end col_content -->
         </div>
-        <!-- end container -->
-        <div class="container-fluid angle_image_wrap">
-            <div class="col_image col-md-7 col-md-push-5 angle_match " style="height: 955.9px;">
-                <div data-bg="https://cloncdrlva.cloudimg.io/emapta.com/wp-content/uploads/2021/05/Incredible-savings3c-e1695698625688.jpg" class="background_image no-quote rocket-lazyload entered lazyloaded" style="background-position: center center; background-image: url(&quot;https://cloncdrlva.cloudimg.io/emapta.com/wp-content/uploads/2021/05/Incredible-savings3c-e1695698625688.jpg&quot;);" data-ll-status="loaded">
-                </div>
-                <!-- end background_image -->
-            </div>
-            <!-- end col_image  -->
-        </div>
+        
     </div>
 </section>
 
-{{-- <section class="section section-66 section-md-90 section-xl-bottom-120 novi-background">
-    <div class="container">
-        <div class="row row-40 justify-content-lg-between">
-            <div class="col-md-4 col-xl-4 text-secondary">
-                <img src="{{ url('themes/images/about.jpg') }}" />
-            </div>
-            <div class="col-md-8 col-xl-8 text-secondary">
-                <div class="inset-md-right-15 inset-xl-right-0">
-                    <p>Welcome to Dangi Global, your premier destination for comprehensive and innovative offshoring solutions. As a global leader, we specialize in providing offshoring services tailored to meet the unique needs of accounting firms located outside India. Our cutting-edge approach revolves around two distinctive models designed to maximize your efficiency and minimize costs.</p>
-                    <p>In the first model, we offer flexibility through a per-hour rate structure, allowing you to appoint and place candidates based on your specific requirements. Our dedicated team ensures seamless integration with your operations, providing skilled professionals to support your business processes.</p>
-                    <p>In the second model, we redefine transparency in offshoring. By disclosing the candidate's salary to you, we empower you to access top-tier talent at a significantly reduced cost compared to traditional offshoring. We charge transparently for candidate placement, infrastructure, employee responsibilities, and benefits, combining the employee's salary with our fees. This unique approach gives you unparalleled insight into your team's costs and fosters a true partnership built on openness and clarity.</p>
-                    <p>But that's not all. Dangi Global goes beyond offshoring – we are your one-stop destination for training, placement, and consultancy services in India. Our holistic ecosystem is designed to elevate your experience, ensuring excellence in every aspect of your journey. Whether you're looking for skilled professionals, comprehensive training programs, or strategic consulting, we've got you covered.</p>
-                    <p>Discover a new era of offshoring with Dangi Global, where innovation meets transparency, and excellence is the standard. Join us in building a global ecosystem that redefines success in training, placement, and consulting. Your journey to unparalleled efficiency starts here. Welcome to the future of offshoring and business excellence.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> --}}
 
-<section class="section section-60 section-md-90 bg-image bg-image-1 novi-background" style="background-image: url(images/about-1.jpg);">
+<section class="section section-60 section-md-90 bg-image bg-image-1 novi-background" style="">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -233,34 +204,22 @@
     </div>
 </section>  
 
-<section class="section">
-    <div id="" class="angled_section_wrapper row default purple ">
-        <div class="container large">
-            <div class="col_content col-md-6 col-md-offset-1 col-md-push-5 right purple angle_match" style="height: 601.5px;">
-                <div class="angle default" style="right: -106.061px;"></div>
-                <div class="inner default">
-                    <div class="inner">
-                        <h2 class="wow animate__animated animate__fadeIn" data-wow-duration="0.5s" data-wow-delay="0.2s">Dangi is not just a Company</h2>
-                        <div class="body_wrap wow animate__animated animate__fadeIn" data-wow-duration="0.5s" data-wow-delay="0.2s">
-                            {{-- <p><strong>People.</strong></p> --}}
-                            <p class="font-16px">Dangi is not just a company; it's a commitment to excellence, a journey of growth, and a vision for a future where financial success knows no bounds. Our mission is to be the driving force behind global financial excellence, and our core values guide us in every step of this journey. As we continue to evolve and expand, our dedication to excellence, integrity, innovation, and collaboration remains unwavering. Join us on this journey towards financial excellence – where expertise meets opportunity, and success becomes a shared reality.</p>
-                        </div>
-                        <!-- end body_wrap -->
+<section class="container-fluid bg-purple left-right" id="sub-it-data-security">
+    <div class="row">
+        
+        <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6">
+            <div class="inner default">
+                <div class="inner">
+                    <h2>Dangi is not just a Company</h2>
+                    <div>
+                        <p>Dangi is not just a company; it's a commitment to excellence, a journey of growth, and a vision for a future where financial success knows no bounds. Our mission is to be the driving force behind global financial excellence, and our core values guide us in every step of this journey. As we continue to evolve and expand, our dedication to excellence, integrity, innovation, and collaboration remains unwavering. Join us on this journey towards financial excellence – where expertise meets opportunity, and success becomes a shared reality.</p>
                     </div>
-                    <!-- end inner -->
                 </div>
                 <!-- end inner -->
             </div>
-            <!-- end col_content -->
         </div>
-        <!-- end container -->
-        <div class="container-fluid angle_image_wrap">
-            <div class="col_image col-md-7 angle_match " style="height: 601.5px;">
-                <div data-bg="https://cloncdrlva.cloudimg.io/emapta.com/wp-content/uploads/2020/08/Jessica-scaled.jpg" class="background_image no-quote rocket-lazyload entered lazyloaded" style="background-position: center center; background-image: url(&quot;https://cloncdrlva.cloudimg.io/emapta.com/wp-content/uploads/2020/08/Jessica-scaled.jpg&quot;);" data-ll-status="entered">
-                </div>
-                <!-- end background_image -->
-            </div>
-            <!-- end col_image  -->
+        <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6 col-no-padding">
+            <img class="img-full" src="{{ url('themes/images/about-not-a-company.png') }}" />
         </div>
     </div>
 </section>

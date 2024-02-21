@@ -14,26 +14,8 @@
         <script src="{{ url('themes/web/js/core.min.js') }}"></script>
     </head>
     <body>
-        <div class="preloader">
-            <div>
-                <a class="brand brand-md" href="{{ url('home') }}">
-                    <img src="{{ url('themes/logos/logo-invert.png') }}" alt="" style="height:auto !important;"/>
-                </a>
-                <div class="page-loader-body">
-                    <div id="spinningSquaresG">
-                        <div class="spinningSquaresG" id="spinningSquaresG_1"></div>
-                        <div class="spinningSquaresG" id="spinningSquaresG_2"></div>
-                        <div class="spinningSquaresG" id="spinningSquaresG_3"></div>
-                        <div class="spinningSquaresG" id="spinningSquaresG_4"></div>
-                        <div class="spinningSquaresG" id="spinningSquaresG_5"></div>
-                        <div class="spinningSquaresG" id="spinningSquaresG_6"></div>
-                        <div class="spinningSquaresG" id="spinningSquaresG_7"></div>
-                        <div class="spinningSquaresG" id="spinningSquaresG_8"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="page">
+        
+        <div class="page animated">
             <header class="page-head">
                 <div class="rd-navbar-wrap">
                     <nav class="rd-navbar rd-navbar-corporate-light" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true" data-lg-stick-up-offset="53px" data-xl-stick-up-offset="53px" data-xxl-stick-up-offset="53px">

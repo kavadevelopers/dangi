@@ -86,199 +86,195 @@
 	}
 
 	// Initialize scripts that require a loaded window
-	$window.on('load', function () {
-		// Page loader & Page transition
-		if (plugins.preloader.length && !isNoviBuilder) {
-			pageTransition({
-				target:            document.querySelector('.page'),
-				delay:             0,
-				duration:          500,
-				classIn:           'fadeIn',
-				classOut:          'fadeOut',
-				classActive:       'animated',
-				conditions:        function (event, link) {
-					return link &&
-						!/(\#|javascript:void\(0\)|callto:|tel:|mailto:|:\/\/)/.test(link) &&
-						!event.currentTarget.hasAttribute('data-lightgallery') &&
-						!event.currentTarget.hasAttribute('target');
-				},
-				onTransitionStart: function (options) {
-					setTimeout(function () {
-						plugins.preloader.removeClass('loaded');
-					}, options.duration * .75);
-				},
-				onReady:           function () {
-					plugins.preloader.addClass('loaded');
-					windowReady = true;
-				}
-			});
-		}
+	// $window.on('load', function () {
+	// 	if (plugins.preloader.length && !isNoviBuilder) {
+	// 		pageTransition({
+	// 			target:            document.querySelector('.page'),
+	// 			delay:             0,
+	// 			duration:          0,
+	// 			classIn:           'fadeIn',
+	// 			classOut:          'fadeOut',
+	// 			classActive:       'animated',
+	// 			conditions:        function (event, link) {
+	// 				return link &&
+	// 					!/(\#|javascript:void\(0\)|callto:|tel:|mailto:|:\/\/)/.test(link) &&
+	// 					!event.currentTarget.hasAttribute('data-lightgallery') &&
+	// 					!event.currentTarget.hasAttribute('target');
+	// 			},
+	// 			onTransitionStart: function (options) {
+	// 				plugins.preloader.removeClass('loaded');
+	// 			},
+	// 			onReady:           function () {
+	// 				plugins.preloader.addClass('loaded');
+	// 				windowReady = true;
+	// 			}
+	// 		});
+	// 	}
 
-		// Counter
-		if (plugins.counter) {
-			for (let i = 0; i < plugins.counter.length; i++) {
-				let
-					node = plugins.counter[i],
-					counter = aCounter({
-						node: node,
-						duration: node.getAttribute('data-duration') || 1000
-					}),
-					scrollHandler = (function () {
-						if (Util.inViewport(this) && !this.classList.contains('animated-first')) {
-							this.counter.run();
-							this.classList.add('animated-first');
-						}
-					}).bind(node),
-					blurHandler = (function () {
-						this.counter.params.to = parseInt(this.textContent, 10);
-						this.counter.run();
-					}).bind(node);
+	// 	if (plugins.counter) {
+	// 		for (let i = 0; i < plugins.counter.length; i++) {
+	// 			let
+	// 				node = plugins.counter[i],
+	// 				counter = aCounter({
+	// 					node: node,
+	// 					duration: node.getAttribute('data-duration') || 1000
+	// 				}),
+	// 				scrollHandler = (function () {
+	// 					if (Util.inViewport(this) && !this.classList.contains('animated-first')) {
+	// 						this.counter.run();
+	// 						this.classList.add('animated-first');
+	// 					}
+	// 				}).bind(node),
+	// 				blurHandler = (function () {
+	// 					this.counter.params.to = parseInt(this.textContent, 10);
+	// 					this.counter.run();
+	// 				}).bind(node);
 
-				if (isNoviBuilder) {
-					node.counter.run();
-					node.addEventListener('blur', blurHandler);
-				} else {
-					scrollHandler();
-					window.addEventListener('scroll', scrollHandler);
-				}
-			}
-		}
+	// 			if (isNoviBuilder) {
+	// 				node.counter.run();
+	// 				node.addEventListener('blur', blurHandler);
+	// 			} else {
+	// 				scrollHandler();
+	// 				window.addEventListener('scroll', scrollHandler);
+	// 			}
+	// 		}
+	// 	}
 
-		// Progress Bar
-		if (plugins.progressLinear) {
-			for (let i = 0; i < plugins.progressLinear.length; i++) {
-				let
-					container = plugins.progressLinear[i],
-					bar = container.querySelector('.progress-linear-bar'),
-					duration = container.getAttribute('data-duration') || 1000,
-					counter = aCounter({
-						node: container.querySelector('.progress-linear-counter'),
-						duration,
-						onStart: function () {
-							this.custom.bar.style.width = this.params.to + '%';
-						}
-					});
-				bar.style.transitionDuration = duration / 1000 + 's';
-				counter.custom = {
-					container: container,
-					bar,
-					onScroll: (function () {
-						if ((Util.inViewport(this.custom.container) && !this.custom.container.classList.contains('animated')) || isNoviBuilder) {
-							this.run();
-							this.custom.container.classList.add('animated');
-						}
-					}).bind(counter),
-					onBlur: (function () {
-						this.params.to = parseInt(this.params.node.textContent, 10);
-						this.run();
-					}).bind(counter)
-				};
+		
+	// 	if (plugins.progressLinear) {
+	// 		for (let i = 0; i < plugins.progressLinear.length; i++) {
+	// 			let
+	// 				container = plugins.progressLinear[i],
+	// 				bar = container.querySelector('.progress-linear-bar'),
+	// 				duration = container.getAttribute('data-duration') || 1000,
+	// 				counter = aCounter({
+	// 					node: container.querySelector('.progress-linear-counter'),
+	// 					duration,
+	// 					onStart: function () {
+	// 						this.custom.bar.style.width = this.params.to + '%';
+	// 					}
+	// 				});
+	// 			bar.style.transitionDuration = duration / 1000 + 's';
+	// 			counter.custom = {
+	// 				container: container,
+	// 				bar,
+	// 				onScroll: (function () {
+	// 					if ((Util.inViewport(this.custom.container) && !this.custom.container.classList.contains('animated')) || isNoviBuilder) {
+	// 						this.run();
+	// 						this.custom.container.classList.add('animated');
+	// 					}
+	// 				}).bind(counter),
+	// 				onBlur: (function () {
+	// 					this.params.to = parseInt(this.params.node.textContent, 10);
+	// 					this.run();
+	// 				}).bind(counter)
+	// 			};
 
-				if (isNoviBuilder) {
-					counter.run();
-					counter.params.node.addEventListener('blur', counter.custom.onBlur);
-				} else {
-					counter.custom.onScroll();
-					document.addEventListener('scroll', counter.custom.onScroll);
-				}
-			}
-		}
+	// 			if (isNoviBuilder) {
+	// 				counter.run();
+	// 				counter.params.node.addEventListener('blur', counter.custom.onBlur);
+	// 			} else {
+	// 				counter.custom.onScroll();
+	// 				document.addEventListener('scroll', counter.custom.onScroll);
+	// 			}
+	// 		}
+	// 	}
 
-		// Progress Circle
-		if (plugins.progressCircle) {
-			for (let i = 0; i < plugins.progressCircle.length; i++) {
-				let
-					container = plugins.progressCircle[i],
-					counter = aCounter({
-						node: container.querySelector('.progress-circle-counter'),
-						duration: 500,
-						onUpdate: function (value) {
-							this.custom.bar.render(value * 3.6);
-						}
-					});
+		
+	// 	if (plugins.progressCircle) {
+	// 		for (let i = 0; i < plugins.progressCircle.length; i++) {
+	// 			let
+	// 				container = plugins.progressCircle[i],
+	// 				counter = aCounter({
+	// 					node: container.querySelector('.progress-circle-counter'),
+	// 					duration: 500,
+	// 					onUpdate: function (value) {
+	// 						this.custom.bar.render(value * 3.6);
+	// 					}
+	// 				});
 
-				counter.params.onComplete = counter.params.onUpdate;
+	// 			counter.params.onComplete = counter.params.onUpdate;
 
-				counter.custom = {
-					container: container,
-					bar: aProgressCircle({node: container.querySelector('.progress-circle-bar')}),
-					onScroll: (function () {
-						if (Util.inViewport(this.custom.container) && !this.custom.container.classList.contains('animated')) {
-							this.run();
-							this.custom.container.classList.add('animated');
-						}
-					}).bind(counter),
-					onBlur: (function () {
-						this.params.to = parseInt(this.params.node.textContent, 10);
-						this.run();
-					}).bind(counter)
-				};
+	// 			counter.custom = {
+	// 				container: container,
+	// 				bar: aProgressCircle({node: container.querySelector('.progress-circle-bar')}),
+	// 				onScroll: (function () {
+	// 					if (Util.inViewport(this.custom.container) && !this.custom.container.classList.contains('animated')) {
+	// 						this.run();
+	// 						this.custom.container.classList.add('animated');
+	// 					}
+	// 				}).bind(counter),
+	// 				onBlur: (function () {
+	// 					this.params.to = parseInt(this.params.node.textContent, 10);
+	// 					this.run();
+	// 				}).bind(counter)
+	// 			};
 
-				if (isNoviBuilder) {
-					counter.run();
-					counter.params.node.addEventListener('blur', counter.custom.onBlur);
-				} else {
-					counter.custom.onScroll();
-					window.addEventListener('scroll', counter.custom.onScroll);
-				}
-			}
-		}
+	// 			if (isNoviBuilder) {
+	// 				counter.run();
+	// 				counter.params.node.addEventListener('blur', counter.custom.onBlur);
+	// 			} else {
+	// 				counter.custom.onScroll();
+	// 				window.addEventListener('scroll', counter.custom.onScroll);
+	// 			}
+	// 		}
+	// 	}
 
-		// Isotope
-		if (plugins.isotope.length) {
-			for (var i = 0; i < plugins.isotope.length; i++) {
-				var
-					wrap = plugins.isotope[i],
-					filterHandler = function (event) {
-						event.preventDefault();
-						for (var n = 0; n < this.isoGroup.filters.length; n++) this.isoGroup.filters[n].classList.remove('active');
-						this.classList.add('active');
-						this.isoGroup.isotope.arrange({filter: this.getAttribute("data-isotope-filter") !== '*' ? '[data-filter*="' + this.getAttribute("data-isotope-filter") + '"]' : '*'});
-					},
-					resizeHandler = function () {
-						this.isoGroup.isotope.layout();
-					};
+		
+	// 	if (plugins.isotope.length) {
+	// 		for (var i = 0; i < plugins.isotope.length; i++) {
+	// 			var
+	// 				wrap = plugins.isotope[i],
+	// 				filterHandler = function (event) {
+	// 					event.preventDefault();
+	// 					for (var n = 0; n < this.isoGroup.filters.length; n++) this.isoGroup.filters[n].classList.remove('active');
+	// 					this.classList.add('active');
+	// 					this.isoGroup.isotope.arrange({filter: this.getAttribute("data-isotope-filter") !== '*' ? '[data-filter*="' + this.getAttribute("data-isotope-filter") + '"]' : '*'});
+	// 				},
+	// 				resizeHandler = function () {
+	// 					this.isoGroup.isotope.layout();
+	// 				};
 
-				wrap.isoGroup = {};
-				wrap.isoGroup.filters = wrap.querySelectorAll('[data-isotope-filter]');
-				wrap.isoGroup.node = wrap.querySelector('.isotope');
-				wrap.isoGroup.layout = wrap.isoGroup.node.getAttribute('data-isotope-layout') ? wrap.isoGroup.node.getAttribute('data-isotope-layout') : 'masonry';
-				wrap.isoGroup.isotope = new Isotope(wrap.isoGroup.node, {
-					itemSelector: '.isotope-item',
-					layoutMode: wrap.isoGroup.layout,
-					filter: '*',
-					masonry: {
-						columnWidth: (function () {
-							if (wrap.isoGroup.node.hasAttribute('data-column-class')) return wrap.isoGroup.node.getAttribute('data-column-class');
-							if (wrap.isoGroup.node.hasAttribute('data-column-width')) return parseFloat(wrap.isoGroup.node.getAttribute('data-column-width'));
-						}())
-					}
-				});
+	// 			wrap.isoGroup = {};
+	// 			wrap.isoGroup.filters = wrap.querySelectorAll('[data-isotope-filter]');
+	// 			wrap.isoGroup.node = wrap.querySelector('.isotope');
+	// 			wrap.isoGroup.layout = wrap.isoGroup.node.getAttribute('data-isotope-layout') ? wrap.isoGroup.node.getAttribute('data-isotope-layout') : 'masonry';
+	// 			wrap.isoGroup.isotope = new Isotope(wrap.isoGroup.node, {
+	// 				itemSelector: '.isotope-item',
+	// 				layoutMode: wrap.isoGroup.layout,
+	// 				filter: '*',
+	// 				masonry: {
+	// 					columnWidth: (function () {
+	// 						if (wrap.isoGroup.node.hasAttribute('data-column-class')) return wrap.isoGroup.node.getAttribute('data-column-class');
+	// 						if (wrap.isoGroup.node.hasAttribute('data-column-width')) return parseFloat(wrap.isoGroup.node.getAttribute('data-column-width'));
+	// 					}())
+	// 				}
+	// 			});
 
-				for (var n = 0; n < wrap.isoGroup.filters.length; n++) {
-					var filter = wrap.isoGroup.filters[n];
-					filter.isoGroup = wrap.isoGroup;
-					filter.addEventListener('click', filterHandler);
-				}
+	// 			for (var n = 0; n < wrap.isoGroup.filters.length; n++) {
+	// 				var filter = wrap.isoGroup.filters[n];
+	// 				filter.isoGroup = wrap.isoGroup;
+	// 				filter.addEventListener('click', filterHandler);
+	// 			}
 
-				window.addEventListener('resize', resizeHandler.bind(wrap));
-			}
-		}
+	// 			window.addEventListener('resize', resizeHandler.bind(wrap));
+	// 		}
+	// 	}
 
-		// Material Parallax
-		if (plugins.materialParallax.length) {
-			if (!isNoviBuilder && !isIE && !isMobile) {
-				plugins.materialParallax.parallax();
-			} else {
-				for (var i = 0; i < plugins.materialParallax.length; i++) {
-					var $parallax = $(plugins.materialParallax[i]);
+		
+	// 	if (plugins.materialParallax.length) {
+	// 		if (!isNoviBuilder && !isIE && !isMobile) {
+	// 			plugins.materialParallax.parallax();
+	// 		} else {
+	// 			for (var i = 0; i < plugins.materialParallax.length; i++) {
+	// 				var $parallax = $(plugins.materialParallax[i]);
 
-					$parallax.addClass('parallax-disabled');
-					$parallax.css({"background-image": 'url(' + $parallax.data("parallax-img") + ')'});
-				}
-			}
-		}
-	});
+	// 				$parallax.addClass('parallax-disabled');
+	// 				$parallax.css({"background-image": 'url(' + $parallax.data("parallax-img") + ')'});
+	// 			}
+	// 		}
+	// 	}
+	// });
 
 
 	$(function () {
