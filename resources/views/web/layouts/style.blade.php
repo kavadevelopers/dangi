@@ -1,4 +1,233 @@
 <style>
+    .counter {
+        font: 900 45px/45px "Ubuntu", Helvetica, Arial, sans-serif;
+        margin-bottom: 0;
+        color: #fff;
+    }
+    html .page .offset-top-5 {
+        margin-top: 5px;
+    }
+    .page .text-bismark {
+        color: #496a8a;
+    }
+    .fw-sbold {
+        font-weight: 600;
+    }
+    .section-relative {
+        position: relative;
+    }
+    .box-xs {
+        padding: 38px 20px;
+    }
+    .page .box-list-xs {
+        box-shadow: 0 5px 13px 0 rgba(0, 0, 0, 0.2);
+    }
+    @media (min-width: 768px) {
+        .page .box-list-xs {
+            max-width: 170px;
+        }
+    }
+    .bg-cello {
+        background: #1e3953;
+        fill: #1e3953;
+    }
+    .box {
+        box-shadow: 0 5px 23px 0 rgba(0, 0, 0, 0.3);
+        padding: 50px 30px;
+    }
+    .box-photo-frame .ratio {
+        padding-bottom: 66%;
+    }
+    .ratio {
+        position: relative;
+        width: 100%;
+    }
+    @media (min-width: 992px){
+        .box-photo-frame {
+            border-width: 14px;
+        }
+    }
+    .box-photo-frame {
+        display: inline-block;
+        border: 7px solid #fff;
+        box-shadow: 0 1px 15px 1px rgba(0, 0, 0, 0.1);
+        z-index: 10;
+        position: relative;
+    }
+    .quote-simple q {
+        font-size: 22px;
+        line-height: 1.27273;
+        font-weight: 700;
+        font-style: italic;
+        color: #25313d;
+    }
+    .page .text-dusty-gray {
+        color: #9b9b9b;
+    }
+    .quote-simple .quote-body {
+        padding-left: 75px;
+        position: relative;
+    }
+    .quote-simple .quote-body:before {
+        content: '';
+        position: absolute;
+        display: inline-block;
+        width: 50px;
+        height: 36px;
+        top: 10px;
+        left: 0;
+        opacity: 0.5;
+        background: url(themes/images/icon-quote.png) no-repeat top left;
+    }
+    blockquote {
+        font: inherit;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+    .unit + .unit {
+        margin-top: 30px;
+    }
+    h3 + .unit {
+        margin-top: 40px;
+    }
+    .cus-why-choose .icon{
+        font-size: 50px;
+        line-height: 1;
+        color: #ffcb19;
+    }
+    .bg-whisperapprox {
+        background: #F2F3F8;
+        fill: #F2F3F8;
+    }
+    .section-image-aside-img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 190%;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    .section-image-aside-right .section-image-aside-img {
+        left: -50%;
+    }
+    @media (min-width: 768px){
+        .section-image-aside-img {
+            width: 50vw;
+        }
+    }
+    @media (min-width: 768px){
+        .section-image-aside-right .section-image-aside-img {
+            left: 0;
+        }
+    }
+    @media (min-width: 768px){
+        .section-image-aside {
+            position: relative;
+        }
+    }
+    @media (min-width: 992px){
+        .section-bordered-inside {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .to-front {
+        position: relative;
+        z-index: 5;
+    }
+    @media (min-width: 992px){
+        .inset-lg-left-15 {
+            padding-left: 15px;
+        }
+    }
+
+    .unit-spacing-md.unit {
+        margin-bottom: -22px;
+        margin-left: -22px;
+    }
+
+    .unit-spacing-md.unit > * {
+        margin-bottom: 22px;
+        margin-left: 22px;
+    }
+
+    @media (min-width: 576px) {
+        .unit-spacing-md.unit {
+            margin-bottom: -22px;
+            margin-left: -22px;
+        }
+
+        .unit-spacing-md.unit > * {
+            margin-bottom: 22px;
+            margin-left: 22px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .unit-spacing-md.unit {
+            margin-bottom: -22px;
+            margin-left: -22px;
+        }
+
+        .unit-spacing-md.unit > * {
+            margin-bottom: 22px;
+            margin-left: 22px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .unit-spacing-md.unit {
+            margin-bottom: -22px;
+            margin-left: -22px;
+        }
+
+        .unit-spacing-md.unit > * {
+            margin-bottom: 22px;
+            margin-left: 22px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .unit-spacing-md.unit {
+            margin-bottom: -22px;
+            margin-left: -22px;
+        }
+
+        .unit-spacing-md.unit > * {
+            margin-bottom: 22px;
+            margin-left: 22px;
+        }
+    }
+
+    @media (min-width: 1600px) {
+        .unit-spacing-md.unit {
+            margin-bottom: -22px;
+            margin-left: -22px;
+        }
+
+        .unit-spacing-md.unit > * {
+            margin-bottom: 22px;
+            margin-left: 22px;
+        }
+    }
+
+    .unit-left, .unit-right {
+        flex: 0 0 auto;
+        max-width: 100%;
+    }
+    .unit > * {
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+    .unit-spacing-md.unit > * {
+        margin-bottom: 22px;
+        margin-left: 22px;
+    }
+    
+
+
     @media (max-width: 768px){
         .table-comparision{
             overflow: scroll;

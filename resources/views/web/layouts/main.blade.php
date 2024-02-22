@@ -123,8 +123,24 @@
                                                     </li>
                                                 </ul>
                                             </li>   
-                                            
-                                            <li class="rd-nav-item"><a class="rd-nav-link" href="{{ url('placement') }}">Placement</a></li>
+                                            <li class="rd-nav-item">
+                                                <a class="rd-nav-link" href="{{ url('placement') }}">Placement</a>
+                                                <ul class="rd-menu rd-navbar-dropdown">
+                                                    <li class="rd-dropdown-item">
+                                                        <a class="rd-dropdown-link" href="{{ url('placement#sub-ourservices') }}">Our Sectors</a>
+                                                    </li>
+                                                    <li class="rd-dropdown-item">
+                                                        <a class="rd-dropdown-link" href="{{ url('placement#sub-why-choose-us') }}">Why Choose Us</a>
+                                                    </li>
+                                                    <li class="rd-dropdown-item">
+                                                        <a class="rd-dropdown-link" href="{{ url('placement#sub-about') }}">About</a>
+                                                    </li>
+                                                    <li class="rd-dropdown-item">
+                                                        <a class="rd-dropdown-link" href="{{ url('placement#sub-how-we-operate') }}">Our Onboard Process</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            {{-- <li class="rd-nav-item"><a class="rd-nav-link" href="{{ url('placement') }}">Placement</a></li> --}}
                                             <li class="rd-nav-item"><a class="rd-nav-link" href="{{ url('training') }}">Training</a></li>
                                             <li class="rd-nav-item"><a class="rd-nav-link" href="{{ url('blog') }}">Blogs</a></li>
                                         </ul>
