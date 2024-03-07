@@ -1240,7 +1240,7 @@
             $('.child-nav ul li a').each(function () {
                 var currLink = $(this);
                 var refElement = $(currLink.attr("href"));
-                if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+                if (refElement.position().top <= (scrollPos + 150) && refElement.position().top + refElement.height() > scrollPos) {
                     $('.child-nav ul li a').removeClass("active");
                     currLink.addClass("active");
                 }
