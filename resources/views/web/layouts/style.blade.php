@@ -13,6 +13,7 @@
         font-size: 16px;
         line-height: 123%;
         color: #000;
+        text-align: justify;
     }
     .data_certification_value p {
         margin-bottom: 30px;

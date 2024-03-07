@@ -117,18 +117,53 @@
     </div>
 </section>
 
-<section class="section">
-    <div class="google-map-container">
-        <img src="{{ url('temp/courses_includes.png') }}" style="width:100%;"/>
+<section class="section section-66 section-md-90 section-xl-bottom-120 bg-pink">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12">
+                <div class="inset-md-right-15 inset-xl-right-0">
+                    <h3 class="text-center" style="margin-bottom: 50px;">Our Accounting Course Includes</h3>
+                </div>
+            </div>
+            
+            <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6">
+                <div class="data_certification_value_and_call_link">
+                    <div class="data_certification_value">
+                        <div class="data-certification">
+                            <ul class="list-unstyled p-0 m-0">
+                                <li>Fundamental of Accounting</li>
+                                <li>Learning and practical working with Tally ERP 9</li>
+                                <li>Understanding income tax and TDS</li>
+                                <li>Indirect tax (Goods & Service Tax)</li>
+                                <li>Professional tax, PF and ESI</li>
+                                <li>Banking</li>
+                                <li>Soft skills and personality development</li>
+                                <li>Auditing </li>
+                                <li>Company law</li>
+                                <li>Import & Export</li>
+                                <li>MIS reporting</li>
+                                <li>Overview of SAP</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6">
+                <img class="img-full" src="https://munimji.co.in/wp-content/uploads/2022/11/Certificate-Munimji.webp" />
+            </div>
+    
+        </div>
     </div>
 </section>
+
 <section class="section">
     <div class="google-map-container">
         <img src="{{ url('temp/oppochunities.png') }}" style="width:100%;"/>
     </div>
 </section>
 
-<section class="section-50 section-md-90" id="sub-whotakes">
+<section class="section-50 section-md-90 bg-pink" id="sub-whotakes">
     <div class="container text-center">
         <h3>Who can Take This Course</h3>
         <div class="row row-40 row-offset-3">
@@ -176,9 +211,75 @@
     </div>
 </section>
 
-<section class="section">
-    <div class="google-map-container">
-        <img src="{{ url('temp/learn.png') }}" style="width:100%;"/>
+<section class="section section-66 section-md-90 section-xl-bottom-120 bg-light-gray" >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12">
+                <div class="inset-md-right-15 inset-xl-right-0">
+                    <h3 class="text-center" style="margin-bottom: 50px;">What You Will Learn</h3>
+                </div>
+            </div>
+        </div>  
+        <div class="row">  
+            <div class="col-md-6 col-sm-12 col-lg-6 col-xl-6">
+                <div class="data_certification_value_and_call_link">
+                    <div class="data_certification_value">
+                        <ul class="list-unstyled p-0 m-0">
+                            <li>Maintaining books of accounts and journal diaries along with scrutinizing ledger, accounts reconciliation, finalizing accounts for different entities, and preparing accounting statements.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-lg-6 col-xl-6">
+                <div class="data_certification_value_and_call_link">
+                    <div class="data_certification_value">
+                        <ul class="list-unstyled p-0 m-0">
+                            <li>Using Tally ERP to create, update and delete accounts and data entries. Learning to maintain books of account in the software along with other features, such as order processing, bill entry, TDS entry, and more.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">  
+            <div class="col-md-6 col-sm-12 col-lg-6 col-xl-6">
+                <div class="data_certification_value_and_call_link">
+                    <div class="data_certification_value">
+                        <ul class="list-unstyled p-0 m-0">
+                            <li>Computation of total income and tax liability and how to perform tax audit. Practical accounting training of filing returns, calculating interest, and making an online payment on the government websites.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-lg-6 col-xl-6">
+                <div class="data_certification_value_and_call_link">
+                    <div class="data_certification_value">
+                        <ul class="list-unstyled p-0 m-0">
+                            <li>Understanding the core working of GST, such as registration, input tax credit, tax invoice, debit and credit note, payment of taxes and interest, levy of and exemption from tax, valuation rules, refund of taxes, valuation rules an e-way bill preparation.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">  
+            <div class="col-md-6 col-sm-12 col-lg-6 col-xl-6">
+                <div class="data_certification_value_and_call_link">
+                    <div class="data_certification_value">
+                        <ul class="list-unstyled p-0 m-0">
+                            <li>Registration of professional tax & shops. Calculating and e-filing of returns related to professional tax, maintaining records, and payroll processing.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-lg-6 col-xl-6">
+                <div class="data_certification_value_and_call_link">
+                    <div class="data_certification_value">
+                        <ul class="list-unstyled p-0 m-0">
+                            <li>Understanding fundamentals of banking and its facilities, developing personal skills and workplace etiquettes, learning different concepts of audits and overall understanding of the duties and responsibilities of a certified corporate accountant.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -248,8 +349,7 @@
     </div>
 </section>
 
-
-<section class="section section-66 section-md-90 section-xl-bottom-120" id="sub-certificate">
+<section class="section section-66 section-md-90 section-xl-bottom-120 bg-pink" id="sub-certificate">
     <div class="container">
         <div class="row">
 
@@ -295,7 +395,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="inset-xl-left-70 inset-xl-right-70">
-                    <h2><span class="sub-head-small">Our Verticals</span></h2>
+                    <h3><span class="sub-head-small">Our Verticals</span></h3>
                     <div class="row text-cello">
                         <div class="col-md-12">
                             <ul class="list-marked-dotted">
