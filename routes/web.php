@@ -103,19 +103,20 @@ Route::group(['middleware' => ['isMaintenance']],function(){
 
     //Route::get('{menu}', [MainController::class,'menu']);
     Route::get('global', [MainController::class,'global']);
-    Route::get('global/how-we-operate', [MainController::class,'howWeOperate']);
-    Route::get('global/it-and-data-security', [MainController::class,'itDataSecurity']);
-    Route::get('global/offshoring', [MainController::class,'offShoring']);
-    Route::get('global/services', [MainController::class,'globalServices']);
+    // Route::get('global/how-we-operate', [MainController::class,'howWeOperate']);
+    // Route::get('global/it-and-data-security', [MainController::class,'itDataSecurity']);
+    // Route::get('global/offshoring', [MainController::class,'offShoring']);
+    // Route::get('global/services', [MainController::class,'globalServices']);
 
-    Route::get('consultancy/business-setup', [MainController::class,'conBusinessSetup']);
-    Route::get('consultancy/tax-compliances', [MainController::class,'conTaxCompliances']);
-    Route::get('consultancy/finance-subsidy', [MainController::class,'conFinanceSub']);
-    Route::get('consultancy/virtual-accountant-cfo', [MainController::class,'conVirAcCFO']);
-    Route::get('consultancy/other-services', [MainController::class,'conOtherServices']);
+    // Route::get('consultancy/business-setup', [MainController::class,'conBusinessSetup']);
+    // Route::get('consultancy/tax-compliances', [MainController::class,'conTaxCompliances']);
+    // Route::get('consultancy/finance-subsidy', [MainController::class,'conFinanceSub']);
+    // Route::get('consultancy/virtual-accountant-cfo', [MainController::class,'conVirAcCFO']);
+    // Route::get('consultancy/other-services', [MainController::class,'conOtherServices']);
 
     Route::get('placement', [MainController::class,'placement']);
     Route::get('training', [MainController::class,'training']);
+    // Route::get('consultancy', [MainController::class,'consultancy']);
 
     Route::get('{menu}/{page}', [MainController::class,'page']);
 });

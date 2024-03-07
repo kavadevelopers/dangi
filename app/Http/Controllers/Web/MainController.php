@@ -137,6 +137,11 @@ class MainController extends Controller
 		return view('web.pages.training',$data);
     }
 
+    public function consultancy(){
+        $data['_title'] = 'Consultancy';
+		return view('web.pages.consultancy',$data);
+    }
+
     public function conBusinessSetup(){
         $data['_title'] = 'Business Setup';
 		return view('web.pages.con-business-setup',$data);

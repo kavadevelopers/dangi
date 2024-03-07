@@ -104,22 +104,25 @@
                                                 </ul>
                                             </li>
                                             <li class="rd-nav-item">
-                                                <a class="rd-nav-link" href="#">Consultancy</a>
+                                                <a class="rd-nav-link" href="{{ url('consultancy') }}">Consultancy</a>
                                                 <ul class="rd-menu rd-navbar-dropdown">
                                                     <li class="rd-dropdown-item">
                                                         <a class="rd-dropdown-link" href="{{ url('consultancy/business-setup') }}">Business Set Up</a>
                                                     </li>
                                                     <li class="rd-dropdown-item">
-                                                        <a class="rd-dropdown-link" href="{{ url('consultancy/tax-compliances') }}">Tax & Compliances</a>
+                                                        <a class="rd-dropdown-link" href="{{ url('consultancy/tax-compliances') }}">Tax</a>
                                                     </li>
                                                     <li class="rd-dropdown-item">
-                                                        <a class="rd-dropdown-link" href="{{ url('consultancy/finance-subsidy') }}">Finance & Subsidy</a>
+                                                        <a class="rd-dropdown-link" href="{{ url('consultancy/finance-subsidy') }}">Finance</a>
                                                     </li>
                                                     <li class="rd-dropdown-item">
-                                                        <a class="rd-dropdown-link" href="{{ url('consultancy/virtual-accountant-cfo') }}">Virtual Accountant & CFO</a>
+                                                        <a class="rd-dropdown-link" href="{{ url('consultancy/virtual-accountant-cfo') }}">Virtual CFO</a>
                                                     </li>
                                                     <li class="rd-dropdown-item">
                                                         <a class="rd-dropdown-link" href="{{ url('consultancy/other-services') }}">Other Services</a>
+                                                    </li>
+                                                    <li class="rd-dropdown-item">
+                                                        <a class="rd-dropdown-link" href="{{ url('consultancy/other-services') }}">About</a>
                                                     </li>
                                                 </ul>
                                             </li>   
