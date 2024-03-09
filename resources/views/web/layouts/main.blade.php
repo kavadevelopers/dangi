@@ -107,22 +107,22 @@
                                                 <a class="rd-nav-link" href="{{ url('consultancy') }}">Consultancy</a>
                                                 <ul class="rd-menu rd-navbar-dropdown">
                                                     <li class="rd-dropdown-item">
-                                                        <a class="rd-dropdown-link" href="{{ url('consultancy/business-setup') }}">Business Set Up</a>
+                                                        <a class="rd-dropdown-link" href="{{ url('consultancy#sub-business-setup') }}">Business Set Up</a>
                                                     </li>
                                                     <li class="rd-dropdown-item">
-                                                        <a class="rd-dropdown-link" href="{{ url('consultancy/tax-compliances') }}">Tax</a>
+                                                        <a class="rd-dropdown-link" href="{{ url('consultancy#sub-tax') }}">Tax</a>
                                                     </li>
                                                     <li class="rd-dropdown-item">
-                                                        <a class="rd-dropdown-link" href="{{ url('consultancy/finance-subsidy') }}">Finance</a>
+                                                        <a class="rd-dropdown-link" href="{{ url('consultancy#sub-finance') }}">Finance</a>
                                                     </li>
                                                     <li class="rd-dropdown-item">
-                                                        <a class="rd-dropdown-link" href="{{ url('consultancy/virtual-accountant-cfo') }}">Virtual CFO</a>
+                                                        <a class="rd-dropdown-link" href="{{ url('consultancy#sub-virtual-cfo') }}">Virtual CFO</a>
                                                     </li>
                                                     <li class="rd-dropdown-item">
-                                                        <a class="rd-dropdown-link" href="{{ url('consultancy/other-services') }}">Other Services</a>
+                                                        <a class="rd-dropdown-link" href="{{ url('consultancy#sub-other-services') }}">Other Services</a>
                                                     </li>
                                                     <li class="rd-dropdown-item">
-                                                        <a class="rd-dropdown-link" href="{{ url('consultancy/other-services') }}">About</a>
+                                                        <a class="rd-dropdown-link" href="{{ url('consultancy#sub-about') }}">About</a>
                                                     </li>
                                                 </ul>
                                             </li>   

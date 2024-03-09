@@ -1,4 +1,101 @@
 <style>
+    .ccard-block-bg h5{
+        font-size: 17px;
+    }
+    .ccard-block-bg{
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+    }
+
+    .bg-greenlight{
+        background-color: #ebfffa;
+    }
+    .bg-asset{
+        background-color: #ffcb19;
+    }
+    .color-asset{
+        color: #ffcb19;
+    }
+    .color-primary{
+        color: #58c4a7;
+    }
+    .bg-greenlight .data_certification_value li:before{
+        color: #58c4a7 !important;
+    }
+    .heading-with-icon {
+        display: table;
+        width: auto;
+    }
+    .heading-with-icon .icon {
+        display: table-cell;
+        vertical-align: middle;
+        float: none;
+    }
+    .heading-with-icon .txt{
+        display: table-cell;
+        vertical-align: middle;
+        line-height: normal;
+    }
+    .heading-with-icon .icon i{
+        border-width: 0px;
+        color: #fff;
+        box-sizing: content-box;
+        height: 34px;
+        width: 34px;
+        line-height: 34px;
+        border-radius: 50%;
+        font-size: 17px;
+        display: block;
+        float: none;
+        margin-right: 20px;
+        font-style: normal;
+    }
+    .ccard-body {
+        margin-top: 20px;
+    }
+    .ccard-body p{
+        color: #141617;
+        margin: 0;
+        margin-top: 15px;
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+    .top-small-title{
+        margin: 0;
+        text-align: center !important;
+        font-weight: bold;
+    }
+    .mix-title h3{
+        margin-top: 0;
+    }
+
+
+    .box-counter figure {
+        display: flex;
+        min-height: 60px;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-counter-white .box-header, .box-counter-white .counter {
+        color: #fff;
+    }
+    
+    .box-counter figure img {
+        width: 100%;
+        height: auto;
+        max-width: none;
+    }
+    .box-counter figure > img {
+        width: inherit;
+    }
+    .box-counter-white .box-header{
+        color: #fff !important;
+    }
+    figure {
+        margin: 0;
+    }
     #sub-whotakes .icon-box{
         max-width: 100%;
         width: 100%;
@@ -404,6 +501,9 @@
     }
     .bg-blue{
         background-color: #F0FBFF;
+    }
+    .color-blue{
+        color:#0085b6;
     }
     .left-right p{
         font-size: 16px !important;
