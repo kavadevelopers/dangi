@@ -116,7 +116,7 @@ Route::group(['middleware' => ['isMaintenance']],function(){
 
     Route::get('placement', [MainController::class,'placement']);
     Route::get('training', [MainController::class,'training']);
-    // Route::get('consultancy', [MainController::class,'consultancy']);
+    Route::get('consultancy', [MainController::class,'consultancy']);
 
     Route::get('{menu}/{page}', [MainController::class,'page']);
 });
