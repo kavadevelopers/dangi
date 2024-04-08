@@ -149,16 +149,16 @@
                                                 <a class="rd-nav-link" href="{{ url('training') }}">Training</a>
                                                 <ul class="rd-menu rd-navbar-dropdown">
                                                     <li class="rd-dropdown-item">
-                                                        <a class="rd-dropdown-link" href="{{ url('placement#sub-ourservices') }}">Courses</a>
+                                                        <a class="rd-dropdown-link" href="{{ url('training#sub-courses') }}">Courses</a>
                                                     </li>
                                                     <li class="rd-dropdown-item">
-                                                        <a class="rd-dropdown-link" href="{{ url('placement#sub-why-choose-us') }}">Topics</a>
+                                                        <a class="rd-dropdown-link" href="{{ url('training#sub-whotakes') }}">Topics</a>
                                                     </li>
                                                     <li class="rd-dropdown-item">
-                                                        <a class="rd-dropdown-link" href="{{ url('placement#sub-about') }}">Why choose us</a>
+                                                        <a class="rd-dropdown-link" href="{{ url('training#sub-about') }}">Why choose us</a>
                                                     </li>
                                                     <li class="rd-dropdown-item">
-                                                        <a class="rd-dropdown-link" href="{{ url('placement#sub-how-we-operate') }}">Certification</a>
+                                                        <a class="rd-dropdown-link" href="{{ url('training#sub-certificate') }}">Certification</a>
                                                     </li>
                                                 </ul>
                                             </li>

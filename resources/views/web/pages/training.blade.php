@@ -4,12 +4,36 @@
 
 <section class="swiper-container swiper-slider swiper-variant-1 bg-black" data-loop="false" data-autoplay="10000" data-simulate-touch="true">
     <div class="swiper-wrapper text-center">
-        <div class="swiper-slide" data-slide-bg="{{ url('themes/images/global-slide3.jpg') }}">
+        <div class="swiper-slide" data-slide-bg="{{ url('themes/images/traning-slider-1.png') }}">
             <div class="swiper-slide-caption">
                 <div class="container">
                     <div class="row justify-content-md-center">
                         <div class="col-md-11 col-lg-10 col-xl-9">
                             <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="0s">Welcome to Dangi Training<br>Your Gateway to a Successful Career in Accounting!</h2>
+                            <p class="text-bigger slider-text text-center" data-caption-animate="fadeInUp" data-caption-delay="100"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide" data-slide-bg="{{ url('themes/images/traning-slider-2.png') }}">
+            <div class="swiper-slide-caption">
+                <div class="container">
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-11 col-lg-10 col-xl-9">
+                            <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="0s"></h2>
+                            <p class="text-bigger slider-text text-center" data-caption-animate="fadeInUp" data-caption-delay="100"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-slide" data-slide-bg="{{ url('themes/images/traning-slider-3.png') }}">
+            <div class="swiper-slide-caption">
+                <div class="container">
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-11 col-lg-10 col-xl-9">
+                            <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="0s"></h2>
                             <p class="text-bigger slider-text text-center" data-caption-animate="fadeInUp" data-caption-delay="100"></p>
                         </div>
                     </div>
@@ -39,7 +63,7 @@
                             <a class="nav-link active" aria-current="page" href="#sub-courses"><i class="bi bi-house-fill me-2"></i>Courses</a>
                         </li>
                         <li class="nav-item rounded">
-                            <a class="nav-link" href="#sub-why-choose-us"><i class="bi bi-people-fill me-2"></i>Topics</a>
+                            <a class="nav-link" href="#sub-whotakes"><i class="bi bi-people-fill me-2"></i>Topics</a>
                         </li>
                         <li class="nav-item rounded">
                             <a class="nav-link" href="#sub-why-choose-us"><i class="bi bi-telephone-fill me-2"></i>Why choose us</a>
@@ -150,7 +174,7 @@
                 </div>
             </div>
             <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6">
-                <img class="img-full" src="https://munimji.co.in/wp-content/uploads/2022/11/Certificate-Munimji.webp" />
+                <img class="img-full" src="themes/images/Our-Accounting-Course-Includes.png" />
             </div>
     
         </div>
@@ -170,7 +194,7 @@
             <div class="col-md-6 col-lg-3 height-fill wow fadeInUp" data-wow-delay="0s">
                 <article class="icon-box">
                     <div class="box-top">
-                        <div class="box-icon"><span class="icon icon-primary icon-lg-bigger fa fa-briefcase"></span></div>
+                        <div class="box-icon"><img class="icon img-icon" src="themes/images/icons/entrepreneur.png" /></div>
                         <div class="box-header">
                             <h5><a href="#">Entrepreneurs</a></h5>
                         </div>
@@ -180,7 +204,7 @@
             <div class="col-md-6 col-lg-3 height-fill wow fadeInUp" data-wow-delay="0s">
                 <article class="icon-box">
                     <div class="box-top">
-                        <div class="box-icon"><span class="icon icon-primary icon-lg-bigger material-icons-verified_user"></span></div>
+                        <div class="box-icon"><img class="icon img-icon" src="themes/images/icons/businessman.png" /></div>
                         <div class="box-header">
                             <h5><a href="#">Working Professional</a></h5>
                         </div>
@@ -190,7 +214,7 @@
             <div class="col-md-6 col-lg-3 height-fill wow fadeInUp" data-wow-delay=".1s">
                 <article class="icon-box">
                     <div class="box-top">
-                        <div class="box-icon"><span class="icon icon-primary icon-lg-bigger fa-laptop"></span></div>
+                        <div class="box-icon"><img class="icon img-icon" src="themes/images/icons/consultation.png" /></div>
                         <div class="box-header">
                             <h5><a href="#">Freelancer/Consultant</a></h5>
                         </div>
@@ -200,7 +224,7 @@
             <div class="col-md-6 col-lg-3 height-fill wow fadeInUp" data-wow-delay=".2s">
                 <article class="icon-box">
                     <div class="box-top">
-                        <div class="box-icon"><span class="icon icon-primary icon-lg-bigger material-icons-supervisor_account"></span></div>
+                        <div class="box-icon"><img class="icon img-icon" src="themes/images/icons/graduated.png" /></div>
                         <div class="box-header">
                             <h5><a href="#">Students</a></h5>
                         </div>
@@ -290,7 +314,7 @@
                 <div class="inset-right-30">
                     <div class="box-photo-frame d-block wow fadeIn" data-wow-delay="0s">
                         <div class="ratio">
-                            <iframe class="ratio-item" src="//www.youtube.com/embed/rpOwTspdwkI" allowfullscreen></iframe>
+                            <img class="ratio-item" src="themes/images/Why-Choose-Us-training.png" />
                         </div>
                     </div>
                     <div class="row wow fadeInUp" data-wow-delay=".1s">
@@ -377,7 +401,7 @@
                 </div>
             </div>
             <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6">
-                <img class="img-full" src="https://munimji.co.in/wp-content/uploads/2022/11/Certificate-Munimji.webp" />
+                <img class="img-full" src="themes/images/training-certificate.jpeg" />
             </div>
     
         </div>
@@ -389,8 +413,8 @@
         <div class="row align-items-lg-center">
             <div class="col-lg-6">
                 <div class="video-wrap">
-                    <figure><img class="img-responsive" src="themes/images/home-04-571x378.jpg" width="571" height="378" alt=""></figure>
-                    <a class="link-circle link-white" data-lightbox="iframe" href="https://www.youtube.com/watch?v=1UWpbtUupQQ"><span class="icon icon-xl fl-36-slim-icons-play90"></span></a>
+                    <figure><img class="img-responsive" src="themes/images/traning-Our-Verticals.png" width="571" height="378" alt=""></figure>
+                    {{-- <a class="link-circle link-white" data-lightbox="iframe" href="https://www.youtube.com/watch?v=1UWpbtUupQQ"><span class="icon icon-xl fl-36-slim-icons-play90"></span></a> --}}
                 </div>
             </div>
             <div class="col-lg-6">
@@ -536,9 +560,21 @@
     </div>
 </section>
 
-<section class="section">
-    <div class="google-map-container">
-        <img src="{{ url('temp/companies.png') }}" style="width:100%;"/>
+<section class="section section-66 section-md-90 section-xl-bottom-120 bg-whisper-1">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12">
+                <div class="inset-md-right-15 inset-xl-right-0">
+                    <h3 class="text-center" style="margin-bottom: 50px;">Dangi's Students in Companies</h3>
+                </div>
+            </div>
+            
+            <div class="col-md-12 col-sm-12">
+                <img class="img-full" src="themes/images/companies-logo.jpg" />
+            </div>
+    
+        </div>
     </div>
 </section>
 

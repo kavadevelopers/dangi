@@ -1,4 +1,7 @@
 <style>
+    .img-icon{
+        max-width: 150px;
+    }
     .ccard-block-bg h5{
         font-size: 17px;
     }

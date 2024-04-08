@@ -4,7 +4,7 @@
 
 <section class="swiper-container swiper-slider swiper-variant-1 bg-black" data-loop="false" data-autoplay="10000" data-simulate-touch="true">
     <div class="swiper-wrapper text-center">
-        <div class="swiper-slide" data-slide-bg="{{ url('themes/images/global-slide3.jpg') }}">
+        <div class="swiper-slide" data-slide-bg="{{ url('themes/images/placement-slider-2.png') }}">
             <div class="swiper-slide-caption">
                 <div class="container">
                     <div class="row justify-content-md-center">
@@ -16,7 +16,7 @@
                 </div>
             </div>
         </div>
-        <div class="swiper-slide" data-slide-bg="{{ url('themes/images/global-slide1.jpg') }}">
+        {{-- <div class="swiper-slide" data-slide-bg="{{ url('themes/images/global-slide1.jpg') }}">
             <div class="swiper-slide-caption">
                 <div class="container">
                     <div class="row justify-content-md-center">
@@ -27,7 +27,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
     <div class="swiper-scrollbar"></div>
     <div class="swiper-nav-wrap">
@@ -122,7 +122,7 @@
                 <div class="inset-right-30">
                     <div class="box-photo-frame d-block wow fadeIn" data-wow-delay="0s">
                         <div class="ratio">
-                            <iframe class="ratio-item" src="//www.youtube.com/embed/rpOwTspdwkI" allowfullscreen></iframe>
+                            <img class="ratio-item" src="themes/images/Why-Choose-Us-placement.png" />
                         </div>
                     </div>
                     <div class="row wow fadeInUp" data-wow-delay=".1s">
@@ -176,7 +176,7 @@
     </div>
 </section>
 
-<section class="section-75 section-bottom-60 section-md-100 bg-default bg-image" style="background-image: url(themes/images/home-6.png);" id="sub-about">
+<section class="section-75 section-bottom-60 section-md-100 bg-default bg-image" style="background-image: url(themes/images/placement-about.png);" id="sub-about">
     <div class="container">
         <div class="row row-40 g-0 justify-content-center justify-content-md-end align-items-center">
             <div class="col-sm-10 col-md-7 col-lg-6 col-xl-5" style="max-width:430px;">
