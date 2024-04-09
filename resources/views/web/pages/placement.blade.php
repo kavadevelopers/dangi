@@ -432,6 +432,24 @@
     </div>
 </section>
 
+<section class="section section-66 section-md-90 section-xl-bottom-120 bg-blue">
+    <div class="container">
+        <div class="row row-40 justify-content-lg-between">
+            
+            <div class="col-md-12 col-xl-12 text-secondary">
+                <div class="inset-md-right-15 inset-xl-right-0">
+                    <h3 class="text-center">Locations we operate</h3>
+                </div>
+            </div>
+
+            <div class="col-md-12 timeline-new">
+                <img src="themes/images/map-01-01.jpg" />
+            </div>
+
+        </div>
+    </div>
+</section>  
+
 <section class="section section-60 section-md-top-90 section-md-bottom-100">
     <div class="container">
         <div class="row row-50 justify-content-md-between">
