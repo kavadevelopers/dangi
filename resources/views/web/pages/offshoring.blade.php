@@ -37,7 +37,7 @@
                     <br>
                     <h4>Transparent Offshoring</h4>
                     <h5 class="text-secondary"><i>Empowering Partnerships, Unveiling Costs</i></h5>
-                    <p>Welcome to a new era of offshoring with our Transparent Offshoring model. We believe in complete openness, ensuring you have a clear understanding of every aspect of your extended team. In this model, we not only place candidates according to your needs but also reveal their salaries to you. We transparently charge for candidate placement, infrastructure, employee responsibilities, and benefits. Whether you prefer a per-hour or weekly billing, our pricing model is straightforward, combining the employee's salary with our fees.</p>
+                    <p>Welcome to a new era of offshoring with our Transparent Offshoring model. We believe in complete openness, ensuring you have a clear understanding of every aspect of your extended team. In this model, we not only place candidates according to your needs but also reveal their salaries to you. We transparently charge for candidate recruitment, infrastructure, employee responsibilities, and benefits. Whether you prefer a per-hour or weekly billing, our pricing model is straightforward, combining the employee's salary with our fees.</p>
                 </div>
             </div>
             <div class="col-md-6 col-xl-6 text-secondary">
@@ -63,7 +63,7 @@
                 </div>
                 <div class="inset-md-right-15 inset-xl-right-0">
                     <p><strong>Comprehensive Fee Structure</strong></p>
-                    <p style="margin-top: 0;">Our fees encompass candidate placement, infrastructure, employee responsibilities, and benefits. This eliminates hidden costs and provides a clear understanding of the overall expenses.</p>
+                    <p style="margin-top: 0;">Our fees encompass candidate recruitment, infrastructure, employee responsibilities, and benefits. This eliminates hidden costs and provides a clear understanding of the overall expenses.</p>
                 </div>
                 <div class="inset-md-right-15 inset-xl-right-0">
                     <p><strong>Flexible Billing Options</strong></p>
@@ -79,7 +79,7 @@
                 </div>
                 <div class="inset-md-right-15 inset-xl-right-0">
                     <p><strong>Shared Responsibilities</strong></p>
-                    <p style="margin-top: 0;">Benefit from a true partnership where responsibilities are shared. We take care of candidate placement, infrastructure, and employee well-being, providing you the peace of mind to concentrate on your business priorities.</p>
+                    <p style="margin-top: 0;">Benefit from a true partnership where responsibilities are shared. We take care of candidate recruitment, infrastructure, and employee well-being, providing you the peace of mind to concentrate on your business priorities.</p>
                 </div>
                 <div class="inset-md-right-15 inset-xl-right-0">
                     <p><strong>True Partnership</strong></p>
@@ -138,7 +138,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th>Candidate Placement</th>
+                            <th>Candidate Recruitment</th>
                             <td>Clients actively participate in the selection process and approve candidates according to their needs.</td>
                             <td>Clients actively participate in the selection process and approve candidates according to their needs.<br>AND<br>Acquire right talent according to the Budget with the informed Salary Structure of the Candidate by which Client can maximizes the value of the investment.</td>
                         </tr>

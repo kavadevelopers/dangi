@@ -1,4 +1,58 @@
 <style>
+    /* Transparent Header menu */
+    .rd-navbar .link-secondary{
+        color: #fff !important;
+    }
+    .rd-navbar-static .rd-navbar-nav > li > a{
+        color: #fff;
+    }
+    .rd-navbar--is-stuck li  a{
+        color: #00030a !important;
+    }
+    .rd-navbar-wrap{
+        position: absolute;
+        width: 100%;
+    }
+    .rd-navbar{
+        background: transparent;
+    }
+    @media (min-width: 1200px) {
+        .swiper-variant-1 .swiper-slide-caption {
+            padding: 200px 0 155px;
+        }
+    }
+    /* Transparent Header menu */
+
+
+
+
+    .mb-10{
+        margin-bottom: 10px;
+    }
+    .child-nav .dropdown-menu .dropdown-item.active{
+        background-color: #ffcb19;
+        color: #141617;
+    }
+    .child-nav .dropdown-menu {
+        color: #00030a;
+        font-size: 16px;
+        margin: 0 10px;
+        padding-top: 10px !important;
+    }
+    .section-xl-bottom-120 {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    p + p {
+        margin-top: 10px;
+    }
+    .pd-tb30{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .post-boxed{
+        box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.1);
+    }
     .img-icon{
         max-width: 150px;
     }
@@ -63,6 +117,10 @@
         margin-top: 15px;
         font-size: 16px;
         line-height: 1.2;
+    }
+
+    .top-small-title{
+        font-size: 35px;
     }
 
     .top-small-title{
@@ -820,7 +878,7 @@
         border-radius: 3px;
         padding: 20px 20px 15px;
         box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.1);
-        background: #fff;
+        background: #f7f7f7;
     }
     .timeline-new .timeline .timeline-container .timeline-body:before {
         content: "";
@@ -1104,12 +1162,12 @@
         padding-bottom: 17px;
     }
     .table-cus thead tr th{
-        background: #fbf9f7!important;
+        background: #f7f7f7!important;
         color:#ffcb19 !important;
     }
     .table-cus tbody tr th:first-child {
         color: #ffcb19 !important;
-        background: #fbf9f7!important;
+        background: #f7f7f7!important;
         font-weight: 600;
         font-size: 18px;
     }
@@ -1147,7 +1205,7 @@
         display: list-item;
     }
     .it-data-section {
-        padding: 130px 0;
+        padding: 50px 0;
         overflow: hidden;
     }
     .font-weight-600 {
@@ -1218,6 +1276,9 @@
     }
     .bg-pink{
         background: #fefbf7;
+    }
+    .bg-white{
+        background: #fff;
     }
 
     .how-we-operate .timeline {

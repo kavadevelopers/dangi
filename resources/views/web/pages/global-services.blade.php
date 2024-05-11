@@ -18,7 +18,7 @@
             <div class="col-md-12 col-xl-12 text-secondary">
                 <div class="inset-md-right-15 inset-xl-right-0">
                     <h4 class="text-center">Build Your Offshore Team</h4>
-                    <h5 class="text-secondary text-center">With the Best Offshore Talent Vetted by Our In house Placement Experts</h5>
+                    <h5 class="text-secondary text-center">With the Best Offshore Talent Vetted by Our In house Recruitment Experts</h5>
                 </div>
             </div>
             <div class="col-md-12 col-xl-12 text-secondary">

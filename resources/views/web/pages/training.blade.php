@@ -181,11 +181,28 @@
     </div>
 </section>
 
-<section class="section">
+<section class="section section-66 section-md-90 section-xl-bottom-120 bg-whisperapprox ">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12">
+                <div class="inset-md-right-15 inset-xl-right-0">
+                    <h3 class="text-center" style="margin-bottom: 50px;">Career Opportunities</h3>
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-lg-6 col-xl-12">
+                <img class="img-full" src="themes/images/traning-career-opportu.jpg" />
+            </div>
+    
+        </div>
+    </div>
+</section>
+
+{{-- <section class="section">
     <div class="google-map-container">
         <img src="{{ url('temp/oppochunities.png') }}" style="width:100%;"/>
     </div>
-</section>
+</section> --}}
 
 <section class="section-50 section-md-90 bg-pink" id="sub-whotakes">
     <div class="container text-center">
@@ -349,15 +366,15 @@
                             <div class="unit unit-spacing-md flex-sm-row wow fadeInRight" data-wow-delay=".2s">
                                 <div class="unit-left"><span class="icon fa fa-briefcase"></span></div>
                                 <div class="unit-body">
-                                    <h6>Job Placement Services </h6>
-                                    <p class="text-white-05">As a part of our commitment to your success, we offer HR placement services, ensuring you find the right job with the right salary.</p>
+                                    <h6>Job Recruitment Services </h6>
+                                    <p class="text-white-05">As a part of our commitment to your success, we offer HR recruitment services, ensuring you find the right job with the right salary.</p>
                                 </div>
                             </div>
                             <div class="unit unit-spacing-md flex-sm-row wow fadeInRight" data-wow-delay=".3s">
                                 <div class="unit-left"><span class="icon fa fa-globe"></span></div>
                                 <div class="unit-body">
                                     <h6>Global Opportunities </h6>
-                                    <p class="text-white-05">Explore offshore accountant services with job placements in countries like the UK, US, Australia, Canada, and more.</p>
+                                    <p class="text-white-05">Explore offshore accountant services with job recruitments in countries like the UK, US, Australia, Canada, and more.</p>
                                 </div>
                             </div>
                             <div class="unit unit-spacing-md flex-sm-row wow fadeInRight" data-wow-delay=".3s">
@@ -401,7 +418,7 @@
                 </div>
             </div>
             <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6">
-                <img class="img-full" src="themes/images/training-certificate.jpeg" />
+                <img class="img-full" style="box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.1);" src="themes/images/training-certificate.jpeg" />
             </div>
     
         </div>
@@ -423,9 +440,9 @@
                     <div class="row text-cello">
                         <div class="col-md-12">
                             <ul class="list-marked-dotted">
-                                <li><strong>Accounting and Taxation Consultancy : </strong>Rely on our expertise for sound financial advice and efficient tax planning.</li>
-                                <li><strong>HR Placement Services : </strong>We connect skilled accountants with the right employers, fostering a mutually beneficial partnership.</li>
-                                <li><strong>Offshore Accountant Services : </strong>Join our elite team providing accounting services to clients around the globe.</li>
+                                <li class="mb-10"><strong>Accounting and Taxation Consultancy : </strong>Rely on our expertise for sound financial advice and efficient tax planning.</li>
+                                <li class="mb-10"><strong>HR Recruitment Services : </strong>We connect skilled accountants with the right employers, fostering a mutually beneficial partnership.</li>
+                                <li class="mb-10"><strong>Offshore Accountant Services : </strong>Join our elite team providing accounting services to clients around the globe.</li>
                             </ul>
                         </div>
                     </div>

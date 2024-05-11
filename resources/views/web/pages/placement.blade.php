@@ -131,7 +131,7 @@
                             <blockquote class="quote-simple inset-lg-left-15">
                                 Why Choose Us
                                 <div class="quote-body">
-                                    <q>Transforming Visions into Placements - Dangi Recruitment, Your Partner in Talent Excellence.</q>
+                                    <q>Transforming Visions into Recruitments - Dangi Recruitment, Your Partner in Talent Excellence.</q>
                                 </div>
                             </blockquote>
                             <p class="text-dusty-gray"></p>
@@ -165,7 +165,7 @@
                                 <div class="unit-left"><span class="icon fa fa-check-circle"></span></div>
                                 <div class="unit-body">
                                     <h6>Expertise in Accountancy</h6>
-                                    <p class="text-white-05">Leveraging our accounting background for precision placements.</p>
+                                    <p class="text-white-05">Leveraging our accounting background for precision recruitments.</p>
                                 </div>
                             </div>
                         </div>
@@ -182,7 +182,7 @@
             <div class="col-sm-10 col-md-7 col-lg-6 col-xl-5" style="max-width:430px;">
                 <div class="box bg-cello section-relative">
                     <h3 class="text-white">About Us</h3>
-                    <p class="text-white">At Dangi Placement, we stand out in the competitive world of placement services. With a background in accountancy, consultancy, and global offshoring, we understand the unique needs of both employers and candidates. Our mission is to provide filtered, knowledgeable accountants and professionals for the right roles, ensuring a perfect match that fosters growth.</p>
+                    <p class="text-white">At Dangi Recruitment, we stand out in the competitive world of recruitment services. With a background in accountancy, consultancy, and global offshoring, we understand the unique needs of both employers and candidates. Our mission is to provide filtered, knowledgeable accountants and professionals for the right roles, ensuring a perfect match that fosters growth.</p>
                     <ul class="list-marked">
                         <li class="text-white">Beyond Recruitments, Building Careers </li>
                         <li class="text-white">Dangi Recruitment, Where Your Success Begins.</li>
@@ -298,7 +298,7 @@
 
             <div class="col-md-12 col-xl-12 text-secondary">
                 <div class="inset-md-right-15 inset-xl-right-0">
-                    <h6 class="text-center">Seamless Onboarding – Your Success Journey Begins with Dangi Placement.</h6>
+                    <h6 class="text-center">Seamless Onboarding – Your Success Journey Begins with Dangi Recruitment.</h6>
                 </div>
             </div>
 

@@ -11,7 +11,7 @@
                         <div class="col-md-11 col-lg-10 col-xl-9">
                             <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="0s">Welcome to Dangi</h2>
                             <h3 data-caption-animate="fadeInUp" data-caption-delay="0s">Gateway to Excellence in Accounting and Finance</h3>
-                            <p class="text-bigger slider-text text-center" data-caption-animate="fadeInUp" data-caption-delay="100">Feel the power of global expertise, consultancy finesse, training excellence, and placement perfection – all under one roof. Join Dangi for a journey that transforms careers and elevates businesses in the field of Accounting and Finance.</p>
+                            <p class="text-bigger slider-text text-center" data-caption-animate="fadeInUp" data-caption-delay="100">Feel the power of global expertise, consultancy finesse, training excellence, and recruitment perfection – all under one roof. Join Dangi for a journey that transforms careers and elevates businesses in the field of Accounting and Finance.</p>
                         </div>
                     </div>
                 </div>
@@ -77,14 +77,14 @@
                 <div class="box-top">
                     <div class="box-icon"><span class="fa fa-users"></span></div>
                     <div class="box-header">
-                        <h3><a href="{{ url('placement') }}">Dangi Placement</a></h3>
+                        <h3><a href="{{ url('recruitment') }}">Dangi Recruitment</a></h3>
                         <h5>Connecting Talent with Opportunities</h5>
                     </div>
                 </div>
                 <div class="box-body">
                     <p class="text-black font-16px text-center">Dangi specializes in placing top-notch accountants. We filter and facilitate candidates, ensuring they find the right position while providing companies with skilled professionals.</p>
                 </div>
-                <a class="btn btn-icon-only btn-icon-single btn-icon-default" href="{{ url('placement') }}"><span class="icon icon-sm material-icons-arrow_forward"></span></a>
+                <a class="btn btn-icon-only btn-icon-single btn-icon-default" href="{{ url('recruitment') }}"><span class="icon icon-sm material-icons-arrow_forward"></span></a>
             </article>
         </div>
     </div>
@@ -161,21 +161,21 @@
             <div class="col-sm-6 col-md-3">
                 <div class="box-counter">
                     <span class="novi-icon icon icon-md icon-primary material-icons-mood"></span>
-                    <div class="text-large counter">2100</div>
+                    <div class="text-large counter">3000+</div>
                     <h5 class="box-header">Trusted Clients</h5>
                 </div>
             </div>
             <div class="col-sm-6 col-md-3">
                 <div class="box-counter">
                     <span class="novi-icon icon icon-md icon-primary material-icons-content_copy"></span>
-                    <div class="text-large counter counter">110</div>
+                    <div class="text-large counter counter">110+</div>
                     <h5 class="box-header">Types of Services</h5>
                 </div>
             </div>
             <div class="col-sm-6 col-md-3">
                 <div class="box-counter">
                     <span class="novi-icon icon icon-md icon-primary material-icons-access_time"></span>
-                    <div class="text-large counter">15</div>
+                    <div class="text-large counter">15+</div>
                     <h5 class="box-header">Years of Experience</h5>
                 </div>
             </div>

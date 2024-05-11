@@ -1,8 +1,29 @@
 @extends('web.layouts.main')
 
 @section('content')
-
-<section class="container-fluid bg-yellow left-right" id="sub-it-data-security">
+<section class="swiper-container swiper-slider swiper-variant-1 bg-black" data-loop="false" data-autoplay="4000" data-simulate-touch="true">
+    <div class="swiper-wrapper text-center">
+        <div class="swiper-slide" data-slide-bg="{{ url('themes/images/aboutus.jpg') }}">
+            <div class="swiper-slide-caption">
+                <div class="container">
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-11 col-lg-10 col-xl-9">
+                            <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="0s">A Little Bit About Us</h2>
+                            {{-- <h3 data-caption-animate="fadeInUp" data-caption-delay="0s">Gateway to Excellence in Accounting and Finance</h3> --}}
+                            <p class="text-bigger slider-text text-center" data-caption-animate="fadeInUp" data-caption-delay="100">Dangi is more than a company; it's a commitment to excellence in the financial domain. Established with a passion for fostering financial success, Dangi has emerged as a leading player in the realms of accounting, taxation, and finance. With a focus on four core verticals, we bring a holistic approach to addressing the diverse needs of our clients and partners.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-scrollbar"></div>
+    <div class="swiper-nav-wrap">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</section>
+{{-- <section class="container-fluid bg-yellow left-right" id="sub-it-data-security">
     <div class="row">
         <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6 col-no-padding">
             <img class="img-full" src="{{ url('themes/images/about-bottom.png') }}" />
@@ -20,7 +41,7 @@
         </div>
         
     </div>
-</section>
+</section> --}}
 
 
 <section class="section section-60 section-md-90 bg-image bg-image-1 novi-background" style="">
@@ -46,7 +67,7 @@
                                     <div class="unit-left"><span class="novi-icon icon icon-primary icon-md fa fa-gg-circle"></span></div>
                                     <div class="unit-body">
                                         <h3><a href="#">Our Mission</a></h3>
-                                        <p>Dangi's mission is to redefine the standards of excellence in the fields of accounting, taxation, and finance. We are dedicated to providing exceptional services across our four key verticals – Global, Consultancy, Training, and Placement. Our mission is to:</p>
+                                        <p>Dangi's mission is to redefine the standards of excellence in the fields of accounting, taxation, and finance. We are dedicated to providing exceptional services across our four key verticals – Global, Consultancy, Training, and Recruitment. Our mission is to:</p>
                                         <div class="about-mission-child-item">
                                             <h5>Dangi Global</h5>
                                             <p class="font-16px">Facilitate seamless access to offshore talent, enabling businesses worldwide to thrive by leveraging our expertise in accounting, taxation, and finance.</p>
@@ -60,8 +81,8 @@
                                             <p class="font-16px">Shape the future of the accounting profession by offering cutting-edge training programs. Our mission is to equip aspiring accountants with the skills and knowledge essential for success in the dynamic financial landscape.</p>
                                         </div>
                                         <div class="about-mission-child-item">
-                                            <h5>Dangi Placement</h5>
-                                            <p class="font-16px">Bridge the gap between businesses seeking top-notch accountants and talented professionals aiming for the perfect career placement. Our mission is to be the trusted matchmaker in the world of finance.</p>
+                                            <h5>Dangi Recruitment</h5>
+                                            <p class="font-16px">Bridge the gap between businesses seeking top-notch accountants and talented professionals aiming for the perfect career recruitment. Our mission is to be the trusted matchmaker in the world of finance.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -140,7 +161,7 @@
 </section>
 
 
-<section class="section section-66 section-md-90 section-xl-bottom-120 bg-pink" id="sub-how-we-operate">
+<section class="section section-66 section-md-90 section-xl-bottom-120 bg-white" id="sub-how-we-operate">
     <div class="container">
         <div class="row row-40 justify-content-lg-between">
             
@@ -191,9 +212,9 @@
                             <span class="fa fa-users"></span>
                         </div>
                         <div class="timeline-body">
-                            <h4 class="timeline-title">Placement Vertical - Connecting Talent with Opportunities</h4>
+                            <h4 class="timeline-title">Recruitment Vertical - Connecting Talent with Opportunities</h4>
                             <div>
-                                <p class="font-16px">In the Placement Vertical, we play a crucial role as the matchmaker between businesses in need of skilled accountants and professionals seeking the right career placement. Our meticulous filtering process ensures that businesses find the perfect fit, and candidates discover opportunities aligned with their skills and aspirations.</p>
+                                <p class="font-16px">In the Recruitment Vertical, we play a crucial role as the matchmaker between businesses in need of skilled accountants and professionals seeking the right career recruitment. Our meticulous filtering process ensures that businesses find the perfect fit, and candidates discover opportunities aligned with their skills and aspirations.</p>
                             </div>
                         </div>
                     </div>

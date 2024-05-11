@@ -2,7 +2,30 @@
 
 @section('content')
 
-<section class="container-fluid bg-light-gray left-right" style="padding: 150px;">
+<section class="swiper-container swiper-slider swiper-variant-1 bg-black" data-loop="false" data-autoplay="4000" data-simulate-touch="true">
+    <div class="swiper-wrapper text-center">
+        <div class="swiper-slide" data-slide-bg="{{ url('themes/images/consultancy-slider.jpg') }}">
+            <div class="swiper-slide-caption">
+                <div class="container">
+                    <div class="row justify-content-md-center">
+                        <div class="col-md-11 col-lg-10 col-xl-9">
+                            <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="0s">MOST TRUSTED CONSULTANCY COMPANY</h2>
+                            <h3 data-caption-animate="fadeInUp" data-caption-delay="0s">ALL BUSINESS SERVICES AT ONE PLACE</h3>
+                            <p class="text-bigger slider-text text-center" data-caption-animate="fadeInUp" data-caption-delay="100">HIGH QUALITY SERVICES BY HIGHLY QUALIFIED PROFESSIONALS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-scrollbar"></div>
+    <div class="swiper-nav-wrap">
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</section>
+
+{{-- <section class="container-fluid bg-light-gray left-right" style="padding: 150px;">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12">
@@ -12,7 +35,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 <section class="child-nav">
     <div class="container">
@@ -23,17 +46,55 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav gap-2">
-                        <li class="nav-item rounded">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" href="#sub-tax" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Business Set Up
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#sub-business-setup">Get Started</a></li>
+                                <li><a class="dropdown-item" href="#business-formations">Special Business Formations</a></li>
+                            </ul>
+                        </li>
+                        {{-- <li class="nav-item rounded">
                             <a class="nav-link active" aria-current="page" href="#sub-business-setup"><i class="bi bi-house-fill me-2"></i>Business Set Up</a>
-                        </li>
-                        <li class="nav-item rounded">
+                        </li> --}}
+                        {{-- <li class="nav-item rounded">
                             <a class="nav-link" aria-current="page" href="#sub-tax"><i class="bi bi-house-fill me-2"></i>Tax</a>
+                        </li> --}}
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#sub-tax" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Tax
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#sub-tax">GST REGISTRATION & COMPLIANCES</a></li>
+                                <li><a class="dropdown-item" href="#income-tax">Income Tax</a></li>
+                                <li><a class="dropdown-item" href="#tds-tax">TDS</a></li>
+                            </ul>
                         </li>
-                        <li class="nav-item rounded">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#sub-finance" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Finance
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#sub-finance">Finance Solutions</a></li>
+                                <li><a class="dropdown-item" href="#subsidy-solutions">Subsidy Solutions</a></li>
+                            </ul>
+                        </li>
+                        {{-- <li class="nav-item rounded">
                             <a class="nav-link" aria-current="page" href="#sub-finance"><i class="bi bi-house-fill me-2"></i>Finance</a>
-                        </li>
-                        <li class="nav-item rounded">
+                        </li> --}}
+                        {{-- <li class="nav-item rounded">
                             <a class="nav-link" aria-current="page" href="#sub-virtual-cfo"><i class="bi bi-house-fill me-2"></i>Virtual CFO</a>
+                        </li> --}}
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#sub-virtual-cfo" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Virtual CFO
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#sub-virtual-cfo">Virtual CFO Services</a></li>
+                                <li><a class="dropdown-item" href="#virtual-accountant">Virtual Accountant</a></li>
+                                <li><a class="dropdown-item" href="#fulltime-accountant">Full-Time Accountant</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item rounded">
                             <a class="nav-link" aria-current="page" href="#sub-other-services"><i class="bi bi-house-fill me-2"></i>Other Services</a>
@@ -162,7 +223,7 @@
     </div>
 </section>
 
-<section class="section section-66 section-md-90 section-xl-bottom-120 bg-greenlight">
+<section class="section section-66 section-md-90 section-xl-bottom-120 bg-greenlight" id="business-formations">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12">
@@ -304,7 +365,7 @@
     </div>
 </section>
 
-<section class="bg-blue wow animate__fadeIn it-data-section" style="visibility: visible; animation-name: fadeIn;">
+<section class="bg-blue wow animate__fadeIn it-data-section" id="income-tax" style="visibility: visible; animation-name: fadeIn;">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12">
@@ -375,7 +436,7 @@
     </div>
 </section>
 
-<section class="section section-66 section-md-90 section-xl-bottom-120 bg-yellow">
+<section class="section section-66 section-md-90 section-xl-bottom-120 bg-yellow" id="tds-tax">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12">
@@ -570,23 +631,6 @@
                             <i class="fa fa-check-circle bg-primary"></i>
                         </div>
                         <h5 class="txt color-primary">
-                            Business Loans
-                        </h5>
-                    </div>
-                    <div class="ccard-body">
-                        <p>Fueling business growth often requires additional capital, and our business loan services are designed to cater to this need. </p>
-                        <p>We assist entrepreneurs in accessing the right financing options to expand their operations, invest in technology, or meet working capital requirements. </p>
-                        <p>Our consultancy ensures that you obtain business loans with minimum interest rates, favorable repayment terms, and maximum loan amounts, supporting your business's financial health.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-12 col-lg-6 col-xl-6">
-                <div class="ccard-block">
-                    <div class="heading-with-icon">
-                        <div class="icon">
-                            <i class="fa fa-check-circle bg-primary"></i>
-                        </div>
-                        <h5 class="txt color-primary">
                             Home Loans
                         </h5>
                     </div>
@@ -605,11 +649,29 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-6 col-sm-12 col-lg-6 col-xl-6">
+                <div class="ccard-block">
+                    <div class="heading-with-icon">
+                        <div class="icon">
+                            <i class="fa fa-check-circle bg-primary"></i>
+                        </div>
+                        <h5 class="txt color-primary">
+                            Business Loans
+                        </h5>
+                    </div>
+                    <div class="ccard-body">
+                        <p>Fueling business growth often requires additional capital, and our business loan services are designed to cater to this need. </p>
+                        <p>We assist entrepreneurs in accessing the right financing options to expand their operations, invest in technology, or meet working capital requirements. </p>
+                        <p>Our consultancy ensures that you obtain business loans with minimum interest rates, favorable repayment terms, and maximum loan amounts, supporting your business's financial health.</p>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </div>
 </section>
 
-<section class="bg-yellow wow animate__fadeIn it-data-section" style="visibility: visible; animation-name: fadeIn;">
+<section class="bg-yellow wow animate__fadeIn it-data-section" style="visibility: visible; animation-name: fadeIn;" id="subsidy-solutions">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12">
@@ -738,7 +800,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">
@@ -753,7 +815,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">
@@ -768,7 +830,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">
@@ -785,7 +847,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">
@@ -800,7 +862,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">
@@ -815,7 +877,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">
@@ -866,7 +928,7 @@
     </div>
 </section>
 
-<section class="section section-66 section-md-90 section-xl-bottom-120 bg-blue">
+<section class="section section-66 section-md-90 section-xl-bottom-120 bg-blue" id="virtual-accountant">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12">
@@ -888,7 +950,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">
@@ -903,7 +965,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">
@@ -918,7 +980,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">
@@ -937,7 +999,7 @@
         <div class="row">
             <div class="col-md-2 col-sm-12 col-lg-2 col-xl-2">
             </div>
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">
@@ -952,7 +1014,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">
@@ -982,7 +1044,7 @@
     </div>
 </section>
 
-<section class="section section-66 section-md-90 section-xl-bottom-120 bg-pink">
+<section class="section section-66 section-md-90 section-xl-bottom-120 bg-pink" id="fulltime-accountant">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12">
@@ -1004,7 +1066,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">
@@ -1019,7 +1081,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">
@@ -1034,7 +1096,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">
@@ -1053,7 +1115,7 @@
         <div class="row">
             <div class="col-md-2 col-sm-12 col-lg-2 col-xl-2">
             </div>
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">
@@ -1068,7 +1130,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">
@@ -1120,7 +1182,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">
@@ -1135,7 +1197,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">
@@ -1150,7 +1212,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">
@@ -1167,7 +1229,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">
@@ -1182,7 +1244,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">
@@ -1197,7 +1259,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">
@@ -1214,7 +1276,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">
@@ -1229,7 +1291,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">
@@ -1244,7 +1306,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4">
+            <div class="col-md-4 col-sm-12 col-lg-4 col-xl-4 height-fill">
                 <div class="ccard-block-bg">
                     <div class="heading-with-icon">
                         <div class="icon">

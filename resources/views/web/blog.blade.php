@@ -2,7 +2,9 @@
 
 @section('content')
 
-<section class="section section-30 section-xxl-40 section-xxl-66 section-xxl-bottom-90 novi-background bg-gray-dark page-title-wrap" style="background-image: url({{ url('themes/web/images/bg-blog.jpg') }});">
+
+
+<section class="section section-30 section-xxl-40 section-xxl-66 section-xxl-bottom-90 novi-background bg-gray-dark page-title-wrap" style="padding-top:130px; background-image: url({{ url('themes/web/images/bg-blog.jpg') }});">
     <div class="container">
         <div class="page-title">
             <h2>Blog</h2>

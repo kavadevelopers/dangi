@@ -81,7 +81,7 @@
                     <br>
                     <h3>Transparent Offshoring</h3>
                     <h5 class="text-secondary"><i>Empowering Partnerships, Unveiling Costs</i></h5>
-                    <p style="font-size:16px;">Welcome to a new era of offshoring with our Transparent Offshoring model. We believe in complete openness, ensuring you have a clear understanding of every aspect of your extended team. In this model, we not only place candidates according to your needs but also reveal their salaries to you. We transparently charge for candidate placement, infrastructure, employee responsibilities, and benefits. Whether you prefer a per-hour or weekly billing, our pricing model is straightforward, combining the employee's salary with our fees.</p>
+                    <p style="font-size:16px;">Welcome to a new era of offshoring with our Transparent Offshoring model. We believe in complete openness, ensuring you have a clear understanding of every aspect of your extended team. In this model, we not only place candidates according to your needs but also reveal their salaries to you. We transparently charge for candidate recruitment, infrastructure, employee responsibilities, and benefits. Whether you prefer a per-hour or weekly billing, our pricing model is straightforward, combining the employee's salary with our fees.</p>
                 </div>
             </div>
         </div>
@@ -96,6 +96,7 @@
                     <h3 class="text-center">Comparison</h3>
                     <br>
                 </div>
+
             </div>
             <div class="col-md-12 col-xl-12 table-comparision">
                 <table class="table table-bordered table-cus">
@@ -146,7 +147,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th><span class="fa fa-arrow-circle-right"></span> Candidate Placement</th>
+                            <th><span class="fa fa-arrow-circle-right"></span> Candidate Recruitment</th>
                             <td>Clients actively participate in the selection process and approve candidates according to their needs.</td>
                             <td>Clients actively participate in the selection process and approve candidates according to their needs.<br>AND<br>Acquire right talent according to the Budget with the informed Salary Structure of the Candidate by which Client can maximizes the value of the investment.</td>
                         </tr>
@@ -392,7 +393,7 @@
                             <!-- end label -->
                         </div>
                         <!-- end tick -->
-                        <div class="feature" style="">
+                        {{-- <div class="feature" style="">
                             <div class="tick">
                                 <svg class="purple" data-name="emaptatick" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
                                     <rect id="Area" width="35" height="35" style="fill:none"></rect>
@@ -404,7 +405,7 @@
                                 <span>Ease in or out with no lock-in periods</span>
                             </div>
                             <!-- end label -->
-                        </div>
+                        </div> --}}
                         <!-- end tick -->
                         <div class="feature" style="">
                             <div class="tick">
@@ -567,7 +568,7 @@
 </section> --}}
 
 
-<section class="section section-66 section-md-90 section-xl-bottom-120 novi-background" id="sub-hire-offshore-talant">
+<section class="section section-66 section-md-90 section-xl-bottom-120 bg-pink" id="sub-hire-offshore-talant">
     <div class="container">
         <div class="row row-40 justify-content-lg-between">
             
@@ -580,22 +581,22 @@
         </div>
         <div class="row">
             <div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-xs-6">
-                <img src="{{ url('themes/images/g-team1.png') }}" style="width: 100%;" />
+                <img src="{{ url('themes/images/g-team11.png') }}" style="width: 100%;" />
             </div>
             <div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-xs-6">
-                <img src="{{ url('themes/images/g-team2.png') }}" style="width: 100%;" />
+                <img src="{{ url('themes/images/g-team22.png') }}" style="width: 100%;" />
             </div>
             <div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-xs-6">
-                <img src="{{ url('themes/images/g-team3.png') }}" style="width: 100%;" />
+                <img src="{{ url('themes/images/g-team33.png') }}" style="width: 100%;" />
             </div>
             <div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-xs-6">
-                <img src="{{ url('themes/images/g-team4.png') }}" style="width: 100%;" />
+                <img src="{{ url('themes/images/g-team44.png') }}" style="width: 100%;" />
             </div>
         </div>
     </div>
 </section>  
 
-<section class="section section-66 section-md-90 section-xl-bottom-120 bg-pink" id="sub-how-we-operate">
+<section class="section section-66 section-md-90 section-xl-bottom-120 bg-white" id="sub-how-we-operate">
     <div class="container">
         <div class="row row-40 justify-content-lg-between">
             
@@ -728,7 +729,7 @@
     </div>
 </section> --}}
 
-<section class="container-fluid bg-blue left-right" id="sub-it-data-security">
+<section class="container-fluid bg-blue left-right pd-tb30" id="sub-it-data-security">
     <div class="row">
         <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6 col-no-padding">
             <img class="img-full" src="{{ url('themes/images/gr-it-data-sec.png') }}" />
@@ -748,7 +749,7 @@
     </div>
 </section>
 
-<section class="container-fluid bg-purple left-right">
+<section class="container-fluid bg-purple left-right pd-tb30">
     <div class="row">
         <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6">
             <div class="inner default">
@@ -784,7 +785,7 @@
                             <!-- end label -->
                         </div>
                         <!-- end tick -->
-                        <div class="feature" style="">
+                        {{-- <div class="feature" style="">
                             <div class="tick">
                                 <svg class="purple" data-name="emaptatick" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
                                     <rect id="Area" width="35" height="35" style="fill:none"></rect>
@@ -796,7 +797,7 @@
                                 <span>Protect your office and devices with logical and physical security protocols</span>
                             </div>
                             <!-- end label -->
-                        </div>
+                        </div> --}}
                         <!-- end tick -->
                         <div class="feature" style="">
                             <div class="tick">
@@ -965,7 +966,7 @@
     </div>
 </section> --}}
 
-<section class="container-fluid bg-l_blue left-right">
+<section class="container-fluid bg-l_blue left-right pd-tb30">
     <div class="row">
         <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6">
             <div class="inner default">
